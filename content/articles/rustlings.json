@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "rustlings",
+  "title": "Rustlings：小さな課題でRustに慣れる",
+  "summary": "Rustlingsは、Rustコードを読み書きすることに慣れるための小さな練習問題集です。不完全なコードを直しながら、Rustの基本を手を動かして学びたいときに役立ちます。",
+  "repository": "rust-lang/rustlings",
+  "category": "developer-tools",
+  "tags": ["Rust", "学習", "練習問題"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "小さな修正を繰り返して学ぶ", "paragraphs": ["Rustlingsは、Rustコードを読み書きすることに慣れるための小さな練習問題集です。", "不完全なコードを直して動作を確認しながら、Rustの基本的な書き方を学べます。"]},
+    {"heading": "つまずく場所を見つけやすい", "paragraphs": ["短い課題ごとに取り組むため、どの概念で迷ったかを切り分けやすくなります。", "コンパイル時のメッセージを読み、少しずつ直す過程で、コードのルールを理解できる点が利点です。"]},
+    {"heading": "説明も合わせて確認する", "paragraphs": ["課題を通すだけでは、なぜその書き方が必要なのかが残らないことがあります。", "分からなかった用語は公式の学習資料で確認し、課題のコードを自分で少し変えて動きを確かめましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/rust-lang/rustlings"}]
+}

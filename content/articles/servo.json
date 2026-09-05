@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "servo",
+  "title": "Servo：Rustで書かれたWebブラウザーエンジン",
+  "summary": "Servoは、Rustで書かれた試作のWebブラウザーエンジンです。アプリケーションにWeb技術を組み込むための軽量な選択肢を目指しており、Webエンジンの仕組みを学ぶ開発者にも向きます。",
+  "repository": "servo/servo",
+  "category": "developer-tools",
+  "tags": ["Webエンジン", "Rust", "組み込み"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Web技術をアプリに組み込む基盤",
+      "paragraphs": [
+        "ServoはRustで書かれた試作のWebブラウザーエンジンです。Webページを扱う機能をアプリケーションへ組み込むための選択肢を目指しています。",
+        "ブラウザーエンジンや埋め込みWeb表示の開発に興味がある人は、実装と公式ドキュメントを追いながら全体像をつかめます。"
+      ]
+    },
+    {
+      "heading": "Rustの大規模プロジェクトを学べる",
+      "paragraphs": [
+        "公式READMEには、主要な環境での取得・依存関係の準備・ビルド手順への案内があります。Rustを使う大きなクロスプラットフォーム開発の構成例としても参考になります。",
+        "まずは公式のServo Bookを読み、必要な環境を準備してから小さな変更で試すと理解しやすくなります。"
+      ]
+    },
+    {
+      "heading": "完成品ブラウザーとは区別する",
+      "paragraphs": [
+        "READMEはServoを試作のブラウザーエンジンとして説明しています。利用目的や対象環境を確認し、重要な閲覧や業務のための完成済みブラウザーであるとは想定しないでください。",
+        "ビルドにはOSごとの開発ツールや依存関係が必要です。公式手順に従い、作業用の環境で実行しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/servo/servo"}
+  ]
+}

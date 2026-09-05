@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "navigation2",
+  "title": "Navigation2：移動ロボットを目的地へ案内する",
+  "summary": "Navigation2は、ROS 2で移動ロボットを目的地へ動かすためのナビゲーション用フレームワークです。地図やセンサー情報を使い、移動経路と走行を扱いたいときに役立ちます。",
+  "repository": "ros-navigation/navigation2",
+  "category": "developer-tools",
+  "tags": ["ロボティクス", "ナビゲーション", "ROS 2"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "目的地までの移動を扱う", "paragraphs": ["Navigation2は、ROS 2で移動ロボットのナビゲーションを作るためのフレームワークです。", "地図やセンサーの情報を使い、現在地から目的地へ向かう動きの仕組みを組み立てます。"]},
+    {"heading": "経路と周囲への対応を分けて考えられる", "paragraphs": ["移動先までの経路を考える処理と、周囲の状況を見ながら走る処理を組み合わせられます。", "ロボットの移動を部品ごとに調整し、屋内などの決めた環境で試せる点が利点です。"]},
+    {"heading": "人や障害物への安全を最優先にする", "paragraphs": ["センサーの見落とし、地図のずれ、通信の遅れによって、ロボットが想定外に動く可能性があります。", "人のいない低速のテスト環境から始め、停止方法と進入禁止範囲を用意して、実運用前に十分検証しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/ros-navigation/navigation2"}]
+}

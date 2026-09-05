@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "tesseract",
+  "title": "Tesseract：画像の文字をテキストにする",
+  "summary": "Tesseractは、画像に写った文字を認識してテキストとして取り出すOCRエンジンです。",
+  "repository": "tesseract-ocr/tesseract",
+  "category": "developer-tools",
+  "tags": ["OCR", "画像処理", "コマンドライン"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Tesseractは、画像ファイルに含まれる印刷文字を読み取り、テキストに変換するOCRエンジンです。コマンドラインから実行でき、他のプログラムから呼び出す用途にも使えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["画像化された資料から文字を取り出せるため、検索用のテキストを作ったり、内容を別の処理へ渡したりできます。最初は文字が大きく、背景との差がはっきりした画像で試すと結果を確認しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["OCRの結果は画像の品質や文字の配置に左右されます。誤認識があっても気付きにくい場合があるため、氏名や金額など重要な情報は必ず目視で確認してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/tesseract-ocr/tesseract"}]
+}

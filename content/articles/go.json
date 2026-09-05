@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "go",
+  "title": "Go：シンプルで信頼性のあるソフトウェアを作る",
+  "summary": "Goは、シンプルで信頼性が高く、効率的なソフトウェアを作りやすくするオープンソースのプログラミング言語です。このGitHubリポジトリは、Goの公式リポジトリのミラーです。",
+  "repository": "golang/go",
+  "category": "developer-tools",
+  "tags": ["Go", "言語処理系", "ソースコード"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Goは、シンプルで信頼性が高く、効率的なソフトウェアを作りやすくするオープンソースのプログラミング言語です。このリポジトリにはGo本体のソースコードがあります。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["公式のバイナリー配布と導入手順へのリンクがREADMEにまとまっています。ソースから導入する手順への入口もあるため、通常の導入とソース利用のどちらが必要かを選びやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["GitHubのこのリポジトリは公式リポジトリのミラーです。日常的にGoを使い始めるなら、READMEが案内する公式バイナリーと導入手順を確認しましょう。質問用の場所と不具合・提案用のissue trackerは使い分けられています。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/golang/go"}
+  ]
+}

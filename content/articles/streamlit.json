@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "streamlit",
+  "title": "Streamlit：Pythonから対話型データアプリを作る",
+  "summary": "Streamlitは、Pythonスクリプトを対話型のWebアプリに変換するためのフレームワークです。ダッシュボード、レポート、データを扱う小さなアプリを、Python中心で作れます。",
+  "repository": "streamlit/streamlit",
+  "category": "data",
+  "tags": ["Python", "データアプリ", "ダッシュボード"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Streamlitは、Pythonで書いた処理に入力部品、表、グラフを加え、ブラウザーで操作できるアプリとして見せるためのツールです。", "データを選んで結果を確かめる画面や、分析結果を共有する画面を作る用途に向いています。"]},
+    {"heading": "役立つ点", "paragraphs": ["HTMLやJavaScriptを最初から多く書かなくても、Pythonのコードで操作部品と表示を順番に追加できます。", "スクリプトを編集するとアプリの表示を更新できるため、データの見せ方を試しながら作りやすいのが利点です。"]},
+    {"heading": "始める前の注意", "paragraphs": ["公開するアプリでは、データの閲覧権限や入力値の扱いを自分で設計する必要があります。機密情報や接続情報をスクリプトに直接書かないようにしましょう。", "まずは小さなCSVを表示するアプリから始め、処理時間や利用者に見せてよい情報を確認してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/streamlit/streamlit"}]
+}

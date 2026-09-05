@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "vitest",
+  "title": "Vitest：Viteの設定を使えるテストツール",
+  "summary": "Vitestは、Viteを基盤にしたJavaScriptとTypeScript向けのテストフレームワークです。アプリで使っているViteの設定、変換、プラグインをテストでも利用できます。テストの監視、モック、スナップショット、カバレッジにも対応しています。",
+  "repository": "vitest-dev/vitest",
+  "category": "frontend",
+  "tags": [
+    "JavaScript",
+    "TypeScript",
+    "テスト"
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Vitestは、JavaScriptやTypeScriptのコードをテストするフレームワークです。describe、it、expectを使って、コードの結果を確認するテストを書けます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "Viteの設定や変換、プラグインをアプリとテストで共有できます。ファイルの変更に応じてテストを実行する監視モードや、Jest互換のモックとスナップショットも用意されています。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "動かすには、対応しているViteとNode.jsの組み合わせが必要です。既存プロジェクトへ加える前に、必要条件と、いま使っているViteの設定を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/vitest-dev/vitest"
+    }
+  ]
+}

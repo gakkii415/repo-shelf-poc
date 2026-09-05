@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "astro",
+  "title": "Astro：コンテンツ中心のWebサイトを作るツール",
+  "summary": "Astroはコンテンツ中心のWebサイトを作るためのWebフレームワークです。デフォルトで静的なHTMLを出力し、必要な部分だけにクライアント側のJavaScriptを追加できます。複数のUIフレームワークを組み合わせる選択肢もあります。",
+  "repository": "withastro/astro",
+  "category": "frontend",
+  "tags": ["静的サイト", "コンテンツ", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするリポジトリか", "paragraphs": ["Astroはコンテンツ駆動のWebサイトを作るためのフレームワークです。デフォルトではページを静的なHTMLとして出力しながら、必要なコンポーネントだけを対話的にできます。"]},
+    {"heading": "役立つ場面", "paragraphs": ["記事、ドキュメント、ポートフォリオのように、表示が中心のサイトに向いています。ページ全体をJavaScriptで動かさずに済むため、必要な対話機能を選んで追加できます。"]},
+    {"heading": "使う前に確認したい点", "paragraphs": ["対話的な部品を使う場合は、その部品をクライアントで動かす指定が必要です。どの部分にJavaScriptが必要かを先に分けて設計すると、Astroの方針に合わせやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/withastro/astro"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "flask",
+  "title": "Flask：小さく始めるPythonのWeb開発",
+  "summary": "Flaskは、Webアプリケーションを作るための軽量なPythonのWSGIフレームワークです。素早く始められ、必要な道具やプロジェクト構成を自分で選べます。",
+  "repository": "pallets/flask",
+  "category": "backend",
+  "tags": ["Python", "Web開発", "WSGI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Flaskは、PythonでWebアプリケーションを作るための軽量なフレームワークです。URLへのアクセスを関数につなぎ、その関数から画面や文字列を返す小さな例がREADMEにあります。"]},
+    {"heading": "役立つ点", "paragraphs": ["始めやすく、必要になった機能は自分で選んだライブラリーやコミュニティー製の拡張で加えられます。小さなWebアプリを作りながら、仕組みを理解したいときに向いています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Flaskは依存関係やプロジェクト構成を強制しません。そのため、機能が増えたときのフォルダー構成や使う拡張は自分で決める必要があります。まずREADMEの小さな例を動かしましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/pallets/flask"}]
+}

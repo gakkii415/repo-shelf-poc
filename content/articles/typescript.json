@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "typescript",
+  "title": "TypeScript：JavaScriptに型を加える言語",
+  "summary": "TypeScriptはJavaScriptに任意の型を加え、大きなアプリの開発を支援する言語です。人が読みやすい標準的なJavaScriptへ変換して使います。",
+  "repository": "microsoft/TypeScript",
+  "category": "developer-tools",
+  "tags": ["TypeScript", "JavaScript", "型"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["TypeScriptはJavaScriptを拡張した言語です。変数や関数に型を付けられ、書いたコードは標準的なJavaScriptへ変換されます。"]},
+    {"heading": "役立つ点", "paragraphs": ["型の情報があると、エディターが補完や間違いの発見を手伝いやすくなります。複数人で大きなJavaScriptアプリを作るとき、データの形を共有しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["型は開発中の確認を助けますが、変換後のJavaScriptで外部から来る値を自動で検証するものではありません。フォームやAPIの入力は、実行時にも別途確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/microsoft/TypeScript"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "openscad",
+  "title": "OpenSCAD：コードで3D形状を設計する",
+  "summary": "OpenSCADは、プログラムのように記述して立体形状を作る3D CADモデラーです。寸法や計算を使って、再現しやすい部品の形を設計したいときに役立ちます。",
+  "repository": "openscad/openscad",
+  "category": "developer-tools",
+  "tags": ["CAD", "3D設計", "プログラミング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "コードで立体を組み立てる", "paragraphs": ["OpenSCADは、立方体や円柱などの形と数値を記述し、それらを組み合わせて3D形状を作るツールです。", "変数や計算を使えるため、同じ形の寸法を変えた部品や、規則的に並ぶ形を作れます。"]},
+    {"heading": "変更を繰り返しやすい", "paragraphs": ["寸法をコードにまとめておくと、数値の変更を設計全体に反映しやすくなります。", "形を作る手順が記録として残るため、試作の条件を比べたり、同じ設計を作り直したりするときに便利です。"]},
+    {"heading": "実物にする前の注意", "paragraphs": ["設計した形が実際の材料や加工方法に合うかは、別に確認する必要があります。寸法、ねじの規格、部品同士のすき間を小さな試作で確かめてください。", "3Dプリンターや工作機械を使う場合は、加熱部や可動部に近づかず、機器ごとの安全手順を守りましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/openscad/openscad"}]
+}

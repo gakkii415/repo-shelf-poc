@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "metabase",
+  "title": "Metabase：質問するようにデータを調べるBIツール",
+  "summary": "Metabaseは、チームのメンバーがデータに質問し、グラフやダッシュボードで共有するためのオープンソースBIツールです。SQLを書かない操作とSQLエディターの両方を提供します。",
+  "repository": "metabase/metabase",
+  "category": "data",
+  "tags": ["BI", "データ分析", "ダッシュボード", "SQL"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Metabaseは、データベースにある情報を調べ、結果をグラフやダッシュボードとして共有するためのWebアプリです。", "SQLを使わずに質問を作る方法と、より複雑な条件を書くためのSQLエディターを利用できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["分析に詳しくないメンバーも、用意された項目を選びながら数字を確認できるようになります。", "フィルター付きのダッシュボードや通知を使うと、定期的に見る指標をチームで共有しやすくなります。"]},
+    {"heading": "使う前の注意", "paragraphs": ["誰がどのデータを見られるかは、データベース側だけでなくMetabase側でも設計する必要があります。個人情報や社外秘の列を含む接続は、権限を確認してから追加しましょう。", "同じ言葉でも計算方法が違うと誤解につながります。共有する質問には、対象期間や集計条件を分かるように残してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/metabase/metabase"}]
+}

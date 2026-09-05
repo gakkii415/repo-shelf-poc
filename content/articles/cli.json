@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "cli",
+  "title": "GitHub CLI：GitHubを端末から操作する",
+  "summary": "GitHub CLIは、GitHubのプルリクエストやIssueなどを端末から扱うための公式コマンドラインツールです。コードのある場所で確認や作成を進められます。Gitの代わりではないため、Gitの基本操作も別に必要です。",
+  "repository": "cli/cli",
+  "category": "developer-tools",
+  "tags": ["GitHub", "CLI", "プルリクエスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "GitHub CLIとは",
+      "paragraphs": [
+        "GitHub CLIは、ghというコマンドでGitHubを端末から使うための公式ツールです。公式READMEでは、プルリクエスト、IssueなどのGitHubの機能を、Gitやコードを扱う端末のそばに持ち込むものと説明されています。",
+        "プルリクエストは、変更を共有してレビューや取り込みを依頼する仕組みです。Issueは、課題や提案を記録して話し合う場所です。"
+      ]
+    },
+    {
+      "heading": "画面を行き来しにくい作業で便利",
+      "paragraphs": [
+        "作業中のリポジトリから、プルリクエストやIssueを確認し、必要な操作を端末で続けられます。コマンドの出力をほかのコマンドへ渡せるため、定型的な確認にも使えます。",
+        "macOS、Windows、Linuxで利用でき、GitHub.comと対応するGitHub Enterpriseの環境を対象にしています。"
+      ]
+    },
+    {
+      "heading": "Gitとは役割が違う",
+      "paragraphs": [
+        "GitHub CLIはGitHubの機能を扱うツールで、コミットやブランチなどの基本的な履歴操作そのものはGitで行います。まずGitの状態確認とコミットの意味を理解しておくと、ghの出力も読みやすくなります。",
+        "コマンドには選択肢があるため、実行前に対象のリポジトリやプルリクエストを確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/cli/cli"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "eslint",
+  "title": "ESLint：JavaScriptコードの問題を見つける",
+  "summary": "ESLintは、JavaScriptコードの問題を見つけて修正するためのツールです。ルールに基づいてコードを調べ、一部の問題は自動修正できます。",
+  "repository": "eslint/eslint",
+  "category": "frontend",
+  "tags": ["JavaScript", "静的解析", "コード品質"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["ESLintは、JavaScriptコードを静的に調べて問題を見つけるツールです。ルールを使って、コードの書き方や起こりうる問題を検査します。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["プロジェクトに必要なルールを選び、同じ基準でコードを確認できます。一部の問題は自動修正できるため、繰り返し行う修正作業を減らせます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["ルールを一度に多く有効にすると、既存コードで大量の指摘が出ることがあります。最初は必要なルールから導入し、指摘の意味を確認して設定を調整しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/eslint/eslint"}
+  ]
+}

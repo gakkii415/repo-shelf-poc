@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "eza",
+  "title": "eza：ファイル一覧を見やすく表示する",
+  "summary": "ezaは、UnixやLinuxのlsの代わりに使えるファイル一覧コマンドです。コマンドとは、ターミナルに入力して実行する短い指示です。色やアイコン、Gitの状態、ツリー表示を使い、今いるフォルダーの内容を読み取りやすくできます。",
+  "repository": "eza-community/eza",
+  "category": "developer-tools",
+  "tags": ["CLI", "ファイル一覧", "ターミナル", "Rust"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "ezaとは",
+      "paragraphs": [
+        "ezaは、ファイルを一覧表示するlsの代替を目指すツールです。公式READMEによると、ファイルの種類や情報を色で区別して表示します。",
+        "シンボリックリンク、拡張属性、Gitの情報も扱えます。シンボリックリンクは、別のファイルやフォルダーを指す参照です。"
+      ]
+    },
+    {
+      "heading": "見つけやすくする機能",
+      "paragraphs": [
+        "ツリー表示では、フォルダーの中を枝分かれの形で確認できます。長い表示では、追加の詳細や属性を表示できます。",
+        "Gitの状態を表示する機能もあるため、変更したファイルを一覧で確認したいときに便利です。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "公式READMEでは、ezaのオプションはlsと完全には同じではないと説明されています。普段使うlsの指定をそのまま置き換える前に、オプションを確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/eza-community/eza"
+    }
+  ]
+}

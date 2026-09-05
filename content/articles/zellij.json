@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "zellij",
+  "title": "Zellij：端末で使う作業スペース",
+  "summary": "Zellijは、端末の中で複数の作業場所を整理するためのツールです。画面を分ける機能や、配置を保存するレイアウトを使って、開発作業を始めやすくします。",
+  "repository": "zellij-org/zellij",
+  "category": "developer-tools",
+  "tags": ["端末", "Rust", "作業環境"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Zellijとは",
+      "paragraphs": [
+        "Zellijは、端末で使う作業スペースです。同種の道具は端末マルチプレクサーと呼ばれ、一つの端末で複数の作業を扱えます。",
+        "画面を分けるペインを使えます。ペインは、一つの画面を分割したそれぞれの領域です。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "レイアウトを使うと、よく使う画面の配置を用意できます。毎回同じ端末作業を始めるときに便利です。",
+        "プラグインの仕組みもあり、WebAssemblyに対応した言語で機能を追加できます。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "まずはOS向けのパッケージか、配布されている実行ファイルで導入できます。",
+        "開発中のmainブランチは、壊れた機能を含む可能性があるため、READMEでは通常の利用に勧められていません。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/zellij-org/zellij"}
+  ]
+}

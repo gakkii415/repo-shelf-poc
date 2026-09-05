@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "keras",
+  "title": "Keras：分かりやすく深層学習を始める",
+  "summary": "Kerasは、Pythonで深層学習モデルを組み立て、学習させるための高水準APIです。",
+  "repository": "keras-team/keras",
+  "category": "ai",
+  "tags": ["Python", "深層学習", "モデル作成"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Kerasは、層と呼ばれる部品を積み重ねてニューラルネットワークを作るためのライブラリです。学習、評価、予測の手順を比較的短いPythonコードで表せます。"]},
+    {"heading": "役立つ点", "paragraphs": ["よく使うモデルの形や学習の処理が整理されているため、初学者でも実験を始めやすい点が利点です。まずは手書き数字のような基本データで、モデルの入出力を確認するとよいでしょう。"]},
+    {"heading": "始める前の注意", "paragraphs": ["短いコードでも、層の選び方や学習設定には意味があります。例を写すだけで終えず、入力の大きさ、正解ラベル、評価方法を一つずつ理解して変更しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/keras-team/keras"}]
+}

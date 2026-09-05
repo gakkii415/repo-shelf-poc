@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "matplotlib",
+  "title": "Matplotlib：Pythonでグラフを描く",
+  "summary": "Matplotlibは、Pythonで静止画、アニメーション、操作できる可視化を作るためのライブラリです。",
+  "repository": "matplotlib/matplotlib",
+  "category": "data",
+  "tags": ["Python", "可視化", "グラフ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Matplotlibは、Pythonのデータから折れ線、棒、散布図などのグラフを作るライブラリです。静止画だけでなく、動きのある表示や対話的な表示も扱えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["計算や集計の結果を図にすると、数値だけでは気付きにくい傾向を確認しやすくなります。スクリプト、ノートブック、Webアプリケーションなどで使えるため、分析の途中から報告用の図まで同じPythonで進められます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["見栄えを整える設定は選択肢が多く、初めは迷いやすい部分です。まずは少ないデータで基本のグラフを描き、軸の意味と単位、凡例を必ず確かめましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/matplotlib/matplotlib"}]
+}

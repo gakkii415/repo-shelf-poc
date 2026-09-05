@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "laravel",
+  "title": "Laravel：PHPでWebアプリを組み立てる基盤",
+  "summary": "Laravelは、読みやすい書き方でWebアプリケーションを作るためのPHPフレームワークです。ルーティング、データベース、バックグラウンド処理など、よく使う機能をまとめて扱えます。",
+  "repository": "laravel/laravel",
+  "category": "backend",
+  "tags": ["PHP", "Web開発", "ORM"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Laravelは、PHPでWebアプリケーションを作るためのフレームワークです。URLを処理するルーティング、依存関係を管理する仕組み、データベースを扱うORMなどを備えています。"]},
+    {"heading": "役立つ点", "paragraphs": ["セッションやキャッシュの保存先を選べ、データベースの構造を変更するためのマイグレーションも使えます。バックグラウンドのジョブやリアルタイムのイベント配信にも対応し、アプリに必要な機能をまとめて学べます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Laravelにはルーティング、データベース、ジョブなど多くの機能があります。最初からすべて使おうとせず、公式ドキュメントの案内に沿って小さなアプリを作り、必要な機能を少しずつ試しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/laravel/laravel"}]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "awesome-cli-apps",
+  "title": "Awesome CLI Apps：コマンドラインアプリを用途別に探す",
+  "summary": "Awesome CLI Appsは、端末で使うコマンドラインアプリをテーマ別にまとめたリストです。開発、ファイル操作、ネットワーク、学習などの用途から、試したいCLIを見つける入口になります。",
+  "repository": "agarrharr/awesome-cli-apps",
+  "category": "developer-tools",
+  "tags": ["CLI", "端末", "開発ツール"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "端末で使う道具を探す", "paragraphs": ["Awesome CLI Appsは、コマンドラインアプリを分野別に集めたリストです。開発、作業効率化、ネットワーク、ファイルとフォルダーの操作などから探せます。", "端末でできることを広げたい初心者が、用途に合う候補を見つける助けになります。"]},
+    {"heading": "小さな用途から試せる", "paragraphs": ["たとえばファイル検索やデータ整形など、日常の一つの作業に絞って選ぶと、コマンド操作を段階的に学べます。", "一覧には分類があるため、すでに知っている作業に近い項目から探すと比較しやすくなります。"]},
+    {"heading": "実行前に公式手順を読む", "paragraphs": ["このリストの各項目は外部プロジェクトです。インストール方法、対応OS、保守状況はそれぞれ異なるため、必ず公式の説明を確認してください。", "端末のコマンドにはファイルを変更・削除したり通信したりするものがあります。内容を理解できないコマンドを権限付きで実行しないよう注意しましょう。"]}],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/agarrharr/awesome-cli-apps"}]
+}

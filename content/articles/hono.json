@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "hono",
+  "title": "Hono：Web標準を使う小さなWebフレームワーク",
+  "summary": "Honoは、Web標準を基盤にしたWebフレームワークです。複数のJavaScript実行環境で使えることを目指し、ルーティングやミドルウェアでWebアプリケーションを作れます。",
+  "repository": "honojs/hono",
+  "category": "backend",
+  "tags": ["JavaScript", "Web標準", "エッジ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["HonoはWeb標準を土台にしたWebフレームワークです。URLごとの処理を定義し、リクエストに対してレスポンスを返すアプリケーションを作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["ルーティングとミドルウェアを使って、処理を小さな単位に分けられます。複数のJavaScript実行環境に対応する方針なので、実行場所に合わせて同じ考え方でアプリを構成しやすいです。"]},
+    {"heading": "始める前の注意", "paragraphs": ["利用する実行環境によって、設定方法や使える連携機能は変わります。先に動かしたい環境を決め、その環境向けの公式ガイドとREADMEの例を確認して始めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/honojs/hono"}]
+}

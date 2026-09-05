@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "julia",
+  "title": "Julia：技術計算のための高水準言語",
+  "summary": "Juliaは、技術計算向けの高水準で高性能な動的プログラミング言語です。公式リポジトリにはソースコードのほか、導入、ドキュメント、パッケージへの入口があります。",
+  "repository": "JuliaLang/julia",
+  "category": "data",
+  "tags": ["Julia", "技術計算", "データ分析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Juliaは、技術計算のための高水準で高性能な動的言語です。このリポジトリにはJuliaのソースコードと、コンパイルや導入の手順があります。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["READMEから公式ドキュメント、導入方法、パッケージ、学習リソースへ進めます。公式の導入方法を使うと、Juliaを起動して対話的なプロンプトで式を評価するところから始められます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["多くの人にはjuliaupによる公式の導入方法が推奨されています。OSのパッケージマネージャーが提供するJuliaは、プロジェクトが保守・推奨しているものではない場合があります。ソースからのビルドには、追加の依存関係と十分なディスク容量・メモリが必要です。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/JuliaLang/julia"}
+  ]
+}

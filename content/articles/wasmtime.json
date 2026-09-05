@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "wasmtime",
+  "title": "Wasmtime：WebAssemblyを実行するランタイム",
+  "summary": "Wasmtimeは、WebAssemblyを単体で実行するためのランタイムです。コマンドラインでwasmファイルを動かしたり、アプリに組み込んだりできます。",
+  "repository": "bytecodealliance/wasmtime",
+  "category": "developer-tools",
+  "tags": ["WebAssembly", "Rust", "ランタイム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["WasmtimeはWebAssemblyを実行するためのランタイムです。たとえばRustでWebAssemblyに変換したプログラムを、wasmtimeコマンドで実行できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["高速さと安全性を重視したランタイムです。コマンドラインで試す用途と、別のアプリへ組み込む用途のどちらにも使えるため、WebAssemblyを動かす方法を選びやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["WebAssemblyのプログラムを動かすには、必要な入力や実行環境を用意する必要があります。初めは公式READMEの小さなRustの例を使い、wasmファイルを作ってから実行する流れを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/bytecodealliance/wasmtime"}]
+}

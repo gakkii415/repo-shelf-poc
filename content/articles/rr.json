@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "rr",
+  "title": "rr：実行を記録して再現するデバッガー",
+  "summary": "rrは、アプリケーションの実行を記録し、同じ実行を再生してデバッグするためのツールです。gdbを拡張し、効率的な逆方向の実行を利用できます。",
+  "repository": "rr-debugger/rr",
+  "category": "developer-tools",
+  "tags": ["デバッグ", "gdb", "Linux"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["rrは、アプリケーションのプロセスとスレッドの実行を記録、再生、デバッグするための軽量なツールです。記録した実行を再現しながら原因を調べられます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["gdbを拡張し、効率的な逆方向の実行を使えます。通常のgdbやx86のハードウェアデータ監視点と組み合わせて、問題が起きた地点より前へ戻りながら調査できます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["rrはLinux向けで、READMEにはカーネルとCPUの要件が示されています。仮想マシンでも、ハードウェア性能カウンターの仮想化に対応している構成が必要です。まず実行環境が要件を満たすか確認しましょう。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/rr-debugger/rr"}]
+}

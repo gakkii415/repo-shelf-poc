@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "biome",
+  "title": "Biome：Webプロジェクトの整形と検査を行う",
+  "summary": "Biomeは、Webプロジェクトを保守するためのツールチェーンです。CLIやLSPを通じてフォーマッターとリンターを利用でき、コードの整形と問題の検出を行えます。",
+  "repository": "biomejs/biome",
+  "category": "frontend",
+  "tags": ["JavaScript", "静的解析", "フォーマッター"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Biomeは、Webプロジェクト向けのフォーマッターとリンターを提供するツールチェーンです。コマンドラインから実行でき、LSPを使うエディター連携にも対応しています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["コードの書式をそろえる作業と、問題を見つける検査を同じツールで扱えます。CLIとエディター連携を使い分けることで、作業中と自動チェックの両方で確認しやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["整形や検査の規則は、既存プロジェクトの決まりと異なる場合があります。導入前に設定と出力される差分を確認し、チームで使う規則を決めましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/biomejs/biome"}
+  ]
+}

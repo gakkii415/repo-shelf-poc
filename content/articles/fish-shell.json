@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "fish-shell",
+  "title": "fish：入力を助けるコマンド操作の環境",
+  "summary": "fishは、端末でコマンドを入力して操作するためのシェルです。入力中の候補表示、色分け、Tabキーでの補完を標準で備えています。ファイル名や以前のコマンドを思い出す手間を減らし、端末操作を始める人にも使いやすい選択肢です。ただし、bashやzshとは書き方が異なる部分があるため、既存のスクリプトはそのまま使えるか確認が必要です。",
+  "repository": "fish-shell/fish-shell",
+  "category": "developer-tools",
+  "tags": ["シェル", "CLI", "端末"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "fishとは",
+      "paragraphs": [
+        "fishは、端末でコマンドを受け取って実行するシェルです。macOSとLinuxなどで使えます。",
+        "入力したコマンドの意味を色で示す機能、入力途中の候補表示、Tabキーによる補完を、初期設定なしで利用できます。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "過去に入力したコマンドや、ファイル名の候補を見ながら入力できます。長いパスやコマンドを正確に打ち直す作業を減らせます。",
+        "まずは今使っている端末からfishを起動して、通常のコマンドと補完を試せます。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "fishはbashやzshと似た用途ですが、重要な書き方には違いがあります。既存のシェルスクリプトをfishで直接実行する前に、対応状況を確認しましょう。",
+        "公式READMEには、macOS、Linux、Windowsでの導入方法と詳しい利用資料への案内があります。"
+      ]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/fish-shell/fish-shell"}]
+}

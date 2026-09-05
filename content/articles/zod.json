@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "zod",
+  "title": "Zod：データの形を確かめる",
+  "summary": "Zodは、JavaScriptやTypeScriptのデータが想定した形かを確認するライブラリです。スキーマを定義してデータを読み込み、正しい値だけを受け取れます。",
+  "repository": "colinhacks/zod",
+  "category": "developer-tools",
+  "tags": ["TypeScript", "バリデーション", "スキーマ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Zodは、TypeScriptを中心に使えるデータ検証ライブラリです。文字列や数値、オブジェクトなどの形をスキーマとして定義し、外から来たデータを確認できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["検証に成功すると、定義した形に合う値を受け取れます。TypeScriptでは、そのスキーマから型を推論できます。APIの入力、フォームの値、設定ファイルなど、信頼できないデータを扱う場所で役立ちます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["parseは検証に失敗するとエラーを出します。利用者に入力エラーを見せる画面では、失敗した場合を受け止めて、分かりやすいメッセージにする処理を用意しましょう。非同期の検証を使う場合は、非同期用の方法を使います。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/colinhacks/zod"}]
+}

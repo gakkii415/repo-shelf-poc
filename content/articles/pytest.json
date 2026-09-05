@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "pytest",
+  "title": "pytest：Pythonで小さなテストから始める",
+  "summary": "pytestは、Pythonのアプリケーションやライブラリーをテストするためのフレームワークです。通常のassert文で期待する結果を書き、pytestコマンドでテストを実行できます。小さなテストから始め、必要に応じて機能テストへ広げられます。",
+  "repository": "pytest-dev/pytest",
+  "category": "developer-tools",
+  "tags": [
+    "Python",
+    "テスト",
+    "自動テスト"
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "pytestは、Pythonコードが期待どおりに動くかを確かめるテストフレームワークです。テスト関数に普通のassert文を書いて、pytestで実行します。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "失敗したassertでは、期待値と実際の値の違いを詳しく表示します。テストモジュールと関数を自動で見つける機能や、テスト用の準備をまとめるfixtureも利用できます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "テストが自動で見つかるかは、ファイル名や関数名の付け方に関係します。動かすには対応しているPython環境が必要です。まず小さな例を動かし、どの名前が対象になるかを確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/pytest-dev/pytest"
+    }
+  ]
+}

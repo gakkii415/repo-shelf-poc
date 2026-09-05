@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "ibis",
+  "title": "Ibis：Pythonの表操作を持ち運ぶ",
+  "summary": "Ibisは、PythonのDataFrame形式で書いた処理を、複数のデータ処理基盤へ向けて扱うためのライブラリです。",
+  "repository": "ibis-project/ibis",
+  "category": "data",
+  "tags": ["Python", "DataFrame", "SQL"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Ibisは、持ち運び可能なPythonのDataFrameライブラリです。遅延評価の式で表操作を書き、同じDataFrame APIを複数のバックエンドに向けて使うことを目指しています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["Pythonの表操作とSQLを組み合わせて扱えます。ローカルで試した処理を、接続先を変えて別のデータ処理基盤へ向ける考え方を学びたいときにも向いています。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["利用するバックエンドによって接続方法や使える機能が異なります。最初はREADMEにあるDuckDB向けの例のように、ひとつのバックエンドで基本の絞り込みと集計を確認してから接続先を増やしましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/ibis-project/ibis"}
+  ]
+}

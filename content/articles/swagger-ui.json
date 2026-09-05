@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "swagger-ui",
+  "title": "Swagger UI：OpenAPIを操作できる画面にする",
+  "summary": "Swagger UIは、OpenAPIの定義からAPIのリソースを表示し、ブラウザーで操作できるドキュメントを生成するツールです。APIの実装がなくても、仕様を見ながら利用方法を確認できます。",
+  "repository": "swagger-api/swagger-ui",
+  "category": "developer-tools",
+  "tags": ["API", "OpenAPI", "ドキュメント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "これは何か",
+      "paragraphs": ["OpenAPI仕様から、APIのリソースを可視化し操作できる画面を自動生成します。バックエンドの開発者とAPI利用者が、同じ仕様を見て確認できます。"]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": ["APIのエンドポイント、入力、応答を画面で確かめたいときに向きます。依存関係を解決できるアプリ向けのモジュール、配信用のモジュール、Reactコンポーネントとして使う形が用意されています。"]
+    },
+    {
+      "heading": "注意点",
+      "paragraphs": ["Swagger UIはAPIの実装そのものではなく、OpenAPI定義を表示して操作するためのツールです。表示内容は、渡す仕様の正確さに左右されます。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/swagger-api/swagger-ui"}]
+}

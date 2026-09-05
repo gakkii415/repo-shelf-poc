@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "px4-autopilot",
+  "title": "PX4 Autopilot：自律飛行や車両制御を開発する",
+  "summary": "PX4 Autopilotは、ドローンなどの自律機体に使うオープンソースの自動操縦ソフトウェアです。飛行や車両の制御を扱うシステムを開発・検証したいときに役立ちます。",
+  "repository": "PX4/PX4-Autopilot",
+  "category": "developer-tools",
+  "tags": ["自動操縦", "ドローン", "組み込み"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "自律機体の制御を作る", "paragraphs": ["PX4 Autopilotは、ドローンなどの自律機体で使う自動操縦ソフトウェアです。", "センサーの情報をもとに、姿勢や移動を制御する仕組みを開発するための土台になります。"]},
+    {"heading": "開発段階で動きを検証できる", "paragraphs": ["飛行や車両制御に必要な機能を組み合わせ、機体の動きを段階的に検討できます。", "実機に移る前に、設定や制御の考え方を学び、シミュレーションを使って試せる点が利点です。"]},
+    {"heading": "飛行前の安全確認を省かない", "paragraphs": ["自動操縦の不具合は、機体の墜落や衝突などの重大な事故につながる可能性があります。", "シミュレーターと低リスクの試験から始め、地域の法令、飛行場所、フェイルセーフ、手動操作への切り替えを確認してから実機を飛ばしましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/PX4/PX4-Autopilot"}]
+}

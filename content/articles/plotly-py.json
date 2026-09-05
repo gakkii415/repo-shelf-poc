@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "plotly-py",
+  "title": "plotly.py：Pythonで操作できるグラフを作る",
+  "summary": "plotly.pyは、ブラウザー上で操作できるグラフをPythonから作るためのライブラリです。",
+  "repository": "plotly/plotly.py",
+  "category": "data",
+  "tags": ["Python", "可視化", "インタラクティブ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["plotly.pyは、Python用の対話的なグラフ作成ライブラリです。宣言的にグラフを指定でき、作った図はノートブック、HTMLファイル、Dashアプリケーションなどで表示できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["利用者がグラフの一部を詳しく見たり、表示を操作したりできる可視化を作りやすくなります。棒グラフのような基本的な図から、科学的な図や地図まで用途に合わせて表現を選べます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["操作できるグラフでも、何を比べる図なのかが伝わらなければ役に立ちません。最初はグラフの種類を増やしすぎず、軸、単位、色が表す意味をはっきり決めてから作りましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/plotly/plotly.py"}]
+}

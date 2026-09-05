@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "ladybird",
+  "title": "Ladybird：独自のWebブラウザーを開発するプロジェクト",
+  "summary": "Ladybirdは、Web標準を基に独自のエンジンで作られているWebブラウザーです。ブラウザーがページを描画したりJavaScriptを実行したりする仕組みを、実装とともに学びたい開発者の出発点になります。",
+  "repository": "LadybirdBrowser/ladybird",
+  "category": "developer-tools",
+  "tags": ["Webブラウザー", "Webエンジン", "Web標準"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "独自のブラウザーエンジンを作る",
+      "paragraphs": [
+        "Ladybirdは、Web標準を基にした独立したWebブラウザーです。画面を表示する部分、JavaScriptを動かす部分、画像やネットワークを扱う部分を含む実装を公開しています。",
+        "Webページがブラウザー内部でどう処理されるかを、実際のコードから学びたい人に役立ちます。"
+      ]
+    },
+    {
+      "heading": "隔離して処理する設計を見る",
+      "paragraphs": [
+        "READMEでは、画面表示、画像処理、通信などを複数のプロセスに分ける構成が説明されています。タブごとの描画プロセスを隔離する考え方も確認できます。",
+        "安全性や堅牢性を意識したブラウザー設計を調べる教材としても使えます。"
+      ]
+    },
+    {
+      "heading": "日常利用には向かない段階",
+      "paragraphs": [
+        "公式READMEでは、Ladybirdは開発者向けのpre-alpha段階であると案内されています。普段使いのブラウザーや重要な手続きには使わず、検証・開発用途として扱ってください。",
+        "ビルドや利用の前に、公式のビルド手順と対応環境を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/LadybirdBrowser/ladybird"}
+  ]
+}

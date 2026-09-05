@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "kdeconnect-kde",
+  "title": "KDE Connect：スマートフォンとPCをつなぐ",
+  "summary": "KDE Connectは、スマートフォンやPCなどの機器どうしを無線で連携させるアプリです。クリップボードの共有、ファイル送信、通知の確認などができます。",
+  "repository": "KDE/kdeconnect-kde",
+  "category": "developer-tools",
+  "tags": ["端末連携", "ファイル共有", "通知"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "KDE Connectは、スマートフォンとPCなどの機器どうしを無線で連携させるアプリです。",
+        "クリップボードの共有、ファイルやURLの送信、通知の確認などができます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "スマートフォンでコピーした文字をPCに貼り付けるなど、機器をまたぐ作業を減らせます。",
+        "スマートフォンをPCのタッチパッドやキーボード、発表用のリモコンとして使うこともできます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "使うには、それぞれの機器にアプリを入れ、アプリ内でペアリングする必要があります。",
+        "通知やSMSなどの機能は、スマートフォン側で必要な許可を求められます。内容を確認してから許可しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/KDE/kdeconnect-kde"}
+  ]
+}

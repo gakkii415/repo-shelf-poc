@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "webdriverio",
+  "title": "WebdriverIO：Node.jsでブラウザーとモバイルをテストする",
+  "summary": "WebdriverIOは、Node.js向けのブラウザー・モバイル自動化テストフレームワークです。E2Eテストに加え、ブラウザーでのユニットテストとコンポーネントテストにも対応します。WebDriver、WebDriver BiDi、Appiumを使った自動化を扱えます。",
+  "repository": "webdriverio/webdriverio",
+  "category": "automation",
+  "tags": ["Node.js", "WebDriver", "モバイル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Node.js向けのテスト自動化",
+      "paragraphs": [
+        "WebdriverIOは、Node.jsでブラウザーとモバイルの操作を自動化するテストフレームワークです。",
+        "利用者の流れを確かめるE2Eテストだけでなく、ブラウザー上のユニットテストやコンポーネントテストにも使えます。"
+      ]
+    },
+    {
+      "heading": "複数の自動化技術を利用",
+      "paragraphs": [
+        "WebDriver、WebDriver BiDi、Appiumに基づくテストを実行できます。",
+        "好きなBDDまたはTDDのテストフレームワークを使えるように設計されています。"
+      ]
+    },
+    {
+      "heading": "実行場所を選ぶときの注意",
+      "paragraphs": [
+        "テストはローカル環境でもクラウド環境でも実行できます。",
+        "Node.js向けのフレームワークなので、導入前に既存プロジェクトの実行環境とテストの進め方に合うかを確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/webdriverio/webdriverio"}
+  ]
+}

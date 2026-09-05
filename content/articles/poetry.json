@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "poetry",
+  "title": "Poetry：Pythonの依存関係を宣言して管理する",
+  "summary": "Poetryは、Pythonプロジェクトの依存関係を宣言し、管理して導入するためのツールです。pyproject.tomlを中心に、必要なパッケージとプロジェクトの情報をまとめられます。開発する場所が変わっても、同じ構成を再現しやすくなります。",
+  "repository": "python-poetry/poetry",
+  "category": "developer-tools",
+  "tags": ["Python", "依存関係", "パッケージ管理"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Poetryは、Pythonプロジェクトの依存関係を宣言、管理、導入するためのツールです。公式READMEでは、どの環境でも適切な構成をそろえることを目的として説明されています。", "プロジェクトの設定はpyproject.tomlを中心に置けます。パッケージの情報、依存関係、実行用スクリプトなどを一か所で確認しやすくなります。"]},
+    {"heading": "役立つ点", "paragraphs": ["必要なライブラリーとその条件を設定ファイルに書くことで、開発する人や場所が変わっても、同じ依存関係を導入する手順を共有しやすくなります。", "依存関係グループを使うと、テストやドキュメント作成など、目的別のパッケージを分けて整理できます。"]},
+    {"heading": "使う前の注意", "paragraphs": ["既存のPythonプロジェクトには、requirements.txtやsetup.pyなど別の管理方法があることがあります。Poetryへ移す前に、現在の設定と配布方法を確認しましょう。", "依存関係の指定はアプリの動作に影響します。追加したパッケージだけでなく、Pythonの対応範囲や任意のグループも意図どおりか確かめてください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/python-poetry/poetry"}]
+}

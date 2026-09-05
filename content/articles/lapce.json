@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "lapce",
+  "title": "Lapce：Rustで作られた高速なコードエディター",
+  "summary": "Lapceは、Rustで作られたコードエディターです。補完、診断、コード操作を言語サーバーから受け取れます。診断は、コードの問題を知らせる表示です。端末、リモート開発、Vim風のモード編集も組み込まれているため、エディターを切り替えずに開発作業を進めたいときに役立ちます。",
+  "repository": "lapce/lapce",
+  "category": "developer-tools",
+  "tags": ["コードエディター", "リモート開発", "Rust"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "コードを書く助け", "paragraphs": ["LapceはRustだけで作られており、画面にはFloemを使います。描画にはwgpuを利用します。", "組み込みの言語サーバー対応により、補完、診断、コード操作を利用できます。"]},
+    {"heading": "開発作業をまとめる", "paragraphs": ["端末が組み込まれているため、作業場所を離れずにコマンドを実行できます。", "リモート開発にも対応しています。リモート開発は、別のコンピューター上の環境を使って開発する方法です。"]},
+    {"heading": "試す前に確認", "paragraphs": ["Vim風のモード編集は利用できますが、必要なければ切り替えて無効にできます。", "プラグインはWASI形式へ変換できる言語で書けます。追加機能を作る場合は、この条件を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/lapce/lapce"}]
+}

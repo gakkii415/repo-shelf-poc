@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "prusaslicer",
+  "title": "PrusaSlicer：3Dプリンター用の出力を準備する",
+  "summary": "PrusaSlicerは、3Dモデルを3Dプリンターで出力するためのG-codeに変換するツールです。積層の条件を設定し、印刷の準備をしたいときに役立ちます。",
+  "repository": "prusa3d/PrusaSlicer",
+  "category": "developer-tools",
+  "tags": ["3Dプリンター", "G-code", "製造"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "3Dモデルを印刷用データに変換する", "paragraphs": ["PrusaSlicerは、3Dモデルを読み込み、積層造形用のG-codeを作るツールです。積層の細かさ、内部の詰め方、支えの有無などを設定できます。", "作成したデータを使って、3Dプリンターがどのように動くかを指定します。"]},
+    {"heading": "印刷条件を試しやすい", "paragraphs": ["同じモデルでも条件を変えて出力データを比べられるため、見た目、時間、材料の使い方のバランスを検討しやすくなります。", "まずは小さなテスト形状で、プリンターと材料に合う設定を探すと進めやすいです。"]},
+    {"heading": "印刷中の安全を優先する", "paragraphs": ["G-codeはプリンターを実際に動かします。対象のプリンター、ノズル、材料に合う設定かを確認し、異なる機種用の設定をそのまま使わないでください。", "加熱部や可動部によるやけど・けが、材料から出るにおいに注意し、機器の安全手順と換気の案内に従ってください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/prusa3d/PrusaSlicer"}]
+}

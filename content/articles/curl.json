@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "curl",
+  "title": "curl：URLを使ってデータを送受信する",
+  "summary": "curlは、URLを指定してサーバーとのデータ送受信を行うコマンドラインツールです。HTTPやHTTPSなど複数の通信方式を扱えます。Web APIの応答を確かめたり、ファイルを取得したりするときに役立ちます。",
+  "repository": "curl/curl",
+  "category": "developer-tools",
+  "tags": ["CLI", "HTTP", "API"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "URLを指定して通信する",
+      "paragraphs": [
+        "curlは、URLを使ってサーバーからデータを受け取ったり、サーバーへデータを送ったりするためのツールです。HTTPやHTTPSを含む複数の通信方式を扱えます。",
+        "ブラウザーを開かずに、APIの応答、HTTPヘッダー、ファイルの取得を端末から確認したいときに便利です。"
+      ]
+    },
+    {
+      "heading": "動作確認を小さく始める",
+      "paragraphs": [
+        "開発中のAPIへリクエストを送り、返ってくる内容を確認する用途に向いています。スクリプトから呼び出せるため、同じ確認を繰り返す作業にも使えます。"
+      ]
+    },
+    {
+      "heading": "送信内容に注意する",
+      "paragraphs": [
+        "URLやコマンドのオプションに認証情報や個人情報を直接書くと、履歴やログに残る場合があります。秘密の値は共有前に確認し、テスト用の宛先にも必要な情報だけを送るようにしましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/curl/curl"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "opentelemetry-collector",
+  "title": "OpenTelemetry Collector：観測データを受け取り届ける",
+  "summary": "OpenTelemetry Collectorは、トレース、メトリクス、ログといった観測データを受け取り、処理して保存先へ送る仕組みです。特定の事業者に依存しない構成を作れます。複数の監視エージェントをまとめたいときに役立ちます。",
+  "repository": "open-telemetry/opentelemetry-collector",
+  "category": "developer-tools",
+  "tags": ["可観測性", "テレメトリー", "データ収集"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "観測データの通り道を作る", "paragraphs": ["OpenTelemetry Collectorは、観測データを受信し、処理して出力先へ送ります。トレース、メトリクス、ログを一つの仕組みで扱えます。", "アプリケーションごとに異なる送信先を直接設定せず、Collectorに集めてから届ける構成にできます。"]},
+    {"heading": "送信先を入れ替えやすくする", "paragraphs": ["JaegerやPrometheusなどのオープンなテレメトリー形式を、複数のオープンソースまたは商用バックエンドへ送るために使えます。", "受信、処理、出力を分けられるため、監視基盤を変更するときにアプリケーション側の変更を抑えやすい点が利点です。"]},
+    {"heading": "設定と構成を理解して使う", "paragraphs": ["Collectorはエージェントとしても集約用のCollectorとしても配置できます。どこで受け、どこで処理し、どこへ出すかを設計しましょう。", "対応する形式やコンポーネントが多いため、最初は必要なデータ種別と送信先を一つずつ決め、既定の設定だけで十分かを確認します。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/open-telemetry/opentelemetry-collector"}]
+}

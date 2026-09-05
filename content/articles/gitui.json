@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "slug": "gitui",
+  "title": "GitUI：端末で使うGitの操作画面",
+  "summary": "GitUIは、端末の中でGitを操作するためのUIです。変更の確認、ステージ、コミット、ブランチ、stashなどをキーボードで扱えます。現在はベータ版で、対応していない機能もあるため、普段のGit操作と併用しながら試すのが安心です。",
+  "repository": "gitui-org/gitui",
+  "category": "developer-tools",
+  "tags": [
+    "Git",
+    "ターミナルUI",
+    "Rust"
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "GitUIとは",
+      "paragraphs": [
+        "GitUIは、GitのGUIのような操作感を端末で提供するツールです。キーボードだけで操作でき、画面の状況に応じたヘルプも表示します。",
+        "端末から離れずに、Gitの変更や履歴を確認したいときに使えます。"
+      ]
+    },
+    {
+      "heading": "変更と履歴を画面で扱える",
+      "paragraphs": [
+        "公式READMEでは、変更の確認、コミット、amend、ファイルや行単位のステージと解除、stash、リモートへのpushとfetch、ブランチ操作を案内しています。",
+        "コミットログを閲覧・検索し、コミット済みの変更の差分を読むこともできます。"
+      ]
+    },
+    {
+      "heading": "対応範囲を確かめる",
+      "paragraphs": [
+        "公式READMEでは、GitUIはまだGitのシェル操作を完全には置き換えないと説明されています。Gitのコマンドと併用する前提で考えましょう。",
+        "開発中のため、バグや不足している機能がある場合があります。READMEの既知の制限には、sparse repositoryの非対応と、HTTPSで使うcredential.helperの明示的な設定が含まれます。Git LFSへの対応も今後の課題として挙げられています。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/gitui-org/gitui"
+    }
+  ]
+}

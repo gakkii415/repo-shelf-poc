@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "airflow",
+  "title": "Apache Airflow：処理の順番と実行予定を管理する",
+  "summary": "Apache Airflowは、データ処理などのワークフローをコードで定義し、実行予定と進み具合を管理するためのプラットフォームです。",
+  "repository": "apache/airflow",
+  "category": "automation",
+  "tags": ["ワークフロー", "Python", "データパイプライン"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Apache Airflowは、処理の順番や依存関係をワークフローとしてコードで書き、予定どおりに実行して状態を監視する仕組みです。ワークフローはDAGとして定義し、複数の作業をつなげます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["データを取り込む、変換する、結果を届ける、といった繰り返し作業を一つの流れとして管理できます。画面で処理の進み具合や依存関係を確認できるため、失敗した場所を探す助けにもなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["Airflowは、構造が大きく変わらないワークフローに特に向いています。タスク間で大きなデータ本体を受け渡すのではなく、保存先を使い、タスクはその処理を指示する役割に分けましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/apache/airflow"}
+  ]
+}

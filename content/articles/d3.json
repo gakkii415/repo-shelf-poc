@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "d3",
+  "title": "D3：Webの要素でデータを表現する",
+  "summary": "D3は、SVG、Canvas、HTMLを使ってWeb上のデータ可視化を作るJavaScriptライブラリです。",
+  "repository": "d3/d3",
+  "category": "data",
+  "tags": ["JavaScript", "可視化", "SVG"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["D3は、データとWebページの要素を結び付け、SVG、Canvas、HTMLで図や動きのある表現を作るためのJavaScriptライブラリです。データに合わせて画面の要素を更新できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["既製のグラフだけでは表せない見せ方を、Webの基本要素を組み合わせて作れます。データの読み込み、目盛りの計算、アニメーションといった可視化の仕組みを理解する助けにもなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["自由度が高い分、初めから複雑な図を作ろうとすると難しくなります。まずは少数のデータを円や棒として表示し、データと画面要素の対応を確かめながら進めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/d3/d3"}]
+}

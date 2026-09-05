@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "locust",
+  "title": "Locust：Pythonで負荷テストを作る",
+  "summary": "Locustは、HTTPなどのシステムに対する性能・負荷テストをPythonで定義するツールです。端末またはWeb画面から実行し、応答時間やエラーを確認できます。",
+  "repository": "locustio/locust",
+  "category": "developer-tools",
+  "tags": ["Python", "負荷テスト", "性能テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Locustは、HTTPなどのプロトコルに対するオープンソースの性能・負荷テストツールです。利用者の操作を通常のPythonコードとして書き、繰り返しや条件分岐もPythonの書き方で表せます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["コマンドラインとWeb画面のどちらからもテストを実行できます。処理量、応答時間、エラーをリアルタイムで見たり、後で分析するために書き出したりできます。複数のマシンへ分散して負荷をかけることも可能です。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["シナリオはPythonコードで定義します。標準ではすべての用途を用意する設計ではないため、対象のシステムやプロトコルによっては自分でクライアントを用意する必要があります。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/locustio/locust"}]
+}

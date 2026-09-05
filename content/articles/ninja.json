@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "slug": "ninja",
+  "title": "Ninja：速さを重視した小さなビルドシステム",
+  "summary": "Ninjaは、速さを重視した小さなビルドシステムです。必要なファイルだけを更新するためのビルド作業を実行し、ほかのツールが作った設定ファイルと組み合わせて使われます。",
+  "repository": "ninja-build/ninja",
+  "category": "developer-tools",
+  "tags": ["ビルド", "CLI", "高速化"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Ninjaは、速さに重点を置いた小さなビルドシステムです。ninjaという実行ファイルで、build.ninjaに書かれた依存関係とコマンドを実行します。",
+        "公式READMEでは、必要なファイルは生成されたninjaバイナリーだけだと説明されています。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "大きなプロジェクトでも、変更が必要な部分だけを効率よくビルドする用途に向きます。CMakeやMesonのような設定生成ツールと組み合わせると、日々のビルドを短いコマンドで実行できます。",
+        "単体の実行ファイルとして扱いやすい点も、開発環境に導入しやすい理由の一つです。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Ninjaはプロジェクト設定を作るための高水準なツールではありません。通常は別のツールがbuild.ninjaを生成するため、まず使うプロジェクトの生成手順を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/ninja-build/ninja"}
+  ]
+}

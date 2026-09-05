@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "axum",
+  "title": "axum：RustでHTTPのルートと処理を組み立てる",
+  "summary": "axumは、Rust向けのHTTPルーティングとリクエスト処理のライブラリです。使いやすさと部品を組み合わせる設計を重視し、ハンドラー、抽出子、ミドルウェアを使ってWebサービスを作れます。",
+  "repository": "tokio-rs/axum",
+  "category": "backend",
+  "tags": ["Rust", "HTTP", "ルーティング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["axumはRustでHTTPリクエストをルートごとのハンドラーへ渡すライブラリです。Web APIなどのリクエスト処理を、部品を組み合わせて記述できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["抽出子を使うと、パス、クエリー、JSONなどのリクエスト内容を宣言的に受け取れます。エラー処理の考え方が明確で、towerとtower-httpのミドルウェアやサービスも利用できます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["axumはRustの非同期処理と周辺ライブラリの考え方の上で使います。まず公式の例を動かし、ルート、ハンドラー、抽出子の役割を一つずつ確かめると始めやすいです。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/tokio-rs/axum"}]
+}

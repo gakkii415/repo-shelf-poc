@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "react",
+  "title": "React：部品を組み合わせて画面を作る",
+  "summary": "Reactは、ユーザーインターフェースを作るためのJavaScriptライブラリです。小さな部品であるコンポーネントを組み合わせ、画面を構成できます。宣言的に画面の状態を表す考え方が中心で、同じ考え方をWebやネイティブの画面作りに生かせます。",
+  "repository": "react/react",
+  "category": "frontend",
+  "tags": ["JavaScript", "UI", "コンポーネント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Reactは、ユーザーに見せる画面を作るためのJavaScriptライブラリです。画面をコンポーネントという部品に分け、それらを組み合わせてUIを表します。"]},
+    {"heading": "役立つ点", "paragraphs": ["宣言的に画面を記述できるため、状態に応じて何を表示したいかをコードで表しやすくなります。小さなコンポーネントを再利用し、画面を段階的に組み立てられます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["ReactはUIを作るためのライブラリです。画面遷移やデータ取得などをどの仕組みで組み合わせるかは、プロジェクトに合わせて決める必要があります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/react/react"}]
+}

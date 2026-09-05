@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "homebrew",
+  "title": "Homebrew：開発用のソフトをコマンドで入れる",
+  "summary": "Homebrewは、macOSやLinuxでソフトウェアを管理するパッケージマネージャーです。コマンドで必要なツールを探し、導入や更新に使えます。開発環境で使うコマンドやアプリをまとめて扱いたいときの入口になります。使う前に、公式の導入手順と利用したいパッケージを確認しましょう。",
+  "repository": "Homebrew/brew",
+  "category": "developer-tools",
+  "tags": ["パッケージ管理", "macOS", "Linux"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Homebrewとは",
+      "paragraphs": [
+        "Homebrewは、ソフトウェアをコマンドで導入・管理するためのパッケージマネージャーです。公式READMEでは、どこでも使えるパッケージマネージャーとして案内されています。",
+        "利用できるパッケージは、公式の一覧ページでformulaeとcasksに分けて探せます。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "開発で使うコマンドを、Webサイトから一つずつ探して導入する代わりに、同じ操作の流れで扱いやすくなります。",
+        "brew bundleも用意されているため、必要なツールの組み合わせを管理する方法を調べる入口にもなります。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "導入方法や対応環境は公式のインストール資料で確認してください。利用したいソフトがどの種類のパッケージとして提供されているかも、一覧で確かめましょう。",
+        "問題が起きたとき、公式READMEは最初にbrew updateとbrew doctorを実行し、トラブルシューティングを読むよう案内しています。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/Homebrew/brew"}
+  ]
+}

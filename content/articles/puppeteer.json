@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "puppeteer",
+  "title": "Puppeteer：JavaScriptからChromeとFirefoxを操作する",
+  "summary": "Puppeteerは、JavaScriptからChromeまたはFirefoxを操作するための高水準APIです。既定では画面を表示しないヘッドレスモードで実行されます。ページを開く、画面サイズを変える、入力やクリックをするといった操作をコードで自動化できます。",
+  "repository": "puppeteer/puppeteer",
+  "category": "automation",
+  "tags": ["JavaScript", "Chrome", "ブラウザー自動化"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "JavaScriptでブラウザーを動かす",
+      "paragraphs": [
+        "Puppeteerは、ChromeまたはFirefoxをJavaScriptから操作するライブラリーです。",
+        "ページへの移動、画面サイズの設定、入力、クリックなどをプログラムで実行できます。"
+      ]
+    },
+    {
+      "heading": "画面を出さずに実行できる",
+      "paragraphs": [
+        "既定では、画面を表示しないヘッドレスモードで動作します。",
+        "繰り返すブラウザー操作を、画面を開かずに自動化したい場合に使えます。"
+      ]
+    },
+    {
+      "heading": "導入時のブラウザー取得に注意",
+      "paragraphs": [
+        "puppeteerを導入すると、互換性のあるChromeを取得する仕組みがあります。",
+        "パッケージマネージャーが導入時のスクリプトを止めるとブラウザーが取得されず、実行時のエラーにつながるため、必要ならREADMEの案内に従って手動で取得します。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/puppeteer/puppeteer"}
+  ]
+}

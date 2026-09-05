@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "freertos",
+  "title": "FreeRTOS：複数の処理を動かす組み込みOS",
+  "repository": "FreeRTOS/FreeRTOS",
+  "category": "developer-tools",
+  "tags": ["RTOS", "組み込み開発", "マイコン"],
+  "summary": "FreeRTOSは、組み込み機器で複数の処理を時間の制約を意識して動かすためのリアルタイムOSです。",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["LEDの制御、センサーの読み取り、通信などの処理をタスクとして分け、実行の順番を管理するための基盤です。組み込み機器のプログラムを役割ごとに組み立てられます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["複数の仕事を一つの大きな処理にまとめずに済むため、機能ごとの見通しを持ちやすくなります。機器の反応を保ちながら、定期的な処理を組み込みたいときに役立ちます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["複数のタスクが同じデータや周辺機器を使う場合は、競合しないように設計する必要があります。時間の問題は実機で現れやすいため、まずは小さなタスク構成と安全な周辺回路で確認してください。"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式GitHubリポジトリ・README",
+      "url": "https://github.com/FreeRTOS/FreeRTOS"
+    }
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05"
+  ,"status": "published"
+}

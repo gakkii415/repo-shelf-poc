@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "aspnetcore",
+  "title": "ASP.NET Core：.NETでWebアプリケーションを作る",
+  "summary": "ASP.NET Coreは、クラウド向けのWebアプリケーション、IoTアプリケーション、モバイル向けバックエンドを作るためのフレームワークです。.NET上で動き、Windows、macOS、Linuxで開発と実行ができます。",
+  "repository": "dotnet/aspnetcore",
+  "category": "backend",
+  "tags": [".NET", "C#", "Webアプリ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["ASP.NET Coreは、インターネットに接続するアプリケーションを作るためのオープンソースのクロスプラットフォームフレームワークです。Webアプリケーション、IoTアプリケーション、モバイル向けバックエンドを対象にしています。"]},
+    {"heading": "役立つ点", "paragraphs": ["部品を組み合わせる構成なので、必要な機能を選んでアプリケーションを作れます。Windows、macOS、Linuxで開発と実行ができ、クラウドとオンプレミスの両方への配置を想定しています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["このリポジトリはASP.NET Core本体の開発も含むため、利用者が最初にソースからビルドする必要はありません。まず公式のGetting Started手順で.NET SDKと小さなアプリケーションを用意しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/dotnet/aspnetcore"}]
+}

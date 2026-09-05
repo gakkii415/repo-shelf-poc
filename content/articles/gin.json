@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "gin",
+  "title": "Gin：GoでHTTP APIを作る",
+  "summary": "Ginは、GoでREST APIやWebアプリケーションを作るためのHTTPフレームワークです。ルーティング、ミドルウェア、JSONの読み取りと検証を使って、サーバーの処理を組み立てられます。",
+  "repository": "gin-gonic/gin",
+  "category": "backend",
+  "tags": ["Go", "HTTP", "API"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["GinはGo向けのHTTP Webフレームワークです。REST API、Webアプリケーション、マイクロサービスのルートと処理を定義できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["ルートに処理を結び付け、JSONの応答を返す小さなサーバーから始められます。認証、ログ、CORSなどに使えるミドルウェアと、関連するルートをまとめる機能があります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["GinはHTTP処理を助けますが、データベースや認証の設計までは決めません。まずREADMEの小さな例を動かし、必要なミドルウェアを少しずつ加えると理解しやすいです。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/gin-gonic/gin"}]
+}

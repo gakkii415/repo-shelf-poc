@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "airbyte",
+  "title": "Airbyte：データの取り込み先と出どころをつなぐ",
+  "summary": "Airbyteは、API、データベース、ファイルなどから、データウェアハウスやデータレイクへデータを移すためのオープンソース基盤です。",
+  "repository": "airbytehq/airbyte",
+  "category": "data",
+  "tags": ["ELT", "データ連携", "コネクター"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Airbyteは、API、データベース、ファイルなどのデータ源と、データウェアハウスやデータレイクなどの保存先をつなぐための基盤です。データ移動のためのコネクターを使い、同期処理を組み立てます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["データ源ごとに取り込み処理を一から書かず、コネクターを使って連携を始められます。取り込みをAirflowやDagsterなどで実行管理する方法も案内されており、データパイプラインの入口を整えやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["連携には接続先の認証情報と、同期するデータ範囲の確認が必要です。最初は読み取り専用の小さなデータ源と検証用の保存先で試し、個人情報や重複データの扱いを決めてから広げましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/airbytehq/airbyte"}
+  ]
+}

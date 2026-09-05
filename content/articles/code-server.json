@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "code-server",
+  "title": "code-server：ブラウザーでVS Codeを使う",
+  "summary": "code-serverは、任意のマシンでVS Codeを動かし、ブラウザーから使えるようにするツールです。サーバー側に開発環境を置けるため、別の端末から同じ環境へアクセスできます。外出先の端末でも作業環境をそろえたいときに役立ちます。導入にはLinux環境とWebSocketsの利用が必要です。",
+  "repository": "coder/code-server",
+  "category": "developer-tools",
+  "tags": ["VS Code", "ブラウザー", "リモート開発"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "code-serverとは",
+      "paragraphs": [
+        "code-serverは、任意のマシンでVS Codeを動かし、ブラウザーから利用できるようにするツールです。",
+        "開発環境をサーバー側に置くことで、手元の端末が変わっても同じ環境にアクセスできます。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "どの端末からでも一貫した開発環境でコードを書くという、公式READMEの利用例を試せます。",
+        "テスト、コンパイル、ダウンロードなど負荷の高い処理をサーバーで実行できるため、手元の端末への負担を抑える使い方ができます。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "公式READMEでは、LinuxマシンとWebSocketsが有効な環境を必要条件として挙げています。必要な構成は、公式の要件と設定資料で確認してください。",
+        "インストール方法はいくつかあります。自動化スクリプトを使う場合も、READMEにある事前確認用の手順を読んで、何が実行されるかを確かめましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/coder/code-server"}
+  ]
+}

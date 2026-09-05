@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "junit-framework",
+  "title": "JUnit：JavaとJVMのテスト基盤",
+  "summary": "JUnitは、JavaとJVM向けのテストフレームワークです。このリポジトリにはJUnit Platform、JUnit Jupiter、JUnit Vintageが含まれます。コードを小さな単位で検証する土台として使え、ビルドツールと組み合わせればテストを自動実行できます。",
+  "repository": "junit-team/junit-framework",
+  "category": "developer-tools",
+  "tags": ["Java", "JVM", "テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["JUnitは、JavaとJVM上で動くプログラムをテストするためのフレームワークです。このリポジトリはJUnit Platform、JUnit Jupiter、JUnit Vintageのホームです。"]},
+    {"heading": "役立つ点", "paragraphs": ["テストをコードと一緒に実行できるため、変更後も期待した動作を保てているか確認しやすくなります。公式のユーザーガイド、APIリファレンス、例も用意されています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["リポジトリには複数のJUnit関連モジュールがあります。新しいJavaプロジェクトで使う部品や設定は、ユーザーガイドで目的に合うものを選びましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/junit-team/junit-framework"}]
+}

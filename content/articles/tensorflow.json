@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "tensorflow",
+  "title": "TensorFlow：機械学習の計算を組み立てる",
+  "summary": "TensorFlowは、機械学習モデルの作成、学習、利用を支えるオープンソースのプラットフォームです。",
+  "repository": "tensorflow/tensorflow",
+  "category": "ai",
+  "tags": ["Python", "機械学習", "ニューラルネットワーク"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["TensorFlowは、データを入力して予測を出す機械学習モデルを作り、学習させるための道具です。画像、音声、文章などを扱うモデルの計算を記述できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["データの準備からモデルの学習、保存したモデルの利用までをつなげて扱えます。最初は高水準のAPIで基本的な分類問題を試すと、全体像をつかみやすいです。"]},
+    {"heading": "始める前の注意", "paragraphs": ["機械学習の結果はデータの偏りや前処理に強く左右されます。精度だけを見るのではなく、学習用と確認用のデータを分け、誤った予測の例も確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/tensorflow/tensorflow"}]
+}

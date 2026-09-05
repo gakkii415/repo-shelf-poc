@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "cypress",
+  "title": "Cypress：ブラウザー上で動くものをテストする",
+  "summary": "Cypressは、ブラウザーで動くものを対象にテストするためのツールです。Webアプリの画面を開き、操作し、期待した結果になるかを確認する手順を自動化できます。Mac、Linux、Windows向けの導入方法がREADMEに案内されています。",
+  "repository": "cypress-io/cypress",
+  "category": "automation",
+  "tags": ["ブラウザー", "E2Eテスト", "Webアプリ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "ブラウザーで動くものを対象にする",
+      "paragraphs": [
+        "Cypressは、ブラウザーで実行されるものをテストするためのツールです。",
+        "画面の操作と結果の確認を繰り返す作業を、テストとして残せます。"
+      ]
+    },
+    {
+      "heading": "開発用の依存関係として追加",
+      "paragraphs": [
+        "READMEにはnpm、Yarn、pnpmを使った導入例があります。",
+        "プロジェクトの開発用依存関係に追加して、テスト環境を作り始められます。"
+      ]
+    },
+    {
+      "heading": "使う前に対象を確かめる",
+      "paragraphs": [
+        "Mac、Linux、Windowsに導入して使い始める案内があります。",
+        "対象はブラウザーで動くものなので、ブラウザーを使わない処理だけを確認したい場合は、目的に合う別のテスト手段も検討しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/cypress-io/cypress"}
+  ]
+}

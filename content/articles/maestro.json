@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "maestro",
+  "title": "Maestro：モバイル画面の操作を自動で試す",
+  "summary": "Maestroは、Android、iOS、Webアプリの画面操作を自動で試すためのオープンソースのテストツールです。YAMLで操作の流れを書き、エミュレーター、シミュレーター、ブラウザーで実行できます。",
+  "repository": "mobile-dev-inc/Maestro",
+  "category": "developer-tools",
+  "tags": ["E2Eテスト", "YAML", "UIテスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Maestroは、アプリの画面を開く、ボタンを押す、文字が見えることを確かめる、といった一連の操作を自動で試すツールです。",
+        "操作の流れはYAMLという読みやすい形式で書けます。Android、iOS、Webアプリを対象にできます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "人が毎回同じ画面操作をする代わりに、ログインや購入などの大事な流れを繰り返し確認できます。",
+        "画面の変化を待つ仕組みがあり、動的に変わる画面のテストを書き始めやすいです。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "実行にはJavaの準備が必要です。また、試すアプリを端末、エミュレーター、またはシミュレーターに用意します。",
+        "画面の文言や部品の位置を大きく変えるとテストも直す必要があります。最初は重要な操作を少数から自動化しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/mobile-dev-inc/Maestro"}
+  ]
+}

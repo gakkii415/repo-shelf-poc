@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "geopandas",
+  "title": "GeoPandas：Pythonで地理データを分析する",
+  "summary": "GeoPandasは、Pythonで地理データを扱うためのツールです。表形式のデータに位置や形を加え、地図上の関係を分析したいときに役立ちます。",
+  "repository": "geopandas/geopandas",
+  "category": "data",
+  "tags": ["Python", "GIS", "地理データ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Pythonで場所を含む表を扱う", "paragraphs": ["GeoPandasは、Pythonで地理データを扱うためのツールです。", "通常の表に、地点や区域の形を表す情報を持たせて、場所に基づく処理を行えます。"]},
+    {"heading": "地図と集計を組み合わせられる", "paragraphs": ["区域に含まれる地点を調べたり、地域ごとに値を集計したりして、結果を地図として確認できます。", "Pythonでのデータ処理と地図の分析を一つの流れで進められる点が利点です。"]},
+    {"heading": "座標系をそろえる", "paragraphs": ["複数の地理データで座標の基準が異なると、重なりや距離の計算が正しくならないことがあります。", "読み込んだデータの座標系と単位を確認し、結果を地図で目視してから利用しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/geopandas/geopandas"}]
+}

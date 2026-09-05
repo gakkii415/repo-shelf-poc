@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "bootstrap",
+  "title": "Bootstrap：レスポンシブなWeb画面の土台",
+  "summary": "Bootstrapは、Web開発を進めやすくするフロントエンドフレームワークです。HTML、CSS、JavaScriptで、画面の見た目や動きを作れます。コンパイル済みのCSSとJavaScriptが用意されているため、レスポンシブな画面の基本を早く用意したいときに役立ちます。",
+  "repository": "twbs/bootstrap",
+  "category": "frontend",
+  "tags": ["HTML", "CSS", "レスポンシブ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Bootstrapは、Web用のフロントエンドフレームワークです。HTML、CSS、JavaScriptを使って画面を作れます。",
+        "モバイルを先に考えたレスポンシブなWebプロジェクトの開発を支えます。"
+      ]
+    },
+    {
+      "heading": "始めやすい理由",
+      "paragraphs": [
+        "コンパイル済みのCSSとJavaScriptが用意されているので、基本となるファイルを利用して作業を始められます。",
+        "縮小済みのファイルも含まれ、配布用のファイルを選べます。"
+      ]
+    },
+    {
+      "heading": "使う前に考えること",
+      "paragraphs": [
+        "見た目だけを使うならCSSが中心ですが、動きのある機能を使う場合はJavaScriptも対象になります。",
+        "JavaScriptのまとめ済みファイルにはPopperが含まれるものもあるため、読み込むファイルの役割を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/twbs/bootstrap"}
+  ]
+}

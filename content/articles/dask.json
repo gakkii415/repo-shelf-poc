@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "dask",
+  "title": "Dask：分析処理を並列に進める",
+  "summary": "Daskは、分析向けの処理をタスクとして分け、並列計算を扱うためのPythonライブラリです。",
+  "repository": "dask/dask",
+  "category": "data",
+  "tags": ["Python", "並列計算", "タスクスケジューリング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Daskは、分析のための並列計算ライブラリです。処理を小さなタスクに分け、どの順番で実行するかをスケジューリングして計算を進めます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["時間のかかる処理を、依存関係を保ちながら分けて扱いたいときに選択肢になります。Pythonの分析作業で、どの計算が先に必要かを意識するきっかけにもなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["並列化には、分ける作業の大きさやデータの移動といった考慮が必要です。最初から複雑な分散環境を作らず、少量のデータで処理が正しいことを確かめてから広げましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/dask/dask"}
+  ]
+}

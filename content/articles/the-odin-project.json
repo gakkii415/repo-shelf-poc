@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-odin-project",
+  "title": "The Odin Project：Web開発を順番に学ぶ",
+  "summary": "The Odin Projectは、Web開発を学ぶためのオープンなカリキュラムです。HTML、CSS、JavaScriptなどを学び、実際にWebサイトを作りながら進めたいときに役立ちます。",
+  "repository": "TheOdinProject/curriculum",
+  "category": "frontend",
+  "tags": ["学習", "Web開発", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Web開発を順序立てて学ぶ", "paragraphs": ["The Odin Projectは、Web開発を学ぶためのオープンなカリキュラムです。", "HTML、CSS、JavaScriptなどの基本をたどり、Webサイトやアプリケーションを作る流れを学べます。"]},
+    {"heading": "作りながら理解を確かめる", "paragraphs": ["学んだ内容を使う課題やプロジェクトを通して、実際にコードを書く機会があります。", "知識を読むだけでなく、画面を作り、動作を確かめながら身に付けられる点が利点です。"]},
+    {"heading": "無理のない学習計画を立てる", "paragraphs": ["Web開発には覚えることが多く、早く進めようとすると基礎を飛ばしがちです。", "分からない部分を小さく調べ、作った作品のコードや素材の利用条件を確認しながら、継続できる量で進めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/TheOdinProject/curriculum"}]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "zig",
+  "title": "Zig：公式開発先の移転を確認する",
+  "summary": "Zigはプログラミング言語とコンパイラーのプロジェクトです。公式のGitHubリポジトリはCodebergへ移転したことを案内しており、このGitHubリポジトリはミラーではありません。",
+  "repository": "ziglang/zig",
+  "category": "developer-tools",
+  "tags": ["Zig", "コンパイラー", "開発環境"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Zigは、プログラミング言語とコンパイラーのプロジェクトです。このGitHubリポジトリのREADMEは、開発先がCodebergへ移転したことを知らせています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["GitHub上でZigを見つけた場合でも、公式の移転案内から現在の開発先を確認できます。最新のソースコードやプロジェクト情報を探すときに、参照先を取り違えにくくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["このGitHubリポジトリはミラーではありません。GitHub上の内容を現在の開発状況として扱わず、READMEから案内されているCodebergの移転先を使いましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/ziglang/zig"}
+  ]
+}

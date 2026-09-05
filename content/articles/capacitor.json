@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "capacitor",
+  "title": "Capacitor：Webアプリをモバイルアプリへつなぐ",
+  "summary": "Capacitorは、WebアプリをiOSやAndroidなどで動かし、Webのコードからネイティブ機能を呼び出せる仕組みです。既存のモダンなWebアプリにも組み込めます。",
+  "repository": "ionic-team/capacitor",
+  "category": "frontend",
+  "tags": ["JavaScript", "Web", "モバイル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Capacitorは、WebアプリをiOSやAndroidなどで動かすための仕組みです。Webのコードから端末のネイティブSDKを呼び出せる実行レイヤーと、機能を追加するためのプラグインの仕組みを提供します。"]},
+    {"heading": "役立つ点", "paragraphs": ["Webの技術で作った画面や処理を活用しながら、アプリストア向けのアプリとモバイルWebを扱えます。既存のモダンなWebアプリにも追加でき、必要な端末機能はプラグインで拡張できます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Webアプリの知識だけでなく、iOSとAndroidのプロジェクト設定やビルド環境が必要です。利用したい端末機能が公式または対応するプラグインで使えるかを、実装前に確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/ionic-team/capacitor"}]
+}

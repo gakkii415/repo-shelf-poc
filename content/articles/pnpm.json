@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "pnpm",
+  "title": "pnpm：Node.jsのパッケージを効率よく管理する",
+  "summary": "pnpmは、JavaScriptやNode.jsのパッケージを管理するツールです。一つの保存領域を活用してnode_modulesを構成し、ディスク使用量を抑えやすくします。ロックファイルとワークスペースにも対応し、複数のパッケージを含む開発にも使えます。",
+  "repository": "pnpm/pnpm",
+  "category": "developer-tools",
+  "tags": ["Node.js", "パッケージ管理", "モノレポ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["pnpmは、Node.js向けのパッケージマネージャーです。公式READMEでは、共有する保存領域からnode_modules内のファイルをリンクする仕組みが説明されています。", "依存関係の状態はpnpm-lock.yamlに記録できます。複数のパッケージをまとめるワークスペースにも対応しています。"]},
+    {"heading": "役立つ点", "paragraphs": ["同じパッケージを複数のプロジェクトで使う場合、共有の保存領域を使う仕組みにより、ディスクの重複を減らす助けになります。", "ワークスペースを使うと、関連する複数のパッケージを一つの作業単位として扱いやすくなります。"]},
+    {"heading": "使う前の注意", "paragraphs": ["pnpmは、package.jsonで宣言した依存関係だけにパッケージがアクセスできるようにする方針です。宣言していないパッケージに頼るコードは動かない場合があります。", "既存のプロジェクトに導入する際は、使っているロックファイルと導入手順をチームでそろえ、依存関係を明示してから切り替えましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/pnpm/pnpm"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "flutter",
+  "title": "Flutter：一つのコードで複数の画面向けアプリを作る",
+  "summary": "Flutterは、同じコードベースからモバイル、Web、デスクトップ向けのユーザーインターフェースを作れるSDKです。Dartで書き、ウィジェットを組み合わせて画面を構成します。",
+  "repository": "flutter/flutter",
+  "category": "frontend",
+  "tags": ["Dart", "モバイル", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Flutterは、モバイル、Web、デスクトップ向けのアプリ画面を一つのコードベースから作るためのSDKです。Dartで書き、ウィジェットという部品を組み合わせて画面を作ります。"]},
+    {"heading": "役立つ点", "paragraphs": ["iOSやAndroidなど複数の対象に向けて、共通する画面や処理をまとめて開発できます。画面の見た目を細かく組み立てられ、コードを変えた結果をすばやく確認する仕組みも用意されています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["FlutterではDartを使います。端末固有の機能や公開手順には各プラットフォームの設定が必要になるため、最初は公式の導入手順と対象端末の開発環境を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/flutter/flutter"}]
+}

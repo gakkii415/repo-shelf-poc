@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "ruff",
+  "title": "Ruff：Pythonの検査と整形をまとめる",
+  "summary": "Ruffは、Rustで書かれたPython向けのリンターとコードフォーマッターです。コードの問題を検出し、整形も行えます。設定はpyproject.tomlなどで管理でき、修正可能な問題は自動で直せます。",
+  "repository": "astral-sh/ruff",
+  "category": "developer-tools",
+  "tags": ["Python", "静的解析", "フォーマッター"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Ruffは、Pythonコードを調べて問題を見つけるリンターと、見た目をそろえるフォーマッターです。ruff checkで検査し、ruff formatで整形できます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["未使用のimportなど、修正できる問題には自動修正を使えます。pyproject.toml、ruff.toml、.ruff.tomlで設定を管理できるため、プロジェクト内で検査と整形のルールを共有しやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["自動修正や整形を導入すると、既存コードに多くの差分が出ることがあります。最初は対象の規則と対象ファイルを確認し、変更を読んでから取り込みましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/astral-sh/ruff"}
+  ]
+}

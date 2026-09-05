@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "uv",
+  "title": "uv：Pythonプロジェクトと依存関係をまとめて扱う",
+  "summary": "uvは、Pythonのパッケージとプロジェクトを管理するためのツールです。依存関係、仮想環境、ロックファイル、Python製コマンドの実行を一つのCLIで扱えます。Python開発を始めるときに、作業の入口をそろえやすくなります。",
+  "repository": "astral-sh/uv",
+  "category": "developer-tools",
+  "tags": ["Python", "パッケージ管理", "CLI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["uvは、Pythonのパッケージとプロジェクトを管理するためのツールです。公式READMEでは、依存関係、環境、ロックファイルを含むプロジェクト管理を案内しています。", "単一ファイルのスクリプトを依存関係とともに実行したり、Pythonパッケージで配布されるコマンドを実行・導入したりもできます。"]},
+    {"heading": "役立つ点", "paragraphs": ["uv initでプロジェクトを始め、uv addで必要なパッケージを追加し、uv runでコマンドを動かすという流れを作れます。", "ロックファイルとワークスペースにも対応しているため、依存関係の状態をそろえながら複数の作業を管理する入口になります。"]},
+    {"heading": "使う前の注意", "paragraphs": ["uvはpipやPoetryなどの作業も扱える広い範囲のツールです。既存プロジェクトでは、すでに使っている依存関係ファイルや運用方法を確認してから導入しましょう。", "まずは小さなプロジェクトで、どのコマンドが環境作成・追加・実行を担うかを試すと理解しやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/astral-sh/uv"}]
+}

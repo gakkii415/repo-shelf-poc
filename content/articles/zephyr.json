@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "zephyr",
+  "title": "Zephyr：組み込み機器向けリアルタイムOS",
+  "repository": "zephyrproject-rtos/zephyr",
+  "category": "developer-tools",
+  "tags": ["RTOS", "組み込み開発", "IoT"],
+  "summary": "Zephyrは、さまざまな組み込み機器で動くアプリケーションを作るためのリアルタイムOSです。",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["時間に関係する複数の処理や、外部からの入力に応じる処理を組み込み機器で動かすための基盤です。対象ハードウェアに合わせてアプリケーションをビルドできます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["センサーの読み取り、通信、表示などを役割ごとに分けて設計しやすくなります。対応するさまざまなハードウェアで、同じ考え方を生かして開発を進められます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["処理を同時に動かす設計では、実行順序や共有するデータを意識する必要があります。ボードごとの設定も重要です。最初は公式のサンプルを使い、対象ボードで基本動作を確かめてください。"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式GitHubリポジトリ・README",
+      "url": "https://github.com/zephyrproject-rtos/zephyr"
+    }
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05"
+  ,"status": "published"
+}

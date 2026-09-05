@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "maplibre-gl-js",
+  "title": "MapLibre GL JS：Webでベクター地図を表示する",
+  "summary": "MapLibre GL JSは、ブラウザーで操作可能なベクタータイル地図を表示するためのライブラリです。スタイルを調整した地図や、地図上の情報をWebで見せたいときに役立ちます。",
+  "repository": "maplibre/maplibre-gl-js",
+  "category": "frontend",
+  "tags": ["地図", "ベクタータイル", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "ブラウザーにベクター地図を描く", "paragraphs": ["MapLibre GL JSは、Webブラウザーで操作できるベクタータイル地図を表示するためのライブラリです。", "道路や区域などの地図情報を、用途に合わせた見た目でWebページに表示できます。"]},
+    {"heading": "地図の見た目を調整できる", "paragraphs": ["地図の色、文字、表示する情報をスタイルとして設定できます。", "サービスの目的に合う地図を作り、拡大や移動に応じて情報を見せられる点が利点です。"]},
+    {"heading": "データ量と利用条件に注意する", "paragraphs": ["地図のスタイルやデータが大きいと、通信量や表示の負荷が増えることがあります。", "対象端末で動作を確認し、地図データとタイル提供元の出典表示・利用条件を守りましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/maplibre/maplibre-gl-js"}]
+}

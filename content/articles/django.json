@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "django",
+  "title": "Django：PythonでWebアプリを作るフレームワーク",
+  "summary": "Djangoは、すばやい開発と読みやすく実用的な設計を後押しするPythonのWebフレームワークです。公式ドキュメントには、導入からチュートリアル、デプロイまでの案内があります。",
+  "repository": "django/django",
+  "category": "backend",
+  "tags": ["Python", "Web開発", "MVC"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Djangoは、PythonでWebアプリケーションを作るための高水準なフレームワークです。アプリの画面やデータを扱うコードを、決まった仕組みで整理して作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["公式リポジトリには、インストール、順番に進めるチュートリアル、公開用サーバーの準備へ進むための案内があります。初めてでも学ぶ順番を見つけやすい点が利点です。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Djangoには学ぶ項目がいくつかあります。まず公式チュートリアルを順番に試し、モデルや画面の役割を小さなアプリで確かめてから機能を増やしましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/django/django"}]
+}

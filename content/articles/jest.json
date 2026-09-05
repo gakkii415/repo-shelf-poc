@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "jest",
+  "title": "Jest：JavaScriptの動作を確かめる",
+  "summary": "Jestは、JavaScriptプロジェクトで使えるテストツールです。関数の結果をexpectで検証し、コマンドでテストを実行します。変更したファイルに関係するテストを実行する監視モードや、値の変化を記録するスナップショットテストも利用できます。",
+  "repository": "jestjs/jest",
+  "category": "frontend",
+  "tags": ["JavaScript", "テスト", "スナップショット"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Jestは、JavaScriptコードの動作を自動で確かめるテストツールです。testとexpectを使って、関数の結果が期待した値と同じかを書けます。"]},
+    {"heading": "役立つ点", "paragraphs": ["多くのJavaScriptプロジェクトで、そのまま使い始められるように設計されています。変更に関係するテストを実行する対話的な監視モードと、大きな値の変化を確認しやすいスナップショットテストがあります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["スナップショットは、更新を承認すると期待値も変わります。差分を読まずに更新せず、意図した画面やデータの変化かを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/jestjs/jest"}]
+}

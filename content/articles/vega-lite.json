@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "vega-lite",
+  "title": "Vega-Lite：設定で対話的なグラフを記述する",
+  "summary": "Vega-Liteは、データと見せ方を簡潔に記述して対話的なグラフを作るための可視化文法です。",
+  "repository": "vega/vega-lite",
+  "category": "data",
+  "tags": ["可視化", "JSON", "インタラクティブ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Vega-Liteは、データのどの項目を位置、色、形などに対応させるかを記述し、対話的なグラフを作るための文法です。Vegaの上に作られています。"]},
+    {"heading": "役立つ点", "paragraphs": ["画面の要素を一つずつ操作する代わりに、データと見せ方の対応を設定としてまとめられます。繰り返し使う可視化を整理したいときや、グラフの構成を共有したいときに役立ちます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["設定が短く書けても、データの型や項目名が合っていなければ意図した図になりません。最初は単純な表を使い、どの項目をどの見た目に割り当てたかを一つずつ確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/vega/vega-lite"}]
+}

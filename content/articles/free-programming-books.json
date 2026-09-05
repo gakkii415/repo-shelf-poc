@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "free-programming-books",
+  "title": "free-programming-books：多言語の無料学習資料を探す",
+  "summary": "free-programming-booksは、無料で利用できるプログラミングの書籍、コース、チートシートなどを言語や分野別にまとめたリストです。日本語を含む複数言語の学習資料を探す入口になります。",
+  "repository": "EbookFoundation/free-programming-books",
+  "category": "developer-tools",
+  "tags": ["プログラミング学習", "書籍", "無料リソース"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "学びたい言語と資料形式から探す", "paragraphs": ["free-programming-booksは、無料で利用できる学習資料を集めたリストです。書籍だけでなく、チートシート、オンラインコース、対話型教材などへの案内があります。", "日本語を含む言語別のページがあるため、読みやすい言語からプログラミングを始める手がかりになります。"]},
+    {"heading": "一冊・一講座から始める", "paragraphs": ["資料が多いので、学ぶ言語か作りたい分野を一つ決め、入門向けの資料を一つ選ぶと進めやすくなります。", "読むだけで終わらせず、短いコードを実行したり練習問題を解いたりすると、理解を確かめられます。"]},
+    {"heading": "利用条件と内容を確かめる", "paragraphs": ["このリポジトリは外部の資料へのリンク集です。無料で閲覧できる条件、内容の更新状況、対象読者はリンク先ごとに異なります。", "登録、ダウンロード、コード実行の前にリンク先の公式な利用条件と安全性を確認し、古い手順は現在の公式資料とも照らし合わせましょう。"]}],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/EbookFoundation/free-programming-books"}]
+}

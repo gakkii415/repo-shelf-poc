@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "cucumber-js",
+  "title": "Cucumber.js：文章で書くNode.jsの自動テスト",
+  "summary": "Cucumber.jsは、Node.jsで自然な文章に近い形式の自動テストを実行するツールです。機能とシナリオを文章で書き、その各行に対応するJavaScriptの処理を実装します。技術者以外もテストの意図を読みやすくなります。",
+  "repository": "cucumber/cucumber-js",
+  "category": "developer-tools",
+  "tags": ["JavaScript", "Node.js", "テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Cucumber.jsは、Node.jsでプレーンな文章による自動テストを実行するCucumberのJavaScript実装です。機能とシナリオを書き、WhenやThenに対応するステップ定義をJavaScriptで実装します。"]},
+    {"heading": "役立つ点", "paragraphs": ["テストのシナリオをチームの誰もが読める文章で表せます。仕様の確認に使う文章と自動テストを近づけることで、チーム内の会話や協力を助けます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Cucumber.jsは保守対象のNode.jsバージョンで動作します。文章を読みやすく保つには、ステップ定義の名前と責務を整理する必要があります。READMEの小さな例で、シナリオとJavaScriptの処理がどう結び付くかを確かめてから広げましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/cucumber/cucumber-js"}]
+}

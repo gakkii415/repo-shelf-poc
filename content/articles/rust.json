@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "rust",
+  "title": "Rust：安全性を重視する言語の本体",
+  "summary": "Rustは、信頼性と効率を重視したソフトウェアを作るためのプログラミング言語です。このリポジトリにはコンパイラー、標準ライブラリ、ドキュメントのソースコードがあります。",
+  "repository": "rust-lang/rust",
+  "category": "developer-tools",
+  "tags": ["Rust", "言語処理系", "システムプログラミング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Rustは、信頼性と効率のよいソフトウェアを作ることを目指す言語です。このリポジトリには、Rustのコンパイラー、標準ライブラリ、ドキュメントが含まれています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["型システムと所有権モデルにより、メモリとスレッドに関する安全性をコンパイル時に確認できます。READMEでは、パッケージ管理とビルドのCargo、整形のrustfmt、検査のClippy、エディター支援のrust-analyzerも紹介されています。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["このリポジトリはRust本体の開発用です。READMEはソースからの導入を推奨せず、まず公式のインストール手順と学習用ドキュメントを読むよう案内しています。普段の開発では、通常の導入方法から始めるとよいでしょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/rust-lang/rust"}
+  ]
+}

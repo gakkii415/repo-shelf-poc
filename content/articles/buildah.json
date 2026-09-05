@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "buildah",
+  "title": "Buildah：OCIイメージを組み立てるCLI",
+  "summary": "Buildahは、OCIコンテナイメージを作るためのコマンドラインツールです。既存イメージまたは空の状態から作業用コンテナを用意し、Dockerfileの指示やコマンド操作で内容を追加してイメージにできます。",
+  "repository": "podman-container-tools/buildah",
+  "category": "developer-tools",
+  "tags": ["コンテナ", "イメージ", "OCI", "CLI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "イメージを作るための道具",
+      "paragraphs": [
+        "Buildahは、作業用コンテナを作り、その中のファイルを変更して新しいイメージにまとめるためのCLIです。",
+        "Dockerfileの指示からビルドする方法に加え、コマンドやスクリプトで手順を組み立てる方法も選べます。"
+      ]
+    },
+    {
+      "heading": "使うメリット",
+      "paragraphs": [
+        "イメージを作る工程を細かなコマンドに分けられるため、既存のシェルスクリプトや自動化処理へ組み込みやすくなります。",
+        "root権限を必要としない形でもイメージを作れるため、開発環境で権限を絞りたい場合の選択肢になります。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "BuildahはOCIイメージの作成に特化しています。一方Podmanは、イメージの管理に加え、コンテナを作成して実行・維持する用途を得意とします。",
+        "Buildahの作業用コンテナとPodmanのコンテナは、保存方法の違いから相互に見えません。両方を使うときは、作成と実行の役割を分けて考えましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/podman-container-tools/buildah"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "electron",
+  "title": "Electron：Web技術でデスクトップアプリを作る",
+  "summary": "Electronは、JavaScript、HTML、CSSを使ってWindows、macOS、Linux向けのデスクトップアプリを作るためのフレームワークです。Web画面と端末側の機能を組み合わせられます。",
+  "repository": "electron/electron",
+  "category": "developer-tools",
+  "tags": ["JavaScript", "デスクトップ", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Electronは、JavaScript、HTML、CSSでデスクトップアプリを作るためのフレームワークです。Webの画面を使いながら、ファイル操作などデスクトップアプリに必要な機能と組み合わせます。"]},
+    {"heading": "役立つ点", "paragraphs": ["Web開発で使う技術やUIの知識を、Windows、macOS、Linux向けのアプリ作りに生かせます。対象ごとに画面のコードを大きく作り直さず、共通する部分を一つのプロジェクトで管理できます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Electronはデスクトップアプリ向けです。配布用のアプリを作るには、対象OSごとのビルドや署名などを考える必要があります。Web画面と端末機能の間の安全な通信方法も、早い段階で設計しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/electron/electron"}]
+}

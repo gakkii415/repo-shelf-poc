@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "lazygit",
+  "title": "Lazygit：Git操作を端末の画面で進める",
+  "summary": "Lazygitは、Gitコマンドの操作を端末上の対話的な画面で行うツールです。変更、コミット、ブランチなどを一覧で確認しながら操作できます。便利な一方で、rebaseやresetなど履歴や作業内容に影響する操作の意味は理解して使いましょう。",
+  "repository": "jesseduffield/lazygit",
+  "category": "developer-tools",
+  "tags": ["Git", "ターミナルUI", "CLI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Lazygitとは",
+      "paragraphs": [
+        "Lazygitは、Gitコマンドのためのシンプルな端末UIです。端末UIは、端末の中で一覧や選択画面を表示して操作するインターフェースです。",
+        "変更されたファイル、コミット、ブランチを画面で見ながら、キーボードで操作できます。"
+      ]
+    },
+    {
+      "heading": "細かな変更を選びやすい",
+      "paragraphs": [
+        "公式READMEでは、ファイルの変更の中から個別の行や範囲をステージできる機能が紹介されています。ステージとは、次のコミットに入れる変更を選ぶことです。",
+        "対話的なrebase、cherry-pick、worktreeの作成、コミット同士の比較なども扱えます。作業の状況を目で確認しながら進めたい人に向いています。"
+      ]
+    },
+    {
+      "heading": "操作の結果を理解して使う",
+      "paragraphs": [
+        "Lazygitが行う操作はGitの履歴や作業ディレクトリに反映されます。特にrebase、reset、変更の破棄は、内容や履歴を変える操作です。",
+        "公式READMEには作業ツリーの内容をまとめて破棄する選択肢もあります。慣れるまでは実行前に対象を確認し、大切な変更はコミットまたは退避しておきましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/jesseduffield/lazygit"}
+  ]
+}

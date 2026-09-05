@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "kivy",
+  "title": "Kivy：Pythonで複数環境向けGUIアプリを作る",
+  "summary": "Kivyは、PythonでGUIアプリを作るためのフレームワークです。デスクトップ、モバイル、組み込み環境を含む複数のプラットフォームを対象に、同じコードベースでアプリを作れます。",
+  "repository": "kivy/kivy",
+  "category": "frontend",
+  "tags": ["Python", "GUI", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Kivyは、PythonでクロスプラットフォームのGUIアプリを作るためのフレームワークです。デスクトップ、モバイル、組み込み環境に向けて、画面部品を組み合わせたアプリを作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["同じコードベースから複数の対象を目指せるため、Pythonで操作画面を持つアプリを試作したいときに役立ちます。さまざまな入力機器に対応し、画面部品のライブラリも用意されています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Pythonの基本に加えて、対象ごとの配布方法を理解する必要があります。モバイル向けのパッケージ作成には関連ツールが必要になるため、公式のインストール手順、サンプル、対象プラットフォーム向けの案内を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/kivy/kivy"}]
+}

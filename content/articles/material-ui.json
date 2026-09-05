@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "material-ui",
+  "title": "Material UI：Reactで使う画面部品のライブラリー",
+  "summary": "Material UIは、GoogleのMaterial Designを独自に実装したReactコンポーネントのライブラリーです。基本となる画面部品をまとめて利用でき、複雑な用途向けにはMUI Xで機能を広げられます。ReactでMaterial Designを使った画面を作りたいときに役立ちます。",
+  "repository": "mui/material-ui",
+  "category": "frontend",
+  "tags": ["React", "Material Design", "コンポーネント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Material UIは、Reactコンポーネントをまとめたライブラリーです。",
+        "GoogleのMaterial Designを独自に実装した仕組みとして、画面づくりに使えます。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "Reactで画面を作るとき、基本となるコンポーネントを使って開発を進められます。",
+        "より複雑な用途では、MUI Xが中心の機能を広げるためのコンポーネント群として案内されています。"
+      ]
+    },
+    {
+      "heading": "使う前に考えること",
+      "paragraphs": [
+        "Material UIはReactコンポーネントのライブラリーなので、Reactを使わないWebページにはそのままでは使えません。",
+        "Material Designを基にした見た目を使うため、先に画面のデザイン方針と合うか確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/mui/material-ui"}
+  ]
+}

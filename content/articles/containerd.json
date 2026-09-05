@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "containerd",
+  "title": "containerd：コンテナ実行を支えるランタイム",
+  "summary": "containerdは、イメージの転送と保存、コンテナの実行と監視、ストレージやネットワークへの接続を管理するコンテナランタイムです。大きなシステムへ組み込むことを主眼にした、堅牢で持ち運びやすい基盤です。",
+  "repository": "containerd/containerd",
+  "category": "developer-tools",
+  "tags": ["コンテナ", "ランタイム", "OCI", "基盤"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "コンテナランタイムとは",
+      "paragraphs": [
+        "containerdは、ホスト上でコンテナの一連の動きを管理する常駐サービスです。イメージを取得して保存し、コンテナを起動して状態を見守ります。",
+        "低い層のストレージやネットワークとの接続も扱い、コンテナを使う上位の仕組みを支えます。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "コンテナを利用する自動化基盤や運用システムを作るとき、実行部分を担う部品として利用できます。",
+        "イメージ、実行、監視という責務を分けて理解したいときにも、コンテナ基盤の構造を学ぶ題材になります。"
+      ]
+    },
+    {
+      "heading": "利用時の注意",
+      "paragraphs": [
+        "READMEでは、containerdは開発者やエンドユーザーが直接使うより、大きなシステムに組み込むために設計されていると説明されています。",
+        "最初のコンテナ体験には、containerdを内部で利用する上位のツールから始めるほうが、操作と責任範囲を把握しやすいでしょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/containerd/containerd"}
+  ]
+}

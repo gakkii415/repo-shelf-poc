@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "nuxt",
+  "title": "Nuxt：VueでWebアプリを作るためのフレームワーク",
+  "summary": "NuxtはVueを使うフルスタックWebフレームワークです。ルーティング、サーバー側の機能、レンダリング方法をまとめて扱えます。Webサイトからアプリケーションまで、Vueを基盤にした構成を始めやすくします。",
+  "repository": "nuxt/nuxt",
+  "category": "frontend",
+  "tags": ["Vue", "フレームワーク", "SSR"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするリポジトリか", "paragraphs": ["NuxtはVueによるフルスタックWebフレームワークです。画面のルート、サーバーの処理、データを扱う仕組みをプロジェクトにまとめられます。"]},
+    {"heading": "役立つ場面", "paragraphs": ["サーバーでレンダリングするページ、静的に生成するページ、ブラウザで動く画面を用途に応じて作れます。共通の規約があるため、アプリの構成をそろえやすくなります。"]},
+    {"heading": "使う前に確認したい点", "paragraphs": ["Nuxtの画面はVueを基盤にします。Vueのコンポーネント、リアクティビティ、テンプレートの書き方を把握しておくと、Nuxtの仕組みを利用しやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/nuxt/nuxt"}]
+}

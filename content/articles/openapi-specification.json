@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "openapi-specification",
+  "title": "OpenAPI Specification：HTTP APIの共通仕様を書く",
+  "summary": "OpenAPI Specificationは、HTTP APIの機能を言語に依存しない形で記述するための仕様です。人とツールがAPIを理解し、ドキュメントやクライアント生成などに利用できます。",
+  "repository": "OAI/OpenAPI-Specification",
+  "category": "developer-tools",
+  "tags": ["API", "仕様", "OpenAPI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "これは何か",
+      "paragraphs": ["HTTP APIのインターフェースを、プログラミング言語に依存しない共通形式で記述するためのオープンな仕様です。仕様書はYAMLまたはJSONで表せます。"]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": ["ソースコードを読まなくても、利用者とツールがサービスの機能を理解しやすくなります。対話型ドキュメント、クライアントやサーバーのコード生成、テストの自動化にも使えます。"]
+    },
+    {
+      "heading": "注意点",
+      "paragraphs": ["既存APIを書き換える必要はありませんが、APIの機能を仕様の構造に沿って記述する必要があります。すべての形式のHTTP APIを対象にする仕様ではありません。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/OAI/OpenAPI-Specification"}]
+}

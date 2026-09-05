@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "qutebrowser",
+  "title": "qutebrowser：キーボード中心で操作するWebブラウザー",
+  "summary": "qutebrowserは、PythonとQtを基にしたキーボード操作中心のWebブラウザーです。最小限の画面とコマンド的な操作でWebを閲覧したい人に向き、設定や操作を段階的に覚えられます。",
+  "repository": "qutebrowser/qutebrowser",
+  "category": "developer-tools",
+  "tags": ["Webブラウザー", "キーボード操作", "Python"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "キーでWebを操作する",
+      "paragraphs": [
+        "qutebrowserは、PythonとQtを基にした、キーボードを重視するWebブラウザーです。最小限の画面で、キー操作やコマンドを使って閲覧したい人を対象にしています。",
+        "マウスに頼らない操作を試したい人は、公式ドキュメントで基本の移動やタブ操作から覚えられます。"
+      ]
+    },
+    {
+      "heading": "設定を少しずつ身につける",
+      "paragraphs": [
+        "公式READMEは、インストール手順、FAQ、ヘルプページへのリンクを提供しています。最初は標準の状態で使い、必要になった操作だけを追加で学ぶと混乱しにくくなります。",
+        "PythonとQtを使うデスクトップアプリケーションの構成を見たい開発者にも参考になります。"
+      ]
+    },
+    {
+      "heading": "利用する描画バックエンドを確認する",
+      "paragraphs": [
+        "キーボード中心の操作は慣れるまで時間がかかるため、重要な作業の前に新しい操作を練習してください。",
+        "READMEはQtWebKitについて既知の未修正脆弱性に注意を促しています。信頼できないサイトや機密情報を扱う際は、推奨される標準のQtWebEngineバックエンドなど、公式の安全上の案内を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/qutebrowser/qutebrowser"}
+  ]
+}

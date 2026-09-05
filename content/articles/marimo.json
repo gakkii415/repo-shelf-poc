@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "marimo",
+  "title": "marimo：再現しやすいPythonノートブック",
+  "summary": "marimoは、セルの依存関係に応じて処理を更新するPythonノートブックです。ノートブックをPythonファイルとして保存し、スクリプト実行やアプリとしての公開にも使えます。",
+  "repository": "marimo-team/marimo",
+  "category": "data",
+  "tags": ["Python", "ノートブック", "データ分析", "再現性"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["marimoは、Pythonで分析や実験を進めるための対話型ノートブックです。セルやUI部品を操作すると、依存するセルを実行するか、未更新として扱います。", "ノートブックは通常のPythonファイルとして保存され、スクリプトとして実行したり、対話型アプリとして公開したりできます。"]},
+    {"heading": "役立つ点", "paragraphs": ["セルの実行順を手で管理する負担を減らし、コードと表示結果の整合性を保ちやすくします。", "Pythonファイルとして扱えるため、Gitで変更を確認し、ほかのPythonコードから関数やクラスを再利用しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["入力部品の操作で依存する計算が実行されるため、時間のかかる処理には注意が必要です。必要に応じて、影響を受けたセルを未更新として扱う設定を使いましょう。", "アプリとして公開する場合は、データベース接続情報や利用者が入力できる内容を確認し、公開範囲を決めてください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/marimo-team/marimo"}]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "py-spy",
+  "title": "py-spy：動作中のPythonを調べる",
+  "summary": "py-spyは、Pythonプログラムがどこで時間を使っているかを調べるサンプリングプロファイラーです。対象のコードを変えたり再起動したりせず、実行中のプログラムを確認できます。",
+  "repository": "benfred/py-spy",
+  "category": "developer-tools",
+  "tags": ["Python", "プロファイリング", "性能解析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["py-spyはPythonプログラム用のサンプリングプロファイラーです。実行中のプログラムのPIDを指定するか、Pythonプログラムを起動するコマンドを渡して、処理時間の使われ方を調べます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["対象のPythonコードを変更せず、プログラムを再起動しなくても確認できます。recordではフレームグラフなどの結果をファイルへ保存でき、topでは時間を使っている関数をライブ表示し、dumpでは各スレッドの現在の呼び出し履歴を表示できます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["py-spyは対象プロセスとは別に動き、対象のメモリーを読み取ります。動作するOSやPython処理系への対応状況をREADMEで確認し、実行中のプロセスを調べるために必要な権限も確認しましょう。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/benfred/py-spy"}]
+}

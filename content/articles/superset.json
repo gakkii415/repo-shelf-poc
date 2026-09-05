@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "superset",
+  "title": "Apache Superset：データを探索してダッシュボードにする",
+  "summary": "Apache Supersetは、データベースのデータを探索し、グラフやダッシュボードとして共有するためのWebアプリケーションです。SQLを書かない操作とSQLエディターの両方を利用できます。",
+  "repository": "apache/superset",
+  "category": "data",
+  "tags": ["BI", "可視化", "SQL", "ダッシュボード"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Supersetは、データを調べて可視化するためのビジネスインテリジェンス用Webアプリです。データベースに接続し、チャートやダッシュボードを作成できます。", "SQLに慣れた人はブラウザー上のSQLエディターで問い合わせを作り、その結果を可視化できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["コードを書かずにチャートを作る画面があるため、分析結果をチームと共有する入口を用意しやすくなります。", "複数の可視化をダッシュボードにまとめれば、同じ指標を定期的に確認できます。"]},
+    {"heading": "導入時の注意", "paragraphs": ["Supersetは接続したデータベースの内容を見せるため、データベースの接続情報と利用者ごとの権限設定が重要です。最初は閲覧専用の小さなデータセットから試しましょう。", "グラフを作る前に、指標の定義と更新時刻を関係者でそろえると、数字の解釈違いを減らせます。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/apache/superset"}]
+}

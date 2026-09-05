@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "caddy",
+  "title": "Caddy：HTTPS対応のWebサーバーを動かす",
+  "summary": "Caddyは、Webサイトやアプリケーションを公開するためのWebサーバーです。HTTPSを標準で扱い、設定ファイルを使って公開先を用意したいときに役立ちます。",
+  "repository": "caddyserver/caddy",
+  "category": "backend",
+  "tags": ["Webサーバー", "HTTPS", "リバースプロキシ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Webサイトを受け付けて配信する", "paragraphs": ["Caddyは、ブラウザーからのHTTPリクエストを受け取り、ファイルやアプリケーションの応答を返すサーバーです。", "公開する名前と接続先を設定し、アプリケーションの前に置くリバースプロキシとしても使えます。"]},
+    {"heading": "HTTPSの設定を始めやすい", "paragraphs": ["HTTPSを標準で扱うため、証明書を使ったWeb公開の入り口を作りやすくなります。", "設定を一つの文書にまとめられるため、小さなサイトや検証環境で公開の流れを学ぶのにも役立ちます。"]},
+    {"heading": "公開前に名前と権限を確認する", "paragraphs": ["HTTPSの自動設定には、公開するドメイン名が正しく接続先を指していることなどの条件があります。設定を理解せずに公開すると、意図しない内容を外部へ出すおそれがあります。", "本番へ変更を出す前に、検証用の環境で設定とアクセス制御を確認し、管理用の権限や証明書データを適切に保護してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/caddyserver/caddy"}]
+}

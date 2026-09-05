@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "slug": "wireshark",
+  "title": "Wireshark：ネットワーク通信を確認する",
+  "summary": "Wiresharkは、ネットワーク上を流れるパケットを見て調べるためのツールです。通信の内容を段階ごとに確認できるので、接続できない原因や想定外の通信を調べるときに役立ちます。",
+  "repository": "wireshark/wireshark",
+  "category": "developer-tools",
+  "tags": ["ネットワーク", "パケット", "解析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "通信をパケットとして見る",
+      "paragraphs": [
+        "Wiresharkは、ネットワーク通信をパケット単位で表示して調べるネットワーク解析ツールです。Linux、macOS、Windowsなどで使えます。",
+        "接続が失敗する場面で、要求が送られたか、応答が返ったかを順番にたどれるため、問題の場所を絞り込む助けになります。"
+      ]
+    },
+    {
+      "heading": "画面でも端末でも使える",
+      "paragraphs": [
+        "画面で通信を確認するWiresharkに加えて、同じ解析機能を使うコマンドラインツールのTSharkも配布されています。保存済みのキャプチャーファイルを確認する作業にも使えます。"
+      ]
+    },
+    {
+      "heading": "取得権限と情報の扱いに注意",
+      "paragraphs": [
+        "パケットを取得するには環境に応じた権限が必要です。公式READMEは、WiresharkやTSharkを管理者権限で実行しないよう案内しています。",
+        "通信には認証情報や個人情報が含まれることがあります。自分に許可されたネットワークだけを対象にし、キャプチャーファイルを共有するときは内容を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/wireshark/wireshark"}
+  ]
+}
