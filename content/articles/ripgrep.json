@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "developer-tools",
+  "repository": "BurntSushi/ripgrep",
+  "sections": [
+    {
+      "heading": "検索範囲を絞る",
+      "paragraphs": [
+        "ファイルの種類を指定し、対象に含めたり除外したりできます。",
+        "一致した行の前後を表示する機能も備えています。"
+      ]
+    },
+    {
+      "heading": "標準の除外を知る",
+      "paragraphs": [
+        ".gitignoreに加え、.ignoreや.rgignoreも参照します。",
+        "見つからない場合は、隠しファイルなどが対象外になっていないか確認しましょう。"
+      ]
+    },
+    {
+      "heading": "使い始める前に",
+      "paragraphs": [
+        "Windows、macOS、Linux向けの導入方法が紹介されています。",
+        "POSIX規格には準拠しないため、スクリプトで使う際は仕様を確認しましょう。"
+      ]
+    }
+  ],
+  "slug": "ripgrep",
+  "summary": "ripgrepは、ディレクトリ内のファイルを再帰的に検索するコマンドラインツールです。実行コマンドはrgで、正規表現やUnicodeを扱えます。標準では.gitignoreなどの除外設定を尊重し、隠しファイルやバイナリーファイルを検索から外します。ファイルの種類を指定した絞り込みもできるため、ソースコードの中から関数名や設定値を探す日常の調査に役立つ道具です。",
+  "tags": [
+    "CLI",
+    "検索",
+    "Rust"
+  ],
+  "title": "ripgrep：コードの中から必要な文字列を探す",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/BurntSushi/ripgrep"
+    }
+  ]
+}

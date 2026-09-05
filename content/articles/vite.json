@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "frontend",
+  "repository": "vitejs/vite",
+  "sections": [
+    {
+      "heading": "開発中の変更を反映",
+      "paragraphs": [
+        "開発サーバーは、ネイティブESモジュールを基盤にしています。",
+        "HMRは、コードを編集しながら画面を確かめる作業を支えます。"
+      ]
+    },
+    {
+      "heading": "本番向けの出力",
+      "paragraphs": [
+        "ビルドコマンドがコードをまとめ、静的アセットを出力します。",
+        "開発用サーバーと本番用ビルドの二つが、主要な構成要素です。"
+      ]
+    },
+    {
+      "heading": "拡張の入口",
+      "paragraphs": [
+        "プラグインAPIとJavaScript APIは、型情報を備えています。",
+        "READMEには、雛形作成用のcreate-viteも掲載されています。"
+      ]
+    }
+  ],
+  "slug": "vite",
+  "summary": "Viteは、Webフロントエンドの開発環境と本番向けのビルドを提供するツールです。開発サーバーはネイティブESモジュールを活用し、変更したモジュールを反映するHMRに対応しています。本番用のコマンドでは、配信用に最適化した静的アセットを生成できます。プラグインとJavaScript APIによる拡張も用意されており、プロジェクトに合わせて開発の仕組みを組み立てられます。",
+  "tags": [
+    "ビルド",
+    "HMR",
+    "JavaScript"
+  ],
+  "title": "Vite：画面の開発と本番ビルドを支える",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/vitejs/vite"
+    }
+  ]
+}

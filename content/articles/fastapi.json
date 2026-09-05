@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "backend",
+  "repository": "fastapi/fastapi",
+  "sections": [
+    {
+      "heading": "型から入力を検証",
+      "paragraphs": [
+        "整数などの型宣言を、パラメーターの検証と変換に利用します。",
+        "ネストしたJSONデータの検証にも対応しています。"
+      ]
+    },
+    {
+      "heading": "APIの仕様を確認",
+      "paragraphs": [
+        "OpenAPIとJSON Schemaに基づいています。",
+        "Swagger UIとReDocによる自動ドキュメントを利用できます。"
+      ]
+    },
+    {
+      "heading": "小さく動かす",
+      "paragraphs": [
+        "READMEには、簡単なエンドポイントと開発サーバーの起動例があります。",
+        "まず例を動かし、ブラウザーでAPIとドキュメントを確かめてみましょう。"
+      ]
+    }
+  ],
+  "slug": "fastapi",
+  "summary": "FastAPIは、Pythonの標準的な型ヒントを使ってAPIを構築するWebフレームワークです。引数やデータモデルの宣言をもとに、入力値の検証やデータ変換、対話的なAPIドキュメントの生成を行います。Web処理にはStarlette、データ処理にはPydanticを利用しています。APIの実装と入力の仕様を同じコードで表現したいときに、仕組みを確認したいプロジェクトです。",
+  "tags": [
+    "Python",
+    "API",
+    "型ヒント"
+  ],
+  "title": "FastAPI：Pythonの型宣言からAPIを作る",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/fastapi/fastapi"
+    }
+  ]
+}
