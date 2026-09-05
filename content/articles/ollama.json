@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "ai",
+  "repository": "ollama/ollama",
+  "sections": [
+    {
+      "heading": "できること",
+      "paragraphs": [
+        "モデルとの対話と、API経由での実行・管理に対応しています。",
+        "コーディング用エージェントとの接続例も紹介されています。"
+      ]
+    },
+    {
+      "heading": "アプリへの組み込み",
+      "paragraphs": [
+        "PythonとJavaScriptの利用例がREADMEに掲載されています。",
+        "REST APIのチャット例から、呼び出し方を確認できます。"
+      ]
+    },
+    {
+      "heading": "試すなら",
+      "paragraphs": [
+        "まず利用するOSの導入手順を確認し、モデルとの対話を試してみましょう。",
+        "詳しい操作は、READMEからCLIとAPIの資料へ進めます。"
+      ]
+    }
+  ],
+  "slug": "ollama",
+  "summary": "Ollamaは、オープンなAIモデルを動かし、アプリケーションから利用するためのツールです。コマンドラインでモデルと対話でき、REST APIやPython・JavaScriptのライブラリからも呼び出せます。macOS、Windows、Linux向けの導入手順とDockerイメージが用意されているため、手元での試作から既存の開発環境への接続まで、用途に合った入口を選べます。",
+  "tags": [
+    "LLM",
+    "API",
+    "ローカル開発"
+  ],
+  "title": "Ollama：AIモデルを試し、アプリにつなぐ",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/ollama/ollama"
+    }
+  ]
+}

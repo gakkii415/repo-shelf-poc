@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:repo-shelf:article:v1",
+  "title": "Repo Shelf article",
+  "description": "One Japanese repository recommendation per JSON file. All prose is plain text; Markdown is not rendered. The content.mjs runtime validator is the authoritative build gate.",
+  "$comment": "Runtime-only checks: filename must be a lowercase kebab-case basename equal to slug + '.json'; slug and repository must be unique ignoring case across all files, including drafts; tags must be unique ignoring case; sources must include a safe HTTPS github.com URL whose normalized repository path matches repository ignoring case. Runtime always validates real Gregorian dates including leap years and excludes year 0000, regardless of whether a schema validator asserts format. Runtime also validates normalized URL hosts and ports, rejects symlinks/nested directories, and limits file size to 256 KiB. JSON Schema maxLength counts Unicode code points; content.mjs uses JavaScript UTF-16 code units and can therefore be stricter for characters outside the BMP. Unknown object fields are rejected, including an in-document $schema field; associate this schema through editor configuration instead.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "slug",
+    "title",
+    "summary",
+    "repository",
+    "category",
+    "tags",
+    "publishedAt",
+    "verifiedAt",
+    "status",
+    "sections",
+    "sources"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "slug": {
+      "$ref": "#/$defs/plainText",
+      "maxLength": 80,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "$comment": "Runtime requires the exact filename '<slug>.json' and checks case-insensitive uniqueness across all records, including drafts."
+    },
+    "title": {
+      "$ref": "#/$defs/plainText",
+      "maxLength": 120
+    },
+    "summary": {
+      "$ref": "#/$defs/plainText",
+      "maxLength": 400
+    },
+    "repository": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 140,
+      "pattern": "^(?![A-Za-z0-9-]*--)[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?/(?!\\.{1,2}$)[A-Za-z0-9._-]{1,100}$",
+      "description": "GitHub owner/name identifier. Owner is 1–39 alphanumeric or hyphen characters, with no leading, trailing, or consecutive hyphens. Name is 1–100 alphanumeric, dot, underscore, or hyphen characters, excluding '.' and '..'.",
+      "$comment": "Runtime checks case-insensitive repository uniqueness across every article, including drafts, and requires a matching GitHub repository source."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["ai", "frontend", "backend", "developer-tools", "data", "automation"]
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/plainText",
+        "maxLength": 40
+      },
+      "$comment": "uniqueItems catches exact duplicates. Runtime additionally rejects tags that differ only by letter case."
+    },
+    "publishedAt": {
+      "$ref": "#/$defs/calendarDate"
+    },
+    "verifiedAt": {
+      "$ref": "#/$defs/calendarDate"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published"],
+      "description": "Only published articles appear in site output and published metrics. Drafts receive the same schema and duplicate checks."
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "$comment": "Runtime requires at least one safe HTTPS github.com source whose URL-normalized pathname, after removing one trailing slash, equals '/' + repository ignoring case. URL query strings and fragments do not affect the repository match."
+    }
+  },
+  "$defs": {
+    "plainText": {
+      "type": "string",
+      "minLength": 1,
+      "allOf": [
+        {
+          "pattern": "^\\S(?:[\\s\\S]*\\S)?(?![\\s\\S])"
+        },
+        {
+          "not": {
+            "pattern": "[<>\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f]"
+          }
+        }
+      ],
+      "description": "Nonempty text without surrounding whitespace, angle brackets, HTML, or unsafe control characters. Interior tabs and line breaks are permitted. Markdown syntax remains literal text."
+    },
+    "calendarDate": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 10,
+      "pattern": "^(?!0000)[0-9]{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01])$",
+      "format": "date",
+      "description": "A real Gregorian calendar date in YYYY-MM-DD format, with year 0001–9999.",
+      "$comment": "format may be annotation-only in a JSON Schema implementation. Runtime always checks days per month and leap years. No ordering, freshness, or future-date restriction is imposed; status alone controls publication."
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["heading", "paragraphs"],
+      "properties": {
+        "heading": {
+          "$ref": "#/$defs/plainText",
+          "maxLength": 120
+        },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 12,
+          "items": {
+            "$ref": "#/$defs/plainText",
+            "maxLength": 3000
+          }
+        },
+        "bullets": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 12,
+          "items": {
+            "$ref": "#/$defs/plainText",
+            "maxLength": 600
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url"],
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/plainText",
+          "maxLength": 120
+        },
+        "url": {
+          "type": "string",
+          "maxLength": 2048,
+          "format": "uri",
+          "pattern": "^[Hh][Tt][Tt][Pp][Ss]://[^\\s\\\\<>\\u0000-\\u001f\\u007f]+$",
+          "description": "HTTPS source URL without whitespace, backslashes, angle brackets, or control characters.",
+          "$comment": "Runtime uses the WHATWG URL parser and requires a DNS-style host containing a dot, with no trailing dot, IP address, credentials, non-default port, or localhost/local/internal/test/invalid suffix. Each normalized DNS label must contain only alphanumeric characters and internal hyphens and be 1–63 characters. This syntax schema is intentionally supplemented by the authoritative runtime URL checks; schema-only validation does not establish a safe source URL."
+        }
+      }
+    }
+  }
+}

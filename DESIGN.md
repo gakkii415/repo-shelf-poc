@@ -350,14 +350,12 @@ Yesの場合、装飾を追加する前に、構成、情報階層、コンテ�
 
 ## Project Direction
 
-- Product / users / primary task:
-- Context of use / target devices:
-- Desired impression:
-- Information density / hierarchy:
-- Reference products / source URLs:
-- Selected reference dimensions / what to borrow:
-- What not to copy / avoid:
-- Structural direction:
-- Typography / color / spacing / shape direction:
-- Motion / responsive direction:
-- Durable design decisions:
+- Product / users / primary task: 開発に使うGitHubリポジトリを日本語の紹介文で探す。記事の投稿は別AIがGitHub経由で行う。
+- Context: スマートフォンで用途と概要を素早く比較し、記事から公式リポジトリへ進む。
+- Structure: カードのグリッド案と、区切り線で並べる索引案を比較。長さが異なる日本語タイトルと100記事の走査には索引型が適するため採用。
+- Hierarchy: 検索 → カテゴリ → 件数・並べ替え → 記事一覧。詳細はタイトル・要約・GitHubリンク → 本文 → 確認日と出典。PCでは出典を右カラムへ配置。
+- Typography: 本文16px、一覧見出し20/18px、記事見出し36/28px。owner/repoは等幅文字。日本語システムフォントで外部フォントの待ち時間をなくす。
+- Color / surface: 冷白の地に濃紺の文字。青はリンクとカテゴリに使う。独立カードや大きな宣伝用Heroを設けない。
+- Signature: owner/repositoryの表記を全記事で同じ位置に置く技術索引。
+- Responsive: スマホでは20pxの外側余白、横スクロールするカテゴリ、1列の記事。20件ごとに表示し、検索条件をURLに保存。
+- References / QA: GitHubのリポジトリ一覧を情報構造の参照とした。実画面・Computed Stylesの視覚確認は未実施。この環境では明示的なブラウザ検証依頼がないため、ソースの独立レビューと生成物の検査に限定した。デザイン参照完了とは扱わない。

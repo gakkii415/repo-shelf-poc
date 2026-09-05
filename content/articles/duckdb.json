@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "data",
+  "repository": "duckdb/duckdb",
+  "sections": [
+    {
+      "heading": "ファイルを問い合わせる",
+      "paragraphs": [
+        "READMEには、CSVとParquetを直接参照するSQL例があります。",
+        "まず小さなファイルを読み、必要な行や列を確かめてみましょう。"
+      ]
+    },
+    {
+      "heading": "分析に使うSQL",
+      "paragraphs": [
+        "ウィンドウ関数や相関サブクエリーに対応しています。",
+        "配列、構造体、マップといった複合型も扱えます。"
+      ]
+    },
+    {
+      "heading": "使う環境を選ぶ",
+      "paragraphs": [
+        "CLIのほか、Python、R、Javaなどのクライアントがあります。",
+        "pandasやdplyrとの連携も、公式READMEで紹介されています。"
+      ]
+    }
+  ],
+  "slug": "duckdb",
+  "summary": "DuckDBは、アプリケーションのプロセス内で利用できる分析向けのSQLデータベースです。単独のコマンドラインアプリに加え、PythonやRなどのクライアントも提供されています。CSVやParquetは、SQLのFROM句でファイルを指定して読み取れます。ウィンドウ関数や複合型を扱うSQL機能も備え、手元のデータを集計したり、既存の分析コードと組み合わせたりする入口になります。",
+  "tags": [
+    "SQL",
+    "データ分析",
+    "Parquet"
+  ],
+  "title": "DuckDB：ファイルのデータをSQLで分析する",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/duckdb/duckdb"
+    }
+  ]
+}

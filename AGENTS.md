@@ -16,3 +16,11 @@
 - リポジトリ構成、依存関係、恒常文書は必要最小限に保つ。
 
 <!-- repository-creator:managed:end -->
+
+## Repo Shelfの投稿
+
+- 記事追加時は `docs/AI_PUBLISHING.md` と `article.schema.json`、既存JSONを読む。
+- 1記事1JSON。投稿のみの依頼では画面コードとスキーマを変更しない。
+- 作業ブランチとPRを使用し、main反映前に全件検査と別担当の内容レビューを行う。
+- `npm run check` が失敗した状態で配信しない。生成物distを記事の正本にしない。
+- GitHub Pagesが投稿後に自動更新される正本。Sitesは別途再公開が必要な確認用コピー。

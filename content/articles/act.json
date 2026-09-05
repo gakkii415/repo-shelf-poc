@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "automation",
+  "repository": "nektos/act",
+  "sections": [
+    {
+      "heading": "変更を手元で確認",
+      "paragraphs": [
+        "ワークフローファイルやアクションの変更を、ローカルで試せます。",
+        "早く結果を確認することが、主な用途の一つです。"
+      ]
+    },
+    {
+      "heading": "実行の仕組み",
+      "paragraphs": [
+        "Docker APIで必要なイメージを取得、またはビルドします。",
+        "定義された依存関係から実行順を決め、コンテナーを起動します。"
+      ]
+    },
+    {
+      "heading": "日常の作業にも使う",
+      "paragraphs": [
+        "GitHub Actionsの定義を、ローカルのタスク実行にも利用できます。",
+        "設定方法を調べるときは、README内のユーザーガイドへ進めます。"
+      ]
+    }
+  ],
+  "slug": "act",
+  "summary": "actは、GitHub Actionsのワークフローをローカルで実行するためのツールです。.github/workflowsの定義を読み、必要な処理と依存関係を確認して、Dockerを使って実行します。ワークフローの変更を試すたびにコミットしてプッシュする手間を減らせるほか、同じ定義を日常のローカル作業にも利用できます。CIの設定を編集しながら動きを確認したいときに役立ちます。",
+  "tags": [
+    "GitHub Actions",
+    "CI",
+    "Docker"
+  ],
+  "title": "act：GitHub Actionsを手元で試す",
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/nektos/act"
+    }
+  ]
+}

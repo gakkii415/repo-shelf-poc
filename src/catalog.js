@@ -1,0 +1,51 @@
+const form = document.querySelector('#search-form');
+const input = document.querySelector('#search');
+const sort = document.querySelector('#sort');
+const rows = [...document.querySelectorAll('.repo-row')];
+const filters = [...document.querySelectorAll('.filter')];
+const list = document.querySelector('#repo-list');
+const count = document.querySelector('#result-count');
+const empty = document.querySelector('#empty');
+const pagination = document.querySelector('#pagination');
+const params = new URLSearchParams(location.search);
+const limit = 20;
+let category = filters.some(b => b.dataset.category === params.get('category')) ? params.get('category') : 'all';
+let page = Math.max(1, Number.parseInt(params.get('page'), 10) || 1);
+input.value = params.get('q') || '';
+sort.value = params.get('sort') === 'name' ? 'name' : 'newest';
+document.querySelector('#controls').hidden = false;
+function render(updateUrl = true) {
+  const query = input.value.trim().toLocaleLowerCase('ja');
+  const words = query.split(/\s+/).filter(Boolean);
+  const matches = rows.filter(row => (category === 'all' || row.dataset.category === category) && words.every(word => row.dataset.search.includes(word)));
+  matches.sort((a,b) => sort.value === 'name' ? a.dataset.repository.localeCompare(b.dataset.repository) : b.dataset.date.localeCompare(a.dataset.date) || a.dataset.repository.localeCompare(b.dataset.repository));
+  const pages = Math.max(1, Math.ceil(matches.length / limit));
+  page = Math.min(page, pages);
+  rows.forEach(row => row.hidden = true);
+  matches.forEach((row,index) => { list.append(row); row.hidden = index < (page - 1) * limit || index >= page * limit; });
+  filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === category)));
+  count.textContent = `${matches.length}件のリポジトリ`;
+  empty.hidden = matches.length !== 0;
+  pagination.hidden = pages <= 1;
+  document.querySelector('#page-label').textContent = `${page} / ${pages}`;
+  document.querySelector('#previous').disabled = page <= 1;
+  document.querySelector('#next').disabled = page >= pages;
+  if (updateUrl) {
+    const next = new URLSearchParams();
+    if (input.value.trim()) next.set('q', input.value.trim());
+    if (category !== 'all') next.set('category', category);
+    if (sort.value !== 'newest') next.set('sort', sort.value);
+    if (page > 1) next.set('page', String(page));
+    history.replaceState(null, '', `${location.pathname}${next.size ? '?' + next : ''}`);
+  }
+  const returnTo = location.pathname + location.search;
+  rows.forEach(row => { const url = new URL(row.href); url.searchParams.set('from', returnTo); row.href = url.href; });
+}
+form.addEventListener('submit', event => event.preventDefault());
+input.addEventListener('input', () => { page = 1; render(); });
+sort.addEventListener('change', () => { page = 1; render(); });
+filters.forEach(button => button.addEventListener('click', () => { category = button.dataset.category; page = 1; render(); }));
+document.querySelector('#clear').addEventListener('click', () => { input.value = ''; category = 'all'; page = 1; render(); input.focus(); });
+document.querySelector('#previous').addEventListener('click', () => { page--; render(); list.scrollIntoView({block:'start'}); });
+document.querySelector('#next').addEventListener('click', () => { page++; render(); list.scrollIntoView({block:'start'}); });
+render();
