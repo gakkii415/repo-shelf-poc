@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "fastlane",
+  "title": "fastlane：モバイルアプリの公開作業を自動化する",
+  "summary": "fastlaneは、iOSとAndroidのアプリ開発で繰り返す作業を自動化するツールです。スクリーンショットの作成、署名に関する設定、ストアへの公開といった作業をまとめて実行できます。",
+  "repository": "fastlane/fastlane",
+  "category": "automation",
+  "tags": ["iOS", "Android", "リリース自動化"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "fastlaneは、iOSとAndroidのアプリを作って公開するまでに繰り返す作業を自動化するツールです。",
+        "スクリーンショットの作成、署名用の設定、アプリの公開などを決めた手順で実行できます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "手作業で同じ手順を何度も行う代わりに、設定した処理を実行できます。",
+        "チームで公開手順をそろえやすくなり、作業の抜け漏れを減らす助けになります。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "ストアへの公開や署名には、それぞれの開発者アカウントと認証情報が必要です。認証情報を設定ファイルやソースコードに直接入れないようにしましょう。",
+        "自動化する前に、今の公開手順を小さな単位に分けて確認しておくと設定しやすくなります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/fastlane/fastlane"}
+  ]
+}

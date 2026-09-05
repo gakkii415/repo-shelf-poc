@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "nest",
+  "title": "Nest：TypeScriptでサーバーアプリを構成する",
+  "summary": "Nestは、TypeScriptとJavaScriptでサーバー側のアプリケーションを作るNode.jsフレームワークです。モジュール、コントローラー、サービスという単位でコードを整理できます。",
+  "repository": "nestjs/nest",
+  "category": "backend",
+  "tags": ["TypeScript", "Node.js", "サーバー"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["NestはNode.js上で動くサーバーアプリケーション向けのフレームワークです。TypeScriptまたはJavaScriptで、APIなどのサーバー側の機能を実装できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["モジュールで機能をまとめ、コントローラーで受け付ける処理を定義し、サービスに役割を分けられます。プロジェクトが大きくなっても、処理の置き場所を考えやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Nestにはアプリの構成に関する考え方があります。小さな例でもモジュール、コントローラー、サービスの関係を確認し、役割ごとに分ける理由をつかんでから機能を増やしましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/nestjs/nest"}]
+}

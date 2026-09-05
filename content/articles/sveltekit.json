@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "sveltekit",
+  "title": "SvelteKit：Svelteのアプリケーションを作る基盤",
+  "summary": "SvelteKitはSvelteを使うWebアプリケーション向けのフレームワークです。ルーティング、サーバー側の処理、ページのレンダリングを扱えます。アプリをさまざまな環境へ配信するためのアダプターも用意されています。",
+  "repository": "sveltejs/kit",
+  "category": "frontend",
+  "tags": ["Svelte", "フレームワーク", "ルーティング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするリポジトリか", "paragraphs": ["SvelteKitは、SvelteでWebアプリケーションを作るためのフレームワークです。ファイルを基にしたルーティングと、ページに関連するサーバー側の処理を提供します。"]},
+    {"heading": "役立つ場面", "paragraphs": ["ページの表示とデータの読み込みを近い場所にまとめられます。配信先に合わせてアダプターを選べるため、アプリの出力方法を環境に合わせて構成できます。"]},
+    {"heading": "使う前に確認したい点", "paragraphs": ["SvelteKitはSvelteの上に作られています。Svelteコンポーネントと、そのコンポーネントで使う構文を理解しておくと、ルートごとの実装を読みやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/sveltejs/kit"}]
+}

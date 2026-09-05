@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "keycloak",
+  "title": "Keycloak：認証とアクセス管理をまとめる",
+  "summary": "Keycloakは、アプリケーションへの認証追加とサービス保護を支援するオープンソースのID・アクセス管理ソフトウェアです。ユーザー管理、強い認証、細かな認可などを提供します。",
+  "repository": "keycloak/keycloak",
+  "category": "backend",
+  "tags": ["認証", "認可", "ID管理"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "これは何か",
+      "paragraphs": ["アプリケーションに認証を追加し、サービスを保護するためのID・アクセス管理ソフトウェアです。利用者をアプリごとに保存・認証する処理を減らせます。"]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": ["ユーザーフェデレーション、強い認証、ユーザー管理、細かな認可をまとめて扱えます。開発用の起動手順とDockerイメージによる起動例がREADMEにあります。"]
+    },
+    {
+      "heading": "注意点",
+      "paragraphs": ["READMEの起動例は開発用の開始方法です。運用で使う設定や詳細な手順は、公式ドキュメントを確認して決める必要があります。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/keycloak/keycloak"}]
+}

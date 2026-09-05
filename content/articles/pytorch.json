@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "pytorch",
+  "title": "PyTorch：柔軟に機械学習モデルを作る",
+  "summary": "PyTorchは、Pythonでニューラルネットワークを組み立て、学習と推論を行うための機械学習フレームワークです。",
+  "repository": "pytorch/pytorch",
+  "category": "ai",
+  "tags": ["Python", "深層学習", "テンソル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["PyTorchは、数値のまとまりであるテンソルを使って、画像分類や文章処理などのニューラルネットワークをPythonで作るための基盤です。計算式をそのままコードの流れとして書けます。"]},
+    {"heading": "役立つ点", "paragraphs": ["モデルの部品を組み合わせ、計算結果から自動で勾配を求めて学習できます。小さな演習では、テンソル計算と単純な分類モデルから試すと、学習の流れを追いやすいです。"]},
+    {"heading": "始める前の注意", "paragraphs": ["学習の処理は計算資源とデータの準備が必要です。まずは公式チュートリアルの小さな例を動かし、入力の形と損失の意味を確認してからモデルを複雑にしましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/pytorch/pytorch"}]
+}

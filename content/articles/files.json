@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "files",
+  "title": "Files：Windowsでファイルを整理する",
+  "summary": "Filesは、Windowsでファイルとフォルダーを整理するためのファイルマネージャーです。複数の作業を進める機能、ファイルタグ、Windowsとの連携を備えています。",
+  "repository": "files-community/Files",
+  "category": "developer-tools",
+  "tags": ["Windows", "ファイル管理", "整理"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Filesは、Windowsでファイルとフォルダーを整理するためのファイルマネージャーです。",
+        "ファイルの操作だけでなく、複数の作業を進める機能やファイルタグも備えています。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "作業中のファイルやフォルダーを見つけ、整理するための画面をまとめて使えます。",
+        "タグを使うと、フォルダーの場所だけでは分けにくいファイルにも目印を付けられます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "このプロジェクトはWindows向けのファイルマネージャーです。ほかのOSでは使えません。",
+        "プレビュー版は安定版と並べて使えますが、早い段階の変更が含まれます。大切な作業では安定版を選びましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/files-community/Files"}
+  ]
+}

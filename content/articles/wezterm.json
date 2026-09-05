@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "wezterm",
+  "title": "WezTerm：画面分割もできる端末アプリ",
+  "summary": "WezTermは、GPUを利用する複数OS対応の端末アプリです。端末を複数の画面に分けて管理するマルチプレクサー機能も備えています。ひとつの端末で複数の作業を並べて扱いたいときに役立ちます。導入方法と設定の詳細は公式ガイドで確認し、使うOS向けの手順に従う必要があります。",
+  "repository": "wezterm/wezterm",
+  "category": "developer-tools",
+  "tags": ["端末", "GPU", "画面分割"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "WezTermとは",
+      "paragraphs": [
+        "WezTermは、コマンドを入力する端末アプリです。GPUを使った画面表示に対応し、複数のOSで利用できます。",
+        "マルチプレクサー機能も持ちます。マルチプレクサーは、ひとつの端末で複数の作業画面を扱うための仕組みです。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "端末を使う作業を、ひとつのアプリでまとめる入口になります。複数の作業を扱う端末環境を選びたい場合に確認できます。",
+        "公式リポジトリから利用者向けのガイドへ進めるため、導入後の設定や使い方を調べる場所が分かります。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "公式READMEでは、導入方法を別の公式ガイドで案内しています。OSごとに必要な手順があるため、使用中のOS向けの説明を確認してから導入しましょう。",
+        "このプロジェクトは空いた時間に進められているとREADMEに記載されています。困ったときは、既存のIssueやDiscussionも確認できます。"
+      ]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/wezterm/wezterm"}]
+}

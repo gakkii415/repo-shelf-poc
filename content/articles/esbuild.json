@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "esbuild",
+  "title": "esbuild：Web向けコードをまとめて最適化する",
+  "summary": "esbuildは、JavaScriptを中心とするWeb向けコードをまとめるバンドラーです。JavaScript、TypeScript、CSS、JSXを扱い、不要なコードの削除や圧縮、ソースマップの出力にも対応します。CLI、JavaScript、GoのAPIから利用できます。",
+  "repository": "evanw/esbuild",
+  "category": "frontend",
+  "tags": ["JavaScript", "ビルド", "TypeScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["esbuildは、Web向けのコードをまとめるバンドラーです。公式READMEでは、JavaScript、TypeScript、CSS、JSXを組み込みで扱えると案内されています。", "ESMとCommonJSのモジュールをまとめ、必要に応じて圧縮やソースマップの出力もできます。"]},
+    {"heading": "役立つ点", "paragraphs": ["コマンドラインだけでなく、JavaScriptやGoのAPIからビルド処理を呼び出せます。既存の開発用スクリプトやツールに組み込みやすい選択肢です。", "watchモード、ローカルサーバー、プラグインも用意されているため、開発中の確認から配布用ファイルの作成までを支えられます。"]},
+    {"heading": "使う前の注意", "paragraphs": ["ビルドでは、出力形式、実行する環境、ソースマップの扱いを決める必要があります。まず小さな入力ファイルで、生成物が想定した環境で動くか確認しましょう。", "既存のバンドラーから移す場合は、設定やプラグインに依存している処理を洗い出してから試すと安全です。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/evanw/esbuild"}]
+}

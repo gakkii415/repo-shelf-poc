@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "graphite",
+  "title": "Graphite：ノードで2Dグラフィックを作る",
+  "summary": "Graphiteは、グラフィックデザイン、デジタルアート、動きのある表現を作るための2D制作アプリケーションです。ノードをつないで処理を組み立て、見た目を調整したいときに役立ちます。",
+  "repository": "GraphiteEditor/Graphite",
+  "category": "developer-tools",
+  "tags": ["グラフィック", "ノード", "2D"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "2Dの表現を組み立てる", "paragraphs": ["Graphiteは、グラフィックデザインやデジタルアート、動きのある2D表現を作るためのアプリケーションです。", "図形や画像の見た目を扱い、作品や素材を制作する土台になります。"]},
+    {"heading": "ノードで変更の流れを見える化する", "paragraphs": ["ノードは、入力を受け取り、加工して次へ渡す部品です。Graphiteではノードをつないで、グラフィックを作る処理を組み立てます。", "変更の流れをたどりやすく、同じ構成を調整しながら試せる点が利点です。"]},
+    {"heading": "小さな構成から慣れる", "paragraphs": ["ノードが増えると、どこで見た目が変わっているか分かりにくくなることがあります。", "最初は少ないノードで一つの効果を試し、つながりに名前や整理の工夫を加えましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/GraphiteEditor/Graphite"}]
+}

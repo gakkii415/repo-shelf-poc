@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "trpc",
+  "title": "tRPC：型を共有してAPIを呼び出す",
+  "summary": "tRPCは、TypeScriptでエンドツーエンドに型安全なAPIを作るための仕組みです。サーバーで定義した処理を、クライアントから型情報を保って呼び出せます。",
+  "repository": "trpc/trpc",
+  "category": "backend",
+  "tags": ["TypeScript", "API", "型安全"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["tRPCはTypeScript向けのAPI作成ツールです。サーバー側で定義したプロシージャを、クライアント側から呼び出す形でデータをやり取りできます。"]},
+    {"heading": "役立つ点", "paragraphs": ["サーバーとクライアントで型情報を利用できるため、呼び出し時の引数や戻り値をコード上で確認しやすくなります。APIの呼び出しをTypeScriptの関数に近い感覚で扱えます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["型情報を共有する利点を得るには、TypeScriptでサーバーとクライアントを扱う構成が必要です。外部向けに広く公開するHTTP APIが必要な場合は、その公開方法と仕様の伝え方も別に検討しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/trpc/trpc"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "vscode",
+  "title": "Visual Studio Code：編集からデバッグまでを支えるコードエディター",
+  "summary": "Visual Studio Codeは、プログラムを書くためのコードエディターです。コードの編集、目的の場所への移動、内容の確認、デバッグを一つのアプリで行えます。拡張機能は、基本機能を後から追加する仕組みです。多くの言語向けの拡張機能や、既存の開発ツールとつなぐ機能があるため、最初の開発環境を整える入口になります。",
+  "repository": "microsoft/vscode",
+  "category": "developer-tools",
+  "tags": ["コードエディター", "デバッグ", "拡張機能"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "できること", "paragraphs": ["コードを書き、ファイル内を移動し、コードの意味を確認するための機能があります。", "デバッグは、プログラムを止めて値や処理の流れを調べる作業です。軽量なデバッグ機能も用意されています。"]},
+    {"heading": "拡張して使う", "paragraphs": ["拡張機能は、エディターに機能を足す小さな追加部品です。Visual Studio Codeには、拡張するための仕組みがあります。", "リポジトリには、多くの言語向けの文法表示や短縮入力のための組み込み拡張機能もあります。"]},
+    {"heading": "知っておきたいこと", "paragraphs": ["このリポジトリは、Code - OSSという公開ソースを開発する場所です。", "一般に配布されるVisual Studio CodeにはMicrosoft固有の変更があり、ライセンスもこのリポジトリのMITライセンスとは異なります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/microsoft/vscode"}]
+}

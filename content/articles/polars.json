@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "polars",
+  "title": "Polars：表データの問い合わせを組み立てる",
+  "summary": "Polarsは、DataFrameに対する分析用の問い合わせを扱うためのライブラリです。",
+  "repository": "pola-rs/polars",
+  "category": "data",
+  "tags": ["DataFrame", "Python", "Rust"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Polarsは、Rustで書かれたDataFrame向けの分析クエリエンジンです。Python、Rust、Node.js、R、SQL向けの利用方法が案内されており、表データへの処理を式として組み立てられます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["読み込み、絞り込み、グループ化、集計、並べ替えといった処理をつなげて書けます。遅延実行の問い合わせでは、処理の内容を先に表し、実行時に最適化を任せるという考え方も学べます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["DataFrameの操作に慣れていない場合は、式と実行の区別が最初のつまずきになりやすいです。小さなParquetまたはCSVを使い、各段階で結果を確認しながら進めましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/pola-rs/polars"}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "tailwindcss",
+  "title": "Tailwind CSS：小さなCSSの部品で画面を組み立てる",
+  "summary": "Tailwind CSSは、画面をすばやく作るためのユーティリティーファーストなCSSフレームワークです。余白、色、配置などの小さな役割を持つクラスを組み合わせて、自分のユーザーインターフェースを作れます。既成の見た目に合わせるより、プロジェクトに合う画面を細かく組み立てたいときに向きます。",
+  "repository": "tailwindlabs/tailwindcss",
+  "category": "frontend",
+  "tags": ["CSS", "UI", "ユーティリティー"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Tailwind CSSは、カスタムユーザーインターフェースをすばやく作るためのCSSフレームワークです。",
+        "ユーティリティーファーストとは、見た目のための小さなクラスを組み合わせて画面を作る考え方です。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "自分のサービスに合わせた見た目を作りたいとき、必要なスタイルを部品のように組み合わせられます。",
+        "画面のHTMLの近くで見た目を調整したい場合にも、作業の場所を行き来しにくくなります。"
+      ]
+    },
+    {
+      "heading": "使う前に考えること",
+      "paragraphs": [
+        "Tailwind CSSは、完成済みの画面部品を選ぶ道具ではなく、自分でユーザーインターフェースを組み立てるための道具です。",
+        "最初はクラスの役割を覚える必要があるため、小さな画面から試すと理解しやすくなります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/tailwindlabs/tailwindcss"}
+  ]
+}

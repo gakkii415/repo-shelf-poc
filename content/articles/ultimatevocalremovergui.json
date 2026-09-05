@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "ultimatevocalremovergui",
+  "title": "Ultimate Vocal Remover：音声をパートに分ける",
+  "summary": "Ultimate Vocal Removerは、音楽ファイルから歌声や伴奏などを分けて書き出すためのデスクトップアプリです。",
+  "repository": "Anjok07/ultimatevocalremovergui",
+  "category": "ai",
+  "tags": ["音声処理", "デスクトップ", "機械学習"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Ultimate Vocal Removerは、深層学習を使って音楽の中の歌声や伴奏を分離するための画面付きアプリです。元の音楽ファイルを入力し、分けた音声を別ファイルとして書き出せます。"]},
+    {"heading": "役立つ点", "paragraphs": ["歌声だけを聞いて練習したい、伴奏だけを確認したいといった場面で、音声を分けて扱えます。短い音源で試し、分離後の音をヘッドホンでも確認すると、目的に合う設定を選びやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["分離は元の音を完全に元通りのパートへ分けるものではなく、音が混ざったり欠けたりすることがあります。使用する音源の著作権や利用許諾を確認し、許可のない再配布は避けてください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/Anjok07/ultimatevocalremovergui"}]
+}

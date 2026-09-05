@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "pipx",
+  "title": "pipx：Pythonのコマンドを分けて入れる",
+  "summary": "pipxは、Pythonで作られたコマンドラインアプリを、アプリごとに分けた環境へインストールして実行するツールです。依存関係の衝突を避けながら、コマンドを普段の端末から使えます。",
+  "repository": "pypa/pipx",
+  "category": "developer-tools",
+  "tags": ["Python", "CLI", "パッケージ管理"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Python製のアプリを使う",
+      "paragraphs": [
+        "pipxは、Pythonで作られた利用者向けアプリをインストールして実行するためのツールです。ライブラリーをプログラムから読み込む目的ではなく、端末で直接使うコマンドを扱います。",
+        "pipを使いますが、コマンドラインアプリの管理に焦点を当てています。"
+      ]
+    },
+    {
+      "heading": "アプリごとに環境を分ける",
+      "paragraphs": [
+        "pipx installでは、アプリを分離した環境に入れ、そのCLIの入口を使えるようにします。READMEでは、依存関係の衝突を防ぎ、削除もしやすいことを特徴として説明しています。",
+        "一時的な環境でアプリを実行するpipx runも用意されています。"
+      ]
+    },
+    {
+      "heading": "PATHの設定を確認する",
+      "paragraphs": [
+        "インストールしたコマンドを端末から呼ぶには、CLIの入口がPATHから見つかる必要があります。READMEの導入手順にも、PATHを設定するensurepathが出てきます。",
+        "コマンドが見つからないときは、アプリのインストールだけでなく、端末を再起動したかやPATHの設定も確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/pypa/pipx"}
+  ]
+}

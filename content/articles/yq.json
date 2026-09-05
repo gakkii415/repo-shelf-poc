@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "yq",
+  "title": "yq：YAMLなどの設定データをコマンドで扱う",
+  "summary": "yqは、YAML、JSON、XMLなどのデータをターミナルで読む、書き換える、形式を変えるためのツールです。YAMLは、設定ファイルによく使われる、字下げで構造を表す形式です。必要な値を取り出したり、複数の設定ファイルをまとめたりできます。",
+  "repository": "mikefarah/yq",
+  "category": "data",
+  "tags": ["CLI", "YAML", "JSON", "設定ファイル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "yqとは",
+      "paragraphs": [
+        "yqは、YAML、JSON、INI、XMLを扱うコマンドラインツールです。公式READMEでは、CSV、TSV、TOML、HCL、properties形式も扱えると説明されています。",
+        "JSON処理ツールjqに似た書き方を使い、YAMLファイルの値を読むことや、その場で書き換えることができます。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "設定ファイルの一部だけを確認したいときや、同じ変更を複数のファイルに適用したいときに役立ちます。",
+        "公式READMEには、複数ファイルをまとめる例と、JSONからYAML、YAMLからJSONへ変換する例があります。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "公式READMEでは、yqはjqのすべての機能には対応していないと説明されています。jqの式を使う場合は、必要な操作がyqで対応しているか確認しましょう。",
+        "ファイルを直接書き換える操作もあるため、初めはコピーした設定ファイルで試すと安心です。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/mikefarah/yq"
+    }
+  ]
+}

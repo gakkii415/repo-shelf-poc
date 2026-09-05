@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "angular",
+  "title": "Angular：Webアプリを作る開発プラットフォーム",
+  "summary": "Angularは、Webアプリケーションを作るための開発プラットフォームです。コンポーネントを中心に画面を構成し、テンプレートで表示を定義できます。アプリの構造をそろえながら、より大きな画面や機能へ広げていくときに使えます。",
+  "repository": "angular/angular",
+  "category": "frontend",
+  "tags": ["TypeScript", "Webアプリ", "コンポーネント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Angularは、Webアプリケーションを作るための開発プラットフォームです。コンポーネントとテンプレートを使って、画面の構成と表示を定義します。"]},
+    {"heading": "役立つ点", "paragraphs": ["画面をコンポーネントに分けることで、機能ごとの役割を整理できます。アプリケーションを作るための仕組みがまとまっているため、一定の形で開発を進めやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Angularには画面作りに関わる仕組みが多くあります。まず公式ガイドの基本チュートリアルを進め、コンポーネントとテンプレートの関係を確かめてから使い始めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/angular/angular"}]
+}

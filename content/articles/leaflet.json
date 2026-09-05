@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "leaflet",
+  "title": "Leaflet：Webページに操作できる地図を置く",
+  "summary": "Leafletは、モバイルでも使いやすい操作可能な地図をWebページに表示するためのJavaScriptライブラリです。地点や区域を地図と一緒に見せたいときに役立ちます。",
+  "repository": "Leaflet/Leaflet",
+  "category": "frontend",
+  "tags": ["地図", "JavaScript", "Web"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Webページに地図を表示する", "paragraphs": ["Leafletは、Webページ上に拡大・移動できる地図を表示するためのJavaScriptライブラリです。", "地点の印、線、区域などを重ねて、場所に関する情報を分かりやすく見せられます。"]},
+    {"heading": "利用者が地図を操作できる", "paragraphs": ["利用者は地図を動かし、詳しく見たい場所を拡大できます。", "一覧だけでは伝わりにくい位置関係を、触りながら確認できる形にできる点が利点です。"]},
+    {"heading": "地図データの利用条件を守る", "paragraphs": ["表示する地図タイルや位置データには、出典の表示や利用条件がある場合があります。", "データ提供元の利用規約と著作権表示を確認し、公開前に位置情報の扱いが適切か確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/Leaflet/Leaflet"}]
+}

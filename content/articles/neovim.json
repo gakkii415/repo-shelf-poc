@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "neovim",
+  "title": "Neovim：拡張しやすさを目指すVim系エディター",
+  "summary": "Neovimは、Vimを整理し直して作られたテキストエディターです。端末で使うことができ、複数の言語からAPIを通じて操作できます。APIは、ほかのプログラムから機能を呼び出す窓口です。プラグインや画面を自分の用途に合わせて組み立てたい人が、仕組みを学ぶための選択肢になります。",
+  "repository": "neovim/neovim",
+  "category": "developer-tools",
+  "tags": ["テキストエディター", "Vim", "API"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Vimを土台にしたエディター", "paragraphs": ["Neovimは、Vimを大きく整理し直し、保守しやすさと拡張しやすさを目指すプロジェクトです。", "コアを変えずに高度な画面を作れるようにすることも、プロジェクトの目的に含まれています。"]},
+    {"heading": "自動化や連携", "paragraphs": ["CやPython、JavaScriptなど、多くの言語からAPIを利用できます。", "端末をエディター内に組み込んで操作する機能や、非同期で処理を動かす機能もあります。"]},
+    {"heading": "使い始める前に", "paragraphs": ["Windows、macOS、Linux向けに、あらかじめ作られた配布物が用意されています。", "Vimから移る人向けには公式の移行手順があります。設定や操作の違いを確認してから試すと安心です。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/neovim/neovim"}]
+}

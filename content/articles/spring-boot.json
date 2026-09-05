@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "spring-boot",
+  "title": "Spring Boot：Javaのアプリケーションを始めやすくする",
+  "summary": "Spring Bootは、Springを使ったJavaアプリケーションやサービスを作るための仕組みです。組み込みサーバー、設定、ヘルスチェックなど、よく使う機能を用意し、少ない設定で開発を始められます。",
+  "repository": "spring-projects/spring-boot",
+  "category": "backend",
+  "tags": ["Java", "Spring", "Webアプリ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Spring Bootは、Springを使うアプリケーションやサービスを作るための仕組みです。単独で起動できるJavaアプリケーションや、従来のWAR形式の配布を作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["よくある初期設定を用意し、組み込みサーバー、セキュリティ、メトリクス、ヘルスチェック、外部設定などを使えます。XML設定やコード生成を必須にしない方針もREADMEで示されています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Spring Bootには標準的な設定と作法があります。既定の動きをそのまま使う部分と変更する部分を分け、公式の入門ガイドで小さなアプリケーションから試すと理解しやすいです。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/spring-projects/spring-boot"}]
+}

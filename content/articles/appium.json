@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "appium",
+  "title": "Appium：さまざまなアプリを自動操作して試す",
+  "summary": "Appiumは、WebDriverの仕組みを使ってモバイル、デスクトップ、IoTなどのアプリを自動操作するオープンソースのテスト基盤です。対象のプラットフォームに合わせてドライバーを追加し、好みの言語でテストを書けます。",
+  "repository": "appium/appium",
+  "category": "developer-tools",
+  "tags": ["WebDriver", "テスト自動化", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Appiumは、アプリを自動操作して動きを確かめるためのテスト基盤です。モバイル、デスクトップ、IoTなど、複数の種類のアプリを対象にできます。",
+        "WebDriverという共通の仕組みを使い、対象の端末ごとに必要なドライバーを追加して使います。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "Java、Python、Ruby、C#などのクライアントを使い、慣れた言語でテストを書けます。",
+        "ドライバーやプラグインを追加する形なので、対象のプラットフォームに合わせて機能を広げられます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Appium本体だけでは端末を自動操作できません。試したいプラットフォーム用のドライバーと、その端末用の開発環境を別に準備します。",
+        "設定する項目が多いため、まずは対象を一つに絞り、公式の導入手順に沿って小さなテストを動かすのがおすすめです。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/appium/appium"}
+  ]
+}

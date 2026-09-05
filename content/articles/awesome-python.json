@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "awesome-python",
+  "title": "Awesome Python：用途からPythonのツールを探す",
+  "summary": "Awesome Pythonは、Pythonで何をしたいかに応じてフレームワーク、ライブラリ、ツールを探せる案内です。Web開発、データ処理、CLI、テストなどの分野ごとに選択肢を比較できます。",
+  "repository": "vinta/awesome-python",
+  "category": "developer-tools",
+  "tags": ["Python", "ライブラリ", "学習リソース"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "やりたいことからPythonの道具を選ぶ", "paragraphs": ["Awesome Pythonは、Pythonのフレームワーク、ライブラリ、ツールを用途別に案内するリストです。Web、データと科学、開発ツール、運用、CLIなどの分類から探せます。", "名前を知っているライブラリを探すだけでなく、解決したい課題から候補を見つけられる点が利点です。"]},
+    {"heading": "候補を少数にして比較する", "paragraphs": ["最初は作りたいものを一つ決め、その分野の候補を少数に絞ると比較しやすくなります。", "公式サイト、導入手順、簡単な例を確認して、小さなプログラムで試すと選択の理由を理解できます。"]},
+    {"heading": "一覧は推薦であり保証ではない", "paragraphs": ["このリポジトリは選択肢を案内するもので、個々のライブラリの安全性や用途への適合を保証するものではありません。", "依存パッケージを追加する前に、公式ドキュメント、対応するPython環境、更新方針、セキュリティ上の注意を確認してください。"]}],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/vinta/awesome-python"}]
+}

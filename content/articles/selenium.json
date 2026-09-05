@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "selenium",
+  "title": "Selenium：ブラウザーを自動で操作するための基盤",
+  "summary": "Seleniumは、Webブラウザーの操作を自動化するためのツールとライブラリーの集まりです。主要なブラウザーに対応する、W3C WebDriver仕様の基盤を提供します。特定の言語や環境に限られず、ブラウザー操作の自動化を始めたいときに確認したいプロジェクトです。",
+  "repository": "SeleniumHQ/selenium",
+  "category": "automation",
+  "tags": ["WebDriver", "ブラウザー", "テスト自動化"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "ブラウザーの操作を自動化",
+      "paragraphs": [
+        "Seleniumは、ブラウザーを自動で操作するためのプロジェクトです。",
+        "ページを開く、入力する、クリックするといった操作をプログラムから扱う土台になります。"
+      ]
+    },
+    {
+      "heading": "共通のWebDriver仕様を使う",
+      "paragraphs": [
+        "W3C WebDriver仕様に基づく基盤を提供しています。",
+        "この仕様は、主要なWebブラウザーと互換性のある、特定の言語やプラットフォームに依存しない操作方法です。"
+      ]
+    },
+    {
+      "heading": "最初は利用者向けマニュアルへ",
+      "paragraphs": [
+        "このリポジトリのREADMEは、主にプロジェクトへ貢献する開発者向けです。",
+        "Seleniumを使い始める人は、READMEから案内されているUser Manualで実例と説明を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/SeleniumHQ/selenium"}
+  ]
+}

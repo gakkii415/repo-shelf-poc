@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "zustand",
+  "title": "Zustand：Reactの状態を小さくまとめる",
+  "summary": "Zustandは、Reactアプリの状態を管理するためのライブラリです。状態と更新する関数をストアに置き、コンポーネントから必要な値を選んで使えます。",
+  "repository": "pmndrs/zustand",
+  "category": "frontend",
+  "tags": ["React", "状態管理", "Hooks"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Zustandは、Reactで共有したい状態をストアとして作るためのライブラリです。作ったストアはフックとして使え、数値、文字、オブジェクト、更新用の関数を置けます。"]},
+    {"heading": "役立つ点", "paragraphs": ["コンポーネントは必要な状態だけを選んで読み取れます。選んだ値が変わったときに再描画されるため、画面の状態をまとめながら部品ごとの利用も書きやすくなります。プロバイダーをアプリ全体に置かずに始められる点も特徴です。"]},
+    {"heading": "始める前の注意", "paragraphs": ["状態は変更せず、新しい値として更新する必要があります。また、ストア全体を選ぶと、どの状態の変更でもコンポーネントが更新されます。必要な値を選ぶ形から始めると、意図を保ちやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/pmndrs/zustand"}]
+}

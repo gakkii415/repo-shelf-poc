@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "mypy",
+  "title": "mypy：Pythonの型を確認する",
+  "summary": "mypyは、Pythonの任意の静的型付けを確認する型チェッカーです。型ヒントを使ってコードを調べ、実行前に型の不一致を見つける助けになります。",
+  "repository": "python/mypy",
+  "category": "developer-tools",
+  "tags": ["Python", "型チェック", "静的解析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["mypyは、Pythonの任意の静的型付けを確認するツールです。関数の引数や戻り値などに付けた型ヒントを基に、型の使い方を調べます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["Pythonコードを実行する前に、型が合わない可能性のある箇所を見つける助けになります。型ヒントは段階的に追加できるため、既存コードの一部から確認を始められます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["型ヒントが少ないコードでは、確認できる範囲も限られます。指摘を減らすためだけに不正確な型を付けず、実際の値やAPIに合う型を少しずつ整えましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/python/mypy"}
+  ]
+}

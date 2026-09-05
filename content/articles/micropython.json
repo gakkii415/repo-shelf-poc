@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "micropython",
+  "title": "MicroPython：マイコンでPythonを使う",
+  "repository": "micropython/micropython",
+  "category": "developer-tools",
+  "tags": ["Python", "マイコン", "組み込み開発"],
+  "summary": "MicroPythonは、マイコンや資源に限りがある機器でPythonを動かすための実装です。",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["マイコン上でPythonに近い書き方を使い、LED、ボタン、センサーなどの機器を操作するための実装です。GPIOやI2Cなど、周辺機器とつなぐための機能を使えます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["短いコードでLEDの点滅やセンサー値の読み取りを試せるため、プログラムとハードウェアの関係を学びやすくなります。試作を小さく始めたいときにも便利です。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["一般的なPythonで使える機能やライブラリの一部は利用できません。また、端子の名前や電圧の条件はボードごとに異なります。最初は対象ボードの資料に従い、LEDなど安全な回路で動作を確認してください。"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式GitHubリポジトリ・README",
+      "url": "https://github.com/micropython/micropython"
+    }
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05"
+  ,"status": "published"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "apache-arrow",
+  "title": "Apache Arrow：列指向データを受け渡す土台",
+  "summary": "Apache Arrowは、データをメモリー上で表し、異なる言語やツールの間で受け渡すための列指向形式とライブラリ群です。",
+  "repository": "apache/arrow",
+  "category": "data",
+  "tags": ["列指向", "データ交換", "Parquet"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Apache Arrowは、データを列ごとにメモリー上で表すための共通形式と、複数言語向けのライブラリを提供するプロジェクトです。データを保存、処理、移動する仕組みの土台になります。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["Python、C++、Java、JavaScriptなど、異なる言語のデータ処理ツールで同じ表データを扱う場面で役立ちます。ParquetやCSVの読み書き、プロセス間通信に関わる部品も含まれます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["Arrowは完成した分析アプリではなく、データ処理の部品や形式を集めたプロジェクトです。目的がCSVの集計だけなら、まずpandasなど上位のライブラリから試し、必要になったときにArrowとの関係を調べると理解しやすいです。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/apache/arrow"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "pandas",
+  "title": "pandas：Pythonで表データを扱う",
+  "summary": "pandasは、Pythonで表形式のデータを読み込み、整え、集計するためのライブラリです。",
+  "repository": "pandas-dev/pandas",
+  "category": "data",
+  "tags": ["Python", "データ分析", "DataFrame"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["pandasは、名前の付いた列と行を持つ表データをPythonで扱いやすくするライブラリです。CSV、Excel、データベースなどからデータを読み込み、表として操作できます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["欠けた値の扱い、列の選択、表どうしの結合、集計、並べ替えを、Pythonのコードで段階的に書けます。まず小さなCSVを読み込み、条件で行を選んで集計する練習から始めると用途をつかみやすいです。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["列名やデータ型が想定と違うと、計算結果も変わります。読み込んだ直後に行数、列名、欠けた値を確認し、元のファイルを直接書き換えずコピーで試しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/pandas-dev/pandas"}
+  ]
+}

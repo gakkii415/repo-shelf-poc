@@ -1,45 +1,38 @@
 {
   "schemaVersion": 1,
-  "category": "developer-tools",
-  "repository": "BurntSushi/ripgrep",
-  "sections": [
-    {
-      "heading": "検索範囲を絞る",
-      "paragraphs": [
-        "ファイルの種類を指定し、対象に含めたり除外したりできます。",
-        "一致した行の前後を表示する機能も備えています。"
-      ]
-    },
-    {
-      "heading": "標準の除外を知る",
-      "paragraphs": [
-        ".gitignoreに加え、.ignoreや.rgignoreも参照します。",
-        "見つからない場合は、隠しファイルなどが対象外になっていないか確認しましょう。"
-      ]
-    },
-    {
-      "heading": "使い始める前に",
-      "paragraphs": [
-        "Windows、macOS、Linux向けの導入方法が紹介されています。",
-        "POSIX規格には準拠しないため、スクリプトで使う際は仕様を確認しましょう。"
-      ]
-    }
-  ],
   "slug": "ripgrep",
-  "summary": "ripgrepは、ディレクトリ内のファイルを再帰的に検索するコマンドラインツールです。実行コマンドはrgで、正規表現やUnicodeを扱えます。標準では.gitignoreなどの除外設定を尊重し、隠しファイルやバイナリーファイルを検索から外します。ファイルの種類を指定した絞り込みもできるため、ソースコードの中から関数名や設定値を探す日常の調査に役立つ道具です。",
-  "tags": [
-    "CLI",
-    "検索",
-    "Rust"
-  ],
-  "title": "ripgrep：コードの中から必要な文字列を探す",
+  "title": "ripgrep：ファイルの中の文字を探す",
+  "summary": "ripgrepは、現在のフォルダー以下にあるファイルを調べ、正規表現に一致する行を探すコマンドです。実行名はrgです。正規表現は、文字の並び方を表す検索パターンです。標準ではGitの除外ルールを守り、隠しファイルやバイナリーファイルを飛ばします。ソースコードや設定ファイルから、関数名や設定値を探すときに役立ちます。",
+  "repository": "BurntSushi/ripgrep",
+  "category": "developer-tools",
+  "tags": ["CLI", "検索", "正規表現"],
   "publishedAt": "2026-09-05",
   "verifiedAt": "2026-09-05",
   "status": "published",
-  "sources": [
+  "sections": [
     {
-      "label": "公式リポジトリ・README",
-      "url": "https://github.com/BurntSushi/ripgrep"
+      "heading": "フォルダーをまとめて検索",
+      "paragraphs": [
+        "ripgrepは、現在のフォルダーから下にあるファイルをたどり、指定した正規表現に一致する行を探します。",
+        "たとえば、コードベース全体から関数名や同じ設定名を調べる用途に向いています。"
+      ]
+    },
+    {
+      "heading": "除外ルールを守る",
+      "paragraphs": [
+        "標準では.gitignoreのルールを尊重し、隠しファイル・隠しフォルダーとバイナリーファイルを自動で検索対象から外します。",
+        "そのため、通常は作業中のコードに検索結果を絞りやすくなります。"
+      ]
+    },
+    {
+      "heading": "見つからないときの注意",
+      "paragraphs": [
+        "隠しファイルやGitで除外されたファイルは、標準の検索では出てきません。必要なファイルがないときは、除外設定を確認しましょう。",
+        "Windows、macOS、Linuxで使えます。"
+      ]
     }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/BurntSushi/ripgrep"}
   ]
 }

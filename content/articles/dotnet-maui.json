@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "dotnet-maui",
+  "title": ".NET MAUI：C#でモバイルとデスクトップのアプリを作る",
+  "summary": ".NET MAUIは、C#とXAMLを使ってモバイルやデスクトップ向けのアプリを作るためのフレームワークです。一つの共有コードベースから複数の対象に向けたアプリを開発できます。",
+  "repository": "dotnet/maui",
+  "category": "frontend",
+  "tags": [".NET", "C#", "モバイル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": [".NET MAUIは、C#とXAMLでネイティブのモバイル、タブレット、デスクトップ向けアプリを作るためのフレームワークです。共有したコードベースからAndroid、iOS、macOS、Windows向けのアプリを開発できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["画面やアプリの処理を共有しながら、複数の端末向けに開発を進められます。.NETのSDK、基本クラスライブラリ、開発ツールを一つの開発スタックとして利用できます。"]},
+    {"heading": "始める前の注意", "paragraphs": [".NETとC#の知識に加えて、対象端末ごとの開発環境が必要になります。テンプレートが使えない場合はワークロードの導入が必要なため、公式のインストール手順と対象プラットフォームの要件を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/dotnet/maui"}]
+}

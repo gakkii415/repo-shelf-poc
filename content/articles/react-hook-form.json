@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "react-hook-form",
+  "title": "React Hook Form：入力フォームを扱う",
+  "summary": "React Hook Formは、Reactのフォーム状態と入力チェックを扱うためのライブラリです。入力欄を登録し、送信時の値やエラーを取り出せます。",
+  "repository": "react-hook-form/react-hook-form",
+  "category": "frontend",
+  "tags": ["React", "フォーム", "バリデーション"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["React Hook Formは、Reactの入力フォームを管理するためのフックです。入力欄を登録し、送信された値と入力エラーを扱えます。WebとReact Nativeのフォームに対応しています。"]},
+    {"heading": "役立つ点", "paragraphs": ["HTMLの標準的な入力チェックを利用できます。UIライブラリとも組み合わせられ、Zodなどの入力検証ライブラリも利用できます。送信、必須入力、形式の確認をまとめて書くときに役立ちます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["フォームごとに、どの項目を必須にするか、失敗したときに何を表示するかを決める必要があります。画面で確認するだけでなく、サーバー側でも受け取った値を検証しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/react-hook-form/react-hook-form"}]
+}

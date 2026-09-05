@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "flow-launcher",
+  "title": "Flow Launcher：Windowsでアプリやファイルをすばやく探す",
+  "summary": "Flow Launcherは、Windowsでアプリやファイルをすばやく検索して起動するランチャーです。プラグインを使うと、ブックマークやWeb検索などもまとめて扱えます。",
+  "repository": "Flow-Launcher/Flow.Launcher",
+  "category": "developer-tools",
+  "tags": ["Windows", "ランチャー", "検索"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Flow Launcherは、Windowsでアプリやファイルをすばやく検索して起動するランチャーです。",
+        "プラグインを使うと、ブックマーク、Web検索、計算、Windowsの設定なども検索できます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "アプリやファイルの場所をたどらず、短い入力から開けるようになります。",
+        "よく使う検索や操作を一つの入力画面に集められるため、作業を切り替える回数を減らせます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Flow LauncherはWindows向けです。対応するWindowsの環境で使ってください。",
+        "ダウンロードやお知らせは、公式の案内だけを利用しましょう。見た目が似たサイトには注意が必要です。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/Flow-Launcher/Flow.Launcher"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "three-js",
+  "title": "three.js：Webページに3Dを表示する",
+  "summary": "three.jsは、JavaScriptで3Dの表示を扱うためのライブラリです。Webページ上に立体の物体、光、カメラを置き、3D表現を作りたいときに役立ちます。",
+  "repository": "mrdoob/three.js",
+  "category": "frontend",
+  "tags": ["3D", "JavaScript", "WebGL"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Webに立体の場面を作る", "paragraphs": ["three.jsは、JavaScriptで3Dのシーンを作り、Webページに表示するためのライブラリです。", "物体、カメラ、光を組み合わせ、回転するモデルや立体的な画面を作れます。"]},
+    {"heading": "3Dの部品を組み合わせられる", "paragraphs": ["基本の図形、画像の表面、照明、カメラなどを部品として使えます。", "3D描画の細かな仕組みをすべて直接扱わずに、まずは見た目と動きを試せる点が利点です。"]},
+    {"heading": "表示の負荷に注意する", "paragraphs": ["細かすぎるモデルや大きな画像を多く表示すると、端末によっては動きが重くなります。", "まずは単純な形で作り、対象の端末やブラウザーで操作の滑らかさを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/mrdoob/three.js"}]
+}

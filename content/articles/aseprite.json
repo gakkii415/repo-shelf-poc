@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "aseprite",
+  "title": "Aseprite：ピクセルアートとアニメーションを作る",
+  "summary": "Asepriteは、ピクセルアートとスプライトアニメーションを作るための画像エディターです。ゲーム用の小さな絵や、コマごとに動く画像を制作したいときに役立ちます。",
+  "repository": "aseprite/aseprite",
+  "category": "developer-tools",
+  "tags": ["ピクセルアート", "アニメーション", "スプライト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "小さなドット絵を描く", "paragraphs": ["Asepriteは、ピクセル単位で画像を描くピクセルアート用のエディターです。", "ゲームのキャラクター、背景、アイコンなど、限られた大きさの絵を作る用途に向いています。"]},
+    {"heading": "絵を動かす手順を扱える", "paragraphs": ["複数のコマを用意して順番に表示すると、画像に動きを付けられます。", "静止画とアニメーションを同じ作業の中で扱えるため、動きの確認と修正を進めやすい点が利点です。"]},
+    {"heading": "出力先の条件を先に確認する", "paragraphs": ["ピクセルアートでは、画像の大きさや透明部分、コマの並びが利用先の条件に合わない場合があります。", "使うゲームやWebページが求める画像形式とサイズを確認し、書き出した結果を実際に試しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/aseprite/aseprite"}]
+}

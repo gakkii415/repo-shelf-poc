@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "arduino-ide",
+  "title": "Arduino IDE：ボードにプログラムを書き込む",
+  "repository": "arduino/arduino-ide",
+  "category": "developer-tools",
+  "tags": ["Arduino", "マイコン", "IDE"],
+  "summary": "Arduino IDEは、Arduino対応ボード向けのプログラムを書き、コンパイルして書き込むための開発環境です。",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["スケッチと呼ばれるプログラムを作成し、ボード向けにコンパイルしてUSBなどから書き込むための開発環境です。コード編集、エラー確認、書き込みを一つの画面で進められます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["LEDやセンサーを使う小さな工作から始められるため、電子工作とプログラミングを一緒に学べます。ボードに書き込んだ結果をすぐに確かめられる点も便利です。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["書き込む前に、接続したボードの種類と通信ポートを正しく選ぶ必要があります。書き込んだプログラムは機器をすぐ動かすため、最初は安全なLED回路などで確認し、電源や配線を慎重に扱ってください。"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式GitHubリポジトリ・README",
+      "url": "https://github.com/arduino/arduino-ide"
+    }
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05"
+  ,"status": "published"
+}

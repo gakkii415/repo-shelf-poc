@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "jaeger",
+  "title": "Jaeger：処理の流れをトレースで追う",
+  "summary": "Jaegerは、分散トレーシングのためのプラットフォームです。アプリケーション内を通る処理の記録を集め、画面で追跡できます。複数のサービスにまたがる遅延や失敗を調べたいときに役立ちます。",
+  "repository": "jaegertracing/jaeger",
+  "category": "developer-tools",
+  "tags": ["分散トレーシング", "可観測性", "トレース"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "一つの要求の経路を追う", "paragraphs": ["Jaegerは分散トレーシングのプラットフォームです。アプリケーションが出すトレースを集め、保存し、UIから調べられます。", "複数のサービスを通る一つの要求について、どこで時間がかかったかを追う手がかりになります。"]},
+    {"heading": "収集から検索までをつなぐ", "paragraphs": ["READMEの構成では、OpenTelemetry SDKからCollectorへトレースを送り、保存先に記録してからJaeger Query ServiceとUIで確認します。", "ローカルで試すための一体型コンテナーにはUI、Collector、Query、メモリー内ストレージが含まれるため、仕組みを体験しやすい点が利点です。"]},
+    {"heading": "本番用の保存先を決める", "paragraphs": ["一体型の構成は試用に便利ですが、READMEは本番環境では別の配置や選択肢を案内しています。", "トレースの保存先、保持方法、アプリケーションが送るデータを決めてから本番に導入しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/jaegertracing/jaeger"}]
+}

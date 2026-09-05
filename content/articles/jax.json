@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "jax",
+  "title": "JAX：数値計算を自動微分で拡張する",
+  "summary": "JAXは、NumPyに近い書き方で数値計算、自動微分、並列計算を行うためのPythonライブラリです。",
+  "repository": "jax-ml/jax",
+  "category": "ai",
+  "tags": ["Python", "数値計算", "自動微分"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["JAXは、配列を使う数値計算に対して、微分、コンパイル、並列化といった変換を加えられるライブラリです。機械学習の最適化や科学計算の式を扱えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["NumPyに似た操作から始めながら、関数の勾配を求めたり、計算をまとめて実行したりできます。小さな関数を作り、入力に対する微分を確かめる練習が入口になります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["通常のPythonコードと計算変換の相性には制約があります。最初は公式の基本例に沿い、関数の引数と戻り値を単純な配列に保って挙動を確かめましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/jax-ml/jax"}]
+}

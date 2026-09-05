@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "avalonia",
+  "title": "Avalonia：C#とXAMLで複数環境のUIを作る",
+  "summary": "Avaloniaは、C#とXAMLで複数のプラットフォーム向けユーザーインターフェースを作るための.NET向けフレームワークです。スタイルを使って画面の見た目を組み立てられます。",
+  "repository": "AvaloniaUI/Avalonia",
+  "category": "frontend",
+  "tags": ["C#", "XAML", "デスクトップ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Avaloniaは、.NETでクロスプラットフォームのユーザーインターフェースを作るためのフレームワークです。C#とXAMLを使い、Windows、macOS、Linuxなどを含む複数の対象向けにアプリの画面を作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["XAMLで画面の構造や見た目を記述し、C#で動きを書けます。スタイルの仕組みがあるため、画面部品の見た目をそろえながらアプリを組み立てることができます。"]},
+    {"heading": "始める前の注意", "paragraphs": [".NET、C#、XAMLの基礎が必要です。使う開発環境や対象プラットフォームによって設定が変わるため、公式の開始ガイドと対象ごとの対応状況を確認してからプロジェクトを作りましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/AvaloniaUI/Avalonia"}]
+}

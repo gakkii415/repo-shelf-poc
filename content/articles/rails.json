@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "rails",
+  "title": "Rails：Rubyでデータベース付きWebアプリを作る",
+  "summary": "Railsは、MVCの考え方でデータベースを使うWebアプリケーションを作るためのRubyフレームワークです。モデル、画面、リクエストを扱う役割を分けて開発できます。",
+  "repository": "rails/rails",
+  "category": "backend",
+  "tags": ["Ruby", "Web開発", "MVC"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Railsは、データベースを使うWebアプリケーションをMVCの形で作るためのフレームワークです。モデルはデータと業務の処理、ビューは表示、コントローラーはHTTPリクエストと応答を担当します。"]},
+    {"heading": "役立つ点", "paragraphs": ["公式READMEには、新しいアプリを作り、開発用サーバーを起動する流れがあります。データベースの行をオブジェクトとして扱う仕組みや、メール、バックグラウンド処理、ファイル添付などの機能も用意されています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Railsを理解するにはMVCの役割を知ることが大切です。最初は新規アプリを作って画面を表示し、次にモデル、ビュー、コントローラーがどこで働くかを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/rails/rails"}]
+}

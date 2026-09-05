@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "dagster",
+  "title": "Dagster：データ資産の処理を見通す",
+  "summary": "Dagsterは、表やデータセット、機械学習モデル、レポートなどのデータ資産を開発・実行・観察するためのオーケストレーターです。",
+  "repository": "dagster-io/dagster",
+  "category": "automation",
+  "tags": ["データ資産", "Python", "オーケストレーション"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Dagsterは、データ資産を作る処理をPython関数として定義し、いつ実行するかや、どの資産がどれに依存するかを管理する仕組みです。表、データセット、モデル、レポートを扱う場面を想定しています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["処理だけでなく、作られるデータ資産とそのつながりを意識して開発できます。テスト、実行、観察を同じ流れに置けるため、どの処理が結果に関係するかを追いやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["最初からすべてのデータ処理を移す必要はありません。小さな表を一つ作る関数と、その結果を使う関数から始め、資産名と依存関係を分かりやすく決めましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/dagster-io/dagster"}
+  ]
+}

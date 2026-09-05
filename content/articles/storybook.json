@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "storybook",
+  "title": "Storybook：UI部品を一つずつ確認する",
+  "summary": "Storybookは、画面の部品やページを、アプリ全体から切り離して作り、確認し、説明するための開発環境です。部品ごとの見た目と動きをそろえたいときに使えます。",
+  "repository": "storybookjs/storybook",
+  "category": "frontend",
+  "tags": ["UI", "コンポーネント", "テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Storybookは、UIコンポーネントやページを単独で作るための作業場です。アプリ全体を起動しなくても、ボタンや入力欄などの部品を表示して確認できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["部品の状態ごとに表示例を作れるため、見た目の確認や説明に使えます。ドキュメント、テスト、操作の確認に役立つ追加機能もあり、UI部品を共有するチームで扱いやすくなります。複数のフロントエンド環境に対応しています。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Storybookに表示する例は、自動では十分にそろいません。通常時、エラー時、長い文字が入る場合など、確認したい状態を自分で用意する必要があります。実際のアプリの画面でも、部品の組み合わせを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/storybookjs/storybook"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "express",
+  "title": "Express：Node.jsでHTTPサーバーを作る",
+  "summary": "Expressは、Node.js用の小さく柔軟なWebフレームワークです。ルーティングとHTTP処理の仕組みを使い、WebサイトやAPIのサーバーを組み立てられます。",
+  "repository": "expressjs/express",
+  "category": "backend",
+  "tags": ["Node.js", "JavaScript", "Web API"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["ExpressはNode.jsでWebサーバーを作るためのフレームワークです。URLと処理を結び付けるルーティングを中心に、リクエストを受けてレスポンスを返す処理を書けます。"]},
+    {"heading": "役立つ点", "paragraphs": ["ルートごとに処理を分け、リダイレクトやキャッシュなどのHTTP用ヘルパーも利用できます。特定のORMやテンプレートエンジンを強制しないため、用途に合わせて構成を選べます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Expressは構成の選択肢が広いぶん、データベースや認証、入力検証を何で扱うかは自分で決めます。まずREADMEの小さなルート例を動かし、リクエストとレスポンスの流れを確かめると理解しやすいです。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/expressjs/express"}]
+}

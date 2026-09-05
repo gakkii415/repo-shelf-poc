@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "bun",
+  "title": "Bun：JavaScript開発の道具をまとめた実行環境",
+  "summary": "Bunは、JavaScriptとTypeScriptのアプリ向けの統合ツールです。実行環境に加えて、テスト、バンドル、パッケージ管理などを一つのコマンドで扱えます。",
+  "repository": "oven-sh/bun",
+  "category": "developer-tools",
+  "tags": ["Bun", "JavaScript", "開発ツール"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["BunはJavaScriptとTypeScriptのアプリを作るためのツール群です。プログラムの実行、テスト、スクリプトの実行、パッケージのインストールをbunコマンドで扱えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["複数の開発作業を一つの実行ファイルにまとめているので、初めて試すときの道具を減らせます。TypeScriptやJSXをそのまま扱えるため、小さなアプリをすぐ動かしやすいです。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Node.jsと互換性を目指していますが、既存のNode.jsプロジェクトで完全に同じように動くかは確認が必要です。導入前にテストを実行し、使うパッケージや開発用スクリプトを確かめましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/oven-sh/bun"}]
+}

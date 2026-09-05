@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "solid",
+  "title": "Solid：宣言的にUIを組み立てるJavaScriptライブラリ",
+  "summary": "Solidは、ユーザーインターフェースを作るための宣言的なJavaScriptライブラリです。コンポーネントとリアクティビティを使い、データの変化を画面へ反映します。UIを部品に分けつつ、変化する値と表示の関係を扱いたいときに役立ちます。",
+  "repository": "solidjs/solid",
+  "category": "frontend",
+  "tags": ["JavaScript", "UI", "リアクティビティ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Solidは、ユーザーインターフェースを作るための宣言的なJavaScriptライブラリです。コンポーネントを使って画面を分け、データの変化を表示へつなげます。"]},
+    {"heading": "役立つ点", "paragraphs": ["リアクティビティの仕組みにより、変化する値と画面の関係を表せます。画面を小さな部品に分けることで、UIの役割ごとにコードを整理できます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Solidには独自のリアクティビティの考え方があります。既に使っているUIライブラリと同じ書き方だと考えず、公式ガイドの基本例で状態と表示の関係を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/solidjs/solid"}]
+}

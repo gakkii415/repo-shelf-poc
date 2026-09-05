@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "slug": "brave-browser",
+  "title": "Brave Browser：複数OS向けのブラウザー情報を管理するリポジトリ",
+  "summary": "brave-browserは、Android、iOS、Linux、macOS、Windows向けBrave BrowserのIssue、リリース、Wikiを扱う公式リポジトリです。利用者と開発者が不具合報告や資料の入口を見つけるのに役立ちます。",
+  "repository": "brave/brave-browser",
+  "category": "developer-tools",
+  "tags": ["Webブラウザー", "不具合報告", "ドキュメント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Braveの情報をたどる入口",
+      "paragraphs": [
+        "brave-browserは、複数のOS向けBrave Browserについて、Issue、リリース、Wikiを扱う公式リポジトリです。困っている現象が既知かを調べたり、開発者向け資料への入口を探したりできます。",
+        "利用者はIssueで不具合や要望を確認でき、開発に関わる人はWikiやガイドへの導線を利用できます。"
+      ]
+    },
+    {
+      "heading": "報告前に既存の情報を確認する",
+      "paragraphs": [
+        "同じ現象がすでに報告されていないかを検索してから、再現手順、使っている環境、期待した結果を整理すると、問題を伝えやすくなります。",
+        "公式READMEは利用者向けヘルプや技術資料へのリンクも案内しているため、基本的な操作はまずそちらで確認できます。"
+      ]
+    },
+    {
+      "heading": "ソースコードの場所に注意",
+      "paragraphs": [
+        "公式READMEでは、このリポジトリはブラウザーをビルドするためのソースを持たず、Issue、リリース、Wikiを扱うと説明されています。コードを読んだり変更したりする場合は、READMEが案内するbrave-coreリポジトリを確認してください。",
+        "不具合報告には個人情報、認証情報、閲覧履歴などを含めないよう注意しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/brave/brave-browser"},
+    {"label": "公式ソースコードリポジトリ", "url": "https://github.com/brave/brave-core"}
+  ]
+}

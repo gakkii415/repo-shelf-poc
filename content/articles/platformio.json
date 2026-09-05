@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "platformio",
+  "title": "PlatformIO Core：組み込み開発をCLIで進める",
+  "repository": "platformio/platformio-core",
+  "category": "developer-tools",
+  "tags": ["組み込み開発", "CLI", "マイコン"],
+  "summary": "PlatformIO Coreは、組み込み機器のプログラムをコマンドラインで作成、ビルド、書き込み、確認するための開発基盤です。",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["マイコン向けプロジェクトの作成、ビルド、ボードへの書き込み、シリアル出力の確認をコマンドラインから行えます。ボードや開発フレームワークの設定もプロジェクト内で管理します。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["同じ設定をプロジェクトに残せるため、別の環境でも開発手順をそろえやすくなります。複数のボードやフレームワークを試すときも、作業を整理しやすいです。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["選ぶボードや開発フレームワークの設定が実機と合っていないと、ビルドや書き込み、動作に失敗します。まず公式のサンプルを対象のボードで動かし、設定を一つずつ確認してください。"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式GitHubリポジトリ・README",
+      "url": "https://github.com/platformio/platformio-core"
+    }
+  ],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05"
+  ,"status": "published"
+}

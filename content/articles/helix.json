@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "helix",
+  "title": "Helix：選択してから操作する端末向けエディター",
+  "summary": "Helixは、Rustで作られた主に端末向けのテキストエディターです。モードを切り替えて操作するVim風の編集と、複数の場所を同時に選ぶ機能を備えます。言語サーバーは、補完やエラー表示などをエディターへ渡すプログラムです。Helixはその言語サーバーに組み込みで対応しています。",
+  "repository": "helix-editor/helix",
+  "category": "developer-tools",
+  "tags": ["端末", "モード編集", "Rust"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "操作の考え方", "paragraphs": ["HelixはKakouneとNeovimから影響を受けたエディターです。", "Vim風のモード編集では、文字を入力する状態と、選択や編集命令を出す状態を切り替えます。"]},
+    {"heading": "コードを書く助け", "paragraphs": ["複数選択では、離れた場所を同時に選んで同じ編集を行えます。", "組み込みの言語サーバー対応により、補完、診断、コード操作の機能を利用できます。構文の色分けと編集にはtree-sitterを使います。"]},
+    {"heading": "試す前の注意", "paragraphs": ["Helixは主に端末で使うエディターです。まず公式ドキュメントのショートカット一覧を確認しましょう。", "字下げの定義は、現時点では一部の言語にしかありません。使う言語の対応状況を確認してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/helix-editor/helix"}]
+}

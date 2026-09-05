@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "termux-app",
+  "title": "Termux：Androidでターミナルを使う",
+  "summary": "Termuxは、Android端末でターミナルとLinux環境を使えるようにするアプリです。アプリの中でパッケージを入れ、コマンドを実行できます。",
+  "repository": "termux/termux-app",
+  "category": "developer-tools",
+  "tags": ["Android", "ターミナル", "Linux"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Termuxは、Android端末でターミナルとLinux環境を使うためのアプリです。",
+        "アプリ内に必要なパッケージを入れて、コマンドを実行できます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "PCを開けないときでも、端末でファイル操作やコマンドの練習をできます。",
+        "追加のプラグインを使うと、Androidの機能と組み合わせることもできます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Androidの版によっては、動かしている処理がOSにより停止されることがあります。大切な処理を任せる前に動きを確認しましょう。",
+        "本体とプラグインは、同じ配布元から入れる必要があります。異なる配布元のものを混ぜないでください。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/termux/termux-app"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "ory-kratos",
+  "title": "Ory Kratos：アプリのID管理フローをAPIで使う",
+  "summary": "Ory Kratosは、クラウドネイティブなアプリケーション向けのAPIファーストなID・ユーザー管理システムです。ログイン、登録、復旧、検証、プロフィール管理をアプリから利用できます。",
+  "repository": "ory/kratos",
+  "category": "backend",
+  "tags": ["認証", "ID管理", "クラウドネイティブ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "これは何か",
+      "paragraphs": ["クラウドネイティブなアプリケーションに向けた、APIファーストのID・ユーザー管理システムです。ログイン、登録、アカウント復旧、検証、プロフィール管理といった基本フローを提供します。"]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": ["IDに関する処理をアプリのコードに作り込まず、HTTP APIとして利用できます。ブラウザーとネイティブアプリのフローに対応し、任意のUIフレームワークと組み合わせられます。"]
+    },
+    {
+      "heading": "注意点",
+      "paragraphs": ["KratosはID、資格情報、利用者向けフローを担当します。OAuth 2.0やOpenID Connectの認可サーバーとトークン発行が必要な構成では、READMEで案内されるOry Hydraとの組み合わせを検討します。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/ory/kratos"}]
+}

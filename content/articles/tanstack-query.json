@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "tanstack-query",
+  "title": "TanStack Query：サーバーのデータを扱いやすくする",
+  "summary": "TanStack Queryは、サーバーから受け取るデータの取得、保存、更新を扱いやすくするライブラリです。Webアプリで、読み込み中や取得し直しの処理を組み立てるときに使えます。",
+  "repository": "TanStack/query",
+  "category": "frontend",
+  "tags": ["JavaScript", "データ取得", "キャッシュ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["TanStack Queryは、サーバーのデータを取得し、キャッシュして、画面のデータを更新するためのライブラリです。RESTやGraphQLなど、通信方法を限定せずに使えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["一度取得したデータを保存して再利用でき、必要に応じて取り直す処理も用意されています。ページ分割、無限スクロール、更新処理、事前取得にも対応しているため、データを表示する画面を作りやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["これはサーバー上のデータを扱う仕組みです。画面だけで使う入力中の値や開閉状態まで、すべてをここで管理する必要はありません。どのデータをキャッシュするかと、いつ更新するかを決めて使いましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/TanStack/query"}]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "playwright",
+  "title": "Playwright：複数のブラウザーで画面を確かめる",
+  "summary": "Playwrightは、Webサイトの操作を自動化し、画面のテストを行うためのフレームワークです。ひとつのAPIでChromium、Firefox、WebKitを操作できます。公開前に、ボタンを押す、入力する、画面が表示されるといった利用者の流れを確認したいときに役立ちます。",
+  "repository": "microsoft/playwright",
+  "category": "automation",
+  "tags": ["ブラウザー", "E2Eテスト", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "画面の操作をテストにする",
+      "paragraphs": [
+        "ページを開き、リンクやボタンを操作し、見出しなどが表示されることを確かめるテストを書けます。",
+        "Webアプリを利用者の目線で確認するE2Eテストに向いています。"
+      ]
+    },
+    {
+      "heading": "同じ手順を複数のブラウザーで実行",
+      "paragraphs": [
+        "Chromium、Firefox、WebKitを同じAPIで操作できます。",
+        "ブラウザーごとの差を早めに見つけたいときに、同じテストを使って確認できます。"
+      ]
+    },
+    {
+      "heading": "待機を任せる仕組みと注意",
+      "paragraphs": [
+        "要素が操作できる状態になるまで待ち、確認の条件は満たされるまで再試行できます。",
+        "ただし、テストは設定したブラウザーごとに実行されるため、必要なブラウザーを選んで準備する必要があります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/microsoft/playwright"}
+  ]
+}

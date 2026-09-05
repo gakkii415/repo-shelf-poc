@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "scrcpy",
+  "title": "scrcpy：PCでAndroid端末の画面を表示して操作する",
+  "summary": "scrcpyは、USBまたはTCP/IPで接続したAndroid端末の画面をPCに表示し、キーボードとマウスで操作できるツールです。端末へのアプリの常駐インストールやroot化は必要ありません。",
+  "repository": "Genymobile/scrcpy",
+  "category": "developer-tools",
+  "tags": ["Android", "端末操作", "画面ミラーリング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "scrcpyは、接続したAndroid端末の画面をPCに表示し、PCのキーボードやマウスで操作できるツールです。",
+        "USB接続のほか、設定によってはネットワーク経由でも接続できます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "PCの大きな画面で端末の表示を確認できるため、アプリの動作確認や画面の録画がしやすくなります。",
+        "端末をroot化せずに使え、端末にアプリを残さない形で操作できます。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "通常の接続ではAndroid端末でUSBデバッグを有効にする必要があります。USBデバッグを有効にする端末は、自分で管理できるものに限定しましょう。",
+        "端末やPCの設定によってはキーボードやマウスでの操作に追加の許可が必要です。配布物は公式リポジトリから入手しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/Genymobile/scrcpy"}
+  ]
+}

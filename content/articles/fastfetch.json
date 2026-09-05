@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "fastfetch",
+  "title": "Fastfetch：端末でシステム情報を表示する",
+  "summary": "Fastfetchは、OSやハードウェアなどのシステム情報を端末に表示するツールです。設定ファイルで表示する項目や見た目を変えられ、JSON形式で情報を出力することもできます。",
+  "repository": "fastfetch-cli/fastfetch",
+  "category": "developer-tools",
+  "tags": ["端末", "システム情報", "JSON"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Fastfetchとは",
+      "paragraphs": [
+        "Fastfetchは、コンピューターのシステム情報を端末に表示するツールです。まずfastfetchと入力すると、標準の設定で実行できます。",
+        "対応する表示項目を選び、検出した情報をJSON形式で出力することもできます。JSONは、プログラムが扱いやすい文字の形式です。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "作業を始める前に、OSや機器の情報を端末で確認したいときに使えます。",
+        "設定はコメントを書けるJSONC形式で保存できます。用意された設定例を読み込み、表示内容を自分向けに変えられます。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "Linux、macOS、Windows、BSD、Android向けに導入方法が案内されています。自分の環境の手順を確認してください。",
+        "設定には任意のシェルコマンドを実行できる項目があります。信頼できない設定ファイルを使う前には、内容を必ず確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/fastfetch-cli/fastfetch"}
+  ]
+}

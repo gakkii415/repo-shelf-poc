@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "ant-design",
+  "title": "Ant Design：業務向けWeb画面のためのReact UI",
+  "summary": "Ant Designは、業務向けのUIデザイン言語とReact UIライブラリーです。すぐに使える高品質なReactコンポーネント、TypeScriptの型、国際化、テーマのカスタマイズを備えます。管理画面などのWebアプリケーションで、部品をそろえて画面を作りたいときに役立ちます。",
+  "repository": "ant-design/ant-design",
+  "category": "frontend",
+  "tags": ["React", "業務アプリ", "TypeScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Ant Designは、業務向けWebアプリケーションのためのUIデザイン言語とReact UIライブラリーです。",
+        "すぐに使えるReactコンポーネントと、設計や開発を支えるリソースをまとめています。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "TypeScriptで書かれており、予測しやすい静的な型を利用できます。",
+        "多数の言語への国際化と、CSS-in-JSによるテーマのカスタマイズに対応しています。"
+      ]
+    },
+    {
+      "heading": "使う前に考えること",
+      "paragraphs": [
+        "Ant DesignはReact UIライブラリーなので、Reactを使うWebアプリケーション向けです。",
+        "テーマを変えられますが、利用する部品を決める前に、画面全体のデザイン方針をそろえると扱いやすくなります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/ant-design/ant-design"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "vue",
+  "title": "Vue：段階的に使えるWeb UIフレームワーク",
+  "summary": "Vueは、ユーザーインターフェースを作るための段階的なJavaScriptフレームワークです。画面の見た目と状態を結び付け、コンポーネントでUIを分けて作れます。小さな画面の一部から始め、必要に応じてアプリケーションへ広げられます。",
+  "repository": "vuejs/core",
+  "category": "frontend",
+  "tags": ["JavaScript", "UI", "コンポーネント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Vueは、Webのユーザーインターフェースを作るための段階的なフレームワークです。コンポーネントに画面の表示と動きをまとめ、画面を組み立てます。"]},
+    {"heading": "役立つ点", "paragraphs": ["既存ページの一部を動的にするところから使い始め、必要になればアプリケーション全体へ広げられます。画面の状態と表示を結び付けて書けるため、変更に応じた表示を管理しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["このリポジトリはVueの中核を扱います。実際の画面作りでは、公式ガイドで開発環境とプロジェクトの始め方も確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/vuejs/core"}]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "k6",
+  "title": "k6：JavaScriptで負荷テストを書く",
+  "summary": "k6は、アプリケーションに多くのアクセスがあったときの動きを確かめる負荷テストツールです。JavaScriptでテストをコードとして書き、端末やCIで実行できます。",
+  "repository": "grafana/k6",
+  "category": "developer-tools",
+  "tags": ["負荷テスト", "JavaScript", "性能テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["k6は、開発者とテスター向けの負荷テストツールです。JavaScriptで仮想ユーザーの動きを書き、HTTP、WebSocket、gRPC、ブラウザーなどへのアクセスを試せます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["テストをコードとして保存できるため、再利用、分割、バージョン管理、CIへの組み込みができます。負荷のかけ方を設定でき、結果の統計や詳しい計測値を出力して確認できます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["テストはJavaScriptで書く仕組みです。まず小さなシナリオから始め、実際の利用に近いアクセスの流れと負荷を慎重に設定しましょう。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/grafana/k6"}]
+}

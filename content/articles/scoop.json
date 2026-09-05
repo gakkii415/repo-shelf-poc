@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "scoop",
+  "title": "Scoop：Windowsのソフトをコマンドで入れる",
+  "summary": "Scoopは、Windows向けのコマンドラインインストーラーです。コマンドでアプリを導入し、必要な依存関係も処理します。繰り返せる設定で開発用の環境を整えたいときに役立ちます。導入にはPowerShellの実行ポリシー設定が関わるため、公式手順を確認してから始めましょう。",
+  "repository": "ScoopInstaller/Scoop",
+  "category": "developer-tools",
+  "tags": ["パッケージ管理", "Windows", "PowerShell"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Scoopとは",
+      "paragraphs": [
+        "Scoopは、Windowsでアプリをコマンドラインから導入するためのツールです。公式READMEでは、コマンドラインインストーラーとして紹介されています。",
+        "アプリの導入に必要な依存関係を解決し、使える状態にするまでの手順を処理します。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "コマンドでアプリを導入できるので、開発に使うツールを同じ手順でそろえやすくなります。",
+        "スクリプトにしやすく、公式READMEが挙げるように繰り返せる設定として自分の環境を整える用途に向いています。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "公式の導入手順は、管理者ではないPowerShellで実行します。また、PowerShellスクリプトを実行できるようにする設定が必要です。",
+        "すべてのアプリが同じ形式ではありません。READMEでは、展開後に単独で動くポータブルアプリが導入しやすいと説明されています。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/ScoopInstaller/Scoop"}
+  ]
+}

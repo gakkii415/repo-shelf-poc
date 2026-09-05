@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "awesome-selfhosted",
+  "title": "Awesome-Selfhosted：自分のサーバーで動かせるサービスを探す",
+  "summary": "Awesome-Selfhostedは、自分で管理するサーバーに置けるネットワークサービスとWebアプリケーションのリストです。用途別に候補を探し、セルフホストを検討する際の比較の入口として使えます。",
+  "repository": "awesome-selfhosted/awesome-selfhosted",
+  "category": "developer-tools",
+  "tags": ["セルフホスト", "Webアプリ", "サービス一覧"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "自分で運用するサービスの候補を探す", "paragraphs": ["Awesome-Selfhostedは、自分のサーバーでホストできるネットワークサービスとWebアプリケーションを集めたリストです。必要な用途から候補を探し、公式ページへ進めます。", "データの置き場所や運用方法を自分で選びたい場合に、比較の最初の一覧として役立ちます。"]},
+    {"heading": "用途と運用負担を比べる", "paragraphs": ["ファイル共有、文書管理、監視など、まず目的を決めて候補を少数に絞ると調べやすくなります。", "同じ用途でも必要なデータベース、メール送信、バックアップの仕組みは異なるため、公式の導入資料を読み比べることが大切です。"]},
+    {"heading": "運用責任を引き受ける必要がある", "paragraphs": ["セルフホストでは、更新、認証、公開範囲、バックアップ、障害対応を自分で管理します。初めてなら外部公開せず、検証環境で復元まで試してから使い始めましょう。", "掲載先の各プロジェクトについて、公式手順、対応環境、セキュリティ情報を個別に確認してください。"]}],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"}]
+}

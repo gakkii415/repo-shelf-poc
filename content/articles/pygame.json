@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "pygame",
+  "title": "pygame：Pythonでゲームを作る",
+  "summary": "pygameは、Pythonでゲームなどのマルチメディアアプリケーションを作るためのライブラリです。画面表示、音、入力を使う小さなゲームをPythonで試したいときに役立ちます。",
+  "repository": "pygame/pygame",
+  "category": "developer-tools",
+  "tags": ["ゲーム開発", "Python", "マルチメディア"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Pythonで画面と操作を扱う", "paragraphs": ["pygameは、Pythonのプログラムから画面表示、音、キーボードなどの入力を扱うためのライブラリです。", "動く図形や画像を表示する小さなゲームを作りながら、プログラミングを学ぶ用途にも使えます。"]},
+    {"heading": "遊びの仕組みを試しやすい", "paragraphs": ["画面を更新し、入力に応じて位置や状態を変える流れをコードで書けます。", "ルールを少し変えてすぐ動作を確かめられるため、ゲームのアイデアを試しやすい点が利点です。"]},
+    {"heading": "更新の流れを整理する", "paragraphs": ["画面表示、入力、当たり判定などを一か所に書き続けると、作品が大きくなったときに分かりにくくなります。", "処理を役割ごとに分け、まずは短い更新処理から動きを確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/pygame/pygame"}]
+}

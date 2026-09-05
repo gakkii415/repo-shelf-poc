@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "kicad",
+  "title": "KiCad：電子回路と基板を設計する",
+  "summary": "KiCadは、電子回路図とプリント基板を設計するためのツール群です。部品のつながりを回路図で整理し、基板上の配置や配線を検討したいときに役立ちます。",
+  "repository": "KiCad/kicad-source-mirror",
+  "category": "developer-tools",
+  "tags": ["電子回路", "PCB", "設計"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "回路図から基板を設計する", "paragraphs": ["KiCadは、部品と配線の関係を回路図として作り、その情報を基板設計へつなげるためのツールです。", "部品の置き場所や銅配線を検討し、製造用のデータを準備できます。"]},
+    {"heading": "設計の見落としを減らす", "paragraphs": ["回路図と基板の情報を対応させて管理できるため、部品の接続を確認しながら作業できます。", "まずはLEDと抵抗だけの小さな回路から始めると、回路図、部品、基板の関係を理解しやすいです。"]},
+    {"heading": "通電と製作の安全に注意する", "paragraphs": ["基板設計だけでは、回路が安全に動くことは保証されません。電圧、電流、発熱、部品の定格を確認し、通電前に配線を見直してください。", "このGitHubリポジトリは開発版のミラーです。利用する配布物や手順は、公式の案内を確認して選びましょう。"]}
+  ],
+  "sources": [{"label": "公式GitHubミラー・README", "url": "https://github.com/KiCad/kicad-source-mirror"}]
+}

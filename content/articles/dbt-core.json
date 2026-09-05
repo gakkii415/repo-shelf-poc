@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "dbt-core",
+  "title": "dbt Core：SQLの変換処理をプロジェクトで管理する",
+  "summary": "dbt Coreは、SQLで書いたデータ変換を、ソフトウェア開発のように整理・テストするためのツールです。",
+  "repository": "dbt-labs/dbt-core",
+  "category": "data",
+  "tags": ["SQL", "データ変換", "テスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["dbt Coreは、SQLのselect文で書いた変換処理をモデルとして管理するツールです。モデルのSQLを、データウェアハウス上の表やビューにする作業を助けます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["モデルどうしの関係を管理し、関係を見える化できます。変換結果の品質をテストする仕組みもあるため、分析用のSQLを個人の作業で終わらせず、プロジェクトとして育てやすくなります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["dbt Coreはデータを取り込むツールではなく、接続先にあるデータを変換する役割です。まず接続先のデータベースと、元になる表を用意し、少ないモデルとテストから試しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/dbt-labs/dbt-core"}
+  ]
+}

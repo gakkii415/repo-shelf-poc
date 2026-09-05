@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "echo",
+  "title": "Echo：Goの標準HTTPと組み合わせるWebフレームワーク",
+  "summary": "Echoは、GoでWebアプリケーションやAPIを作るための軽量なWebフレームワークです。標準のnet/httpの上で動き、ルーティング、リクエストの読み取り、ミドルウェア、エラー処理を提供します。",
+  "repository": "labstack/echo",
+  "category": "backend",
+  "tags": ["Go", "HTTP", "Webフレームワーク"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["EchoはGo向けのWebフレームワークです。標準のnet/httpと連携しながら、HTTPリクエストを処理するアプリケーションを作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["高速なルーター、リクエストの値を構造体へ読み取る機能、差し替え可能な検証、集中したエラー処理を利用できます。ミドルウェアの仕組みで共通の処理も追加しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Echoが扱うのは主にHTTPの入口と出口です。入力データのルール、認証方法、保存先はアプリケーション側で選ぶ必要があります。標準net/httpの知識もあると連携の範囲を理解しやすいです。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/labstack/echo"}]
+}

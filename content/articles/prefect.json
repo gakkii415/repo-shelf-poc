@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "prefect",
+  "title": "Prefect：Pythonスクリプトを実行管理する",
+  "summary": "Prefectは、Pythonで書いたデータ処理を、予定実行、再試行、監視を備えたワークフローとして扱うためのフレームワークです。",
+  "repository": "PrefectHQ/prefect",
+  "category": "automation",
+  "tags": ["Python", "ワークフロー", "再試行"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Prefectは、Pythonのデータ処理をワークフローとして組み立てるためのフレームワークです。関数をflowやtaskとして扱い、処理の実行と状態の確認を支えます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["スケジュール、キャッシュ、再試行、イベントに応じた自動化を処理に加えられます。小さなスクリプトから始めて、必要になったら実行履歴の監視や定期実行へ広げられます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["自動で再試行する処理では、途中で失敗しても同じ結果になるように設計することが大切です。まずは外部へ書き込まない小さなtaskで、失敗時の動きと実行履歴を確認しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/PrefectHQ/prefect"}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "delta",
+  "title": "Delta：Gitの差分を読みやすくするページャー",
+  "summary": "Deltaは、Gitの差分やgrepの出力に色付けと見やすい表示を加えるページャーです。行内の差分や横並び表示で、変更箇所を確認しやすくできます。Gitで使うには設定が必要で、見た目だけで変更内容を判断しない注意も必要です。",
+  "repository": "dandavison/delta",
+  "category": "developer-tools",
+  "tags": ["Git", "差分", "CLI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Deltaとは",
+      "paragraphs": [
+        "Deltaは、Git、diff、grepの出力などに構文の色付けを行うページャーです。ページャーは、長い出力を画面ごとに表示して読むためのプログラムです。",
+        "Gitで差分を見るときに、変更されたコードを読みやすく表示するために使えます。"
+      ]
+    },
+    {
+      "heading": "差分を追いやすくする機能",
+      "paragraphs": [
+        "公式READMEでは、言語ごとの構文ハイライト、単語単位の差分表示、横並び表示、行番号を主な機能として案内しています。長い行は横並び表示で折り返せます。",
+        "大きな差分では、キー操作でファイルごとや差分ごとに移動する機能もあります。"
+      ]
+    },
+    {
+      "heading": "Gitの設定を確認する",
+      "paragraphs": [
+        "Gitの出力でDeltaを使うには、Gitのページャー設定をDeltaに向けます。公式READMEには設定例と、コマンドで設定する方法があります。",
+        "Deltaは表示を改善しますが、変更の意味を自動で判断するものではありません。色や横並び表示に頼りすぎず、レビューでは変更前後の文脈も確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/dandavison/delta"}
+  ]
+}

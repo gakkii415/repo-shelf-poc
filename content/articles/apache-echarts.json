@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "apache-echarts",
+  "title": "Apache ECharts：Web向けの対話的なグラフを作る",
+  "summary": "Apache EChartsは、ブラウザーで対話的なグラフとデータ可視化を作るためのライブラリです。",
+  "repository": "apache/echarts",
+  "category": "data",
+  "tags": ["JavaScript", "可視化", "ダッシュボード"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Apache EChartsは、ブラウザーでグラフやデータ可視化を表示するライブラリです。データと表示方法を設定として渡し、操作できる図をWebページに組み込めます。"]},
+    {"heading": "役立つ点", "paragraphs": ["一覧の数値を、比較しやすい棒グラフや変化を追いやすい折れ線グラフにできます。利用者が表示範囲を変えたり、詳しい値を確認したりする画面を作りたいときにも役立ちます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["グラフの設定を増やす前に、元データの項目と並び順が正しいか確認することが大切です。画面が小さい場合も読めるよう、情報を詰め込みすぎず、必要な図から始めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/apache/echarts"}]
+}

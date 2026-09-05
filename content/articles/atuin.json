@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "atuin",
+  "title": "Atuin：端末で打ったコマンドを探しやすくする",
+  "summary": "Atuinは、端末で入力したコマンドの履歴をSQLiteデータベースに保存し、検索しやすくするツールです。必要なら暗号化して複数のコンピューター間で履歴を同期できます。",
+  "repository": "atuinsh/atuin",
+  "category": "developer-tools",
+  "tags": ["端末", "履歴", "SQLite"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Atuinとは",
+      "paragraphs": [
+        "Atuinは、端末で打ったコマンドの履歴を扱うツールです。履歴をSQLiteというファイル型のデータベースに保存します。",
+        "コマンドだけでなく、実行時間、終了結果、作業していたフォルダーなどの情報も記録できます。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "全画面の検索画面で、過去に使ったコマンドを見つけられます。現在の作業場所だけに絞る検索もできます。",
+        "暗号化した履歴のバックアップと同期は任意で使えます。同期を使わず、自分のコンピューターだけで履歴を扱うこともできます。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "対応するシェルを確認してください。シェルは、端末でコマンドを受け取るプログラムで、bashやzshなどがあります。",
+        "bashでは履歴の記録に使う仕組みに制限があるため、READMEから案内されている説明を確認してから設定しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/atuinsh/atuin"}
+  ]
+}

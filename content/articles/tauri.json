@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "tauri",
+  "title": "Tauri：Web画面でデスクトップとモバイルのアプリを作る",
+  "summary": "Tauriは、WebフロントエンドとRustを組み合わせ、デスクトップやモバイル向けのアプリを作るためのフレームワークです。画面には既存のWeb技術を使えます。",
+  "repository": "tauri-apps/tauri",
+  "category": "developer-tools",
+  "tags": ["Rust", "Web", "デスクトップ"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Tauriは、WebフロントエンドとRustを組み合わせて、デスクトップやモバイル向けのアプリを作るためのフレームワークです。画面は好きなWebフレームワークで作り、端末側の機能はRustで扱えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["既存のWebフロントエンドの知識を生かしながら、端末で動くアプリを作れます。フロントエンドと端末側の処理を分けて考えられるため、必要な機能を段階的に組み込みやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["TauriではWeb開発に加えてRustと対象プラットフォームの開発環境を扱います。端末側の機能を呼び出す部分には権限の設定が関わるため、公式の導入手順と安全に関する説明を確認してから進めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/tauri-apps/tauri"}]
+}

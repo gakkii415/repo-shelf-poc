@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "react-router",
+  "title": "React Router：Reactアプリの画面遷移を管理する",
+  "summary": "React RouterはReactアプリケーションのルーティングを扱うライブラリです。URLと画面を対応付け、ネストしたルートやデータの読み込みを構成できます。ライブラリとしての使い方からReactフレームワークとしての使い方まで選べます。",
+  "repository": "remix-run/react-router",
+  "category": "frontend",
+  "tags": ["React", "ルーティング", "SPA"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするリポジトリか", "paragraphs": ["React RouterはReactアプリケーションのルーティングを提供します。URLに応じて表示する画面を定義し、親子関係を持つルートを組み立てられます。"]},
+    {"heading": "役立つ場面", "paragraphs": ["フレームワークとして使う場合は、ルートに合わせたデータの読み込みや送信も扱えます。ライブラリとして小さなReactアプリに導入することから、ルートを中心にアプリケーションを構成することまで選べます。"]},
+    {"heading": "使う前に確認したい点", "paragraphs": ["React RouterはReactのためのルーターです。コンポーネント、props、状態の基本を理解しておくと、ルートと画面の責務を分けやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/remix-run/react-router"}]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "uptime-kuma",
+  "title": "Uptime Kuma：サービスが応答しているかを見守る",
+  "summary": "Uptime Kumaは、自分で運用できる使いやすい監視ツールです。HTTP、TCP、Ping、DNSなどを監視し、状態ページと通知を作れます。Webサイトやサービスが利用できるかを手軽に確認したいときに役立ちます。",
+  "repository": "louislam/uptime-kuma",
+  "category": "developer-tools",
+  "tags": ["稼働監視", "ステータスページ", "セルフホスト"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "サービスが使えるかを定期的に確かめる",
+      "paragraphs": [
+        "Uptime Kumaは、自己運用できる監視ツールです。HTTP、TCP、Ping、DNSレコードなどに対して監視を設定できます。",
+        "ページが開けるか、ネットワークから応答があるかを継続して確かめ、障害に早く気づくための入口になります。"
+      ]
+    },
+    {
+      "heading": "通知と状態ページを用意する",
+      "paragraphs": [
+        "監視の結果を画面で確認でき、複数の状態ページを作れます。メールやチャットサービスなどへの通知にも対応しています。",
+        "利用者向けの状態ページと、運用者向けの通知を分けることで、障害時に伝える情報を整理しやすくなります。"
+      ]
+    },
+    {
+      "heading": "自分で動かすための準備がいる",
+      "paragraphs": [
+        "Docker ComposeまたはDockerコマンドで起動できます。データ用の保存先を用意し、公開範囲も確認してから運用しましょう。",
+        "READMEではNFSのようなネットワークファイルシステムは対応していないと案内されています。データはローカルのディレクトリーまたはボリュームに割り当てます。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/louislam/uptime-kuma"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "next-js",
+  "title": "Next.js：ReactでWebアプリを組み立てるフレームワーク",
+  "summary": "Next.jsはReactを使うWebアプリケーション向けのフレームワークです。ページやルーティング、サーバー側の機能を一つのプロジェクトで扱えます。静的生成やサーバーでのレンダリングを選べるため、用途に応じた配信方法を考えられます。",
+  "repository": "vercel/next.js",
+  "category": "frontend",
+  "tags": ["React", "フレームワーク", "ルーティング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするリポジトリか", "paragraphs": ["Next.jsはReactによるフルスタックWebアプリケーションのためのフレームワークです。ファイルを基にしたルーティングを備え、画面とアプリケーションの機能を同じプロジェクトで構成できます。"]},
+    {"heading": "役立つ場面", "paragraphs": ["静的なページの生成、要求時のレンダリング、サーバー側の処理を選択できます。表示する内容や運用方法に合わせて、ページごとの実装を考えられます。"]},
+    {"heading": "使う前に確認したい点", "paragraphs": ["Next.jsはReactを土台にしています。Reactのコンポーネントと状態管理の基本を理解してから使うと、ルーティングや画面の構成を追いやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/vercel/next.js"}]
+}

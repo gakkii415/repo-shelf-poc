@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "scikit-learn",
+  "title": "scikit-learn：定番手法で機械学習を試す",
+  "summary": "scikit-learnは、Pythonで分類、回帰、クラスタリングなどの機械学習を行うためのライブラリです。",
+  "repository": "scikit-learn/scikit-learn",
+  "category": "ai",
+  "tags": ["Python", "機械学習", "データ分析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["scikit-learnは、表形式のデータを使い、分類、数値予測、似たデータのグループ分けを行うための道具です。前処理、モデル作成、評価をPythonで扱えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["共通した使い方で複数の手法を比べられるので、問題に合う方法を試しやすいです。まずは小さなデータセットで、学習用とテスト用に分けて予測を評価してみましょう。"]},
+    {"heading": "始める前の注意", "paragraphs": ["評価に使うデータを学習にも混ぜると、実力より良い結果に見えることがあります。前処理も学習データを基準にし、データ漏れがないかを意識してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/scikit-learn/scikit-learn"}]
+}

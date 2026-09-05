@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "compose-multiplatform",
+  "title": "Compose Multiplatform：Kotlinで複数の画面向けUIを作る",
+  "summary": "Compose Multiplatformは、Kotlinで複数のプラットフォーム向けのユーザーインターフェースを作るためのフレームワークです。宣言的に画面を組み立て、共通のUIコードを共有できます。",
+  "repository": "JetBrains/compose-multiplatform",
+  "category": "frontend",
+  "tags": ["Kotlin", "UI", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Compose Multiplatformは、Kotlinで画面を宣言的に作るためのフレームワークです。iOS、Android、デスクトップ、Webなどに向けて、共有できるUIコードを用意できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["画面の共通部分を一か所で書けるため、複数の対象に同じ見た目や操作を届けたいときに役立ちます。Kotlin Multiplatformを土台にしているので、必要に応じて各プラットフォーム固有のAPIや画面部品も扱えます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["KotlinとGradleの基本を知っていると取り組みやすくなります。対象ごとに利用できる機能や設定が異なるため、最初に作りたい対象を決め、公式の導入手順と互換性の案内を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/JetBrains/compose-multiplatform"}]
+}

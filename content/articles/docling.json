@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "docling",
+  "title": "Docling：文書をAIで扱える形に整える",
+  "summary": "Doclingは、PDFなどの文書を解析し、内容と構造を後続のAI処理で使いやすい形に変換するツールです。",
+  "repository": "docling-project/docling",
+  "category": "ai",
+  "tags": ["Python", "文書解析", "PDF"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Doclingは、PDFやほかの文書を読み込み、文章、表、レイアウトなどを解析して構造を保ったデータへ変換するためのツールです。文書をAIへ渡す前の準備に使えます。"]},
+    {"heading": "役立つ点", "paragraphs": ["単に文字列を抜き出すだけでは失われやすい見出しや表の関係を扱えるため、文書検索や要約の入力を整えやすくなります。まずは短いPDFを変換し、出力に必要な本文や表が入っているか確認しましょう。"]},
+    {"heading": "始める前の注意", "paragraphs": ["複雑なレイアウトや画質の低いスキャンでは、見出しや表の解釈が期待と異なることがあります。機密文書を処理する場合は、実行環境と出力データの保管方法も確認してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/docling-project/docling"}]
+}

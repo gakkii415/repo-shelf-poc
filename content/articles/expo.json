@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "expo",
+  "title": "Expo：Reactでモバイルアプリを作るための基盤",
+  "summary": "Expoは、ReactとJavaScriptでAndroid、iOS、Web向けのアプリを作るためのオープンソースの基盤です。実行環境、便利なライブラリ、コマンドラインツールなどをまとめて利用できます。",
+  "repository": "expo/expo",
+  "category": "frontend",
+  "tags": ["React", "React Native", "モバイル開発"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Expoは、ReactとJavaScriptでAndroid、iOS、Webで動くアプリを作るための基盤です。",
+        "アプリを作るときに使う実行環境、ライブラリ、コマンドラインツールなどを提供します。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "一つのReactの知識を使って、複数の端末向けのアプリ作りを始めやすくなります。",
+        "公式の開始用テンプレートやドキュメントがあり、最初のプロジェクトを用意する手順を追いやすいです。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Android、iOS、Webでは使える機能や必要な設定が同じではありません。作りたい機能が対象の端末で使えるかを公式ドキュメントで確認しましょう。",
+        "端末固有の機能を使う場合は、実機や各プラットフォームの開発環境で動作を確かめる必要があります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/expo/expo"}
+  ]
+}

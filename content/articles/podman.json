@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "podman",
+  "title": "Podman：コンテナとポッドを管理するCLI",
+  "summary": "Podmanは、OCIコンテナ、イメージ、ボリューム、複数コンテナのまとまりであるポッドを管理するコマンドラインツールです。通常のユーザー権限でもコンテナを扱えるため、ローカル開発でコンテナを試したい人に役立ちます。",
+  "repository": "podman-container-tools/podman",
+  "category": "developer-tools",
+  "tags": ["コンテナ", "CLI", "OCI", "ポッド"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何を管理できるか",
+      "paragraphs": [
+        "Podmanでは、コンテナの作成と実行、イメージの取得と作成、ボリュームの利用、ポッドの管理を行えます。",
+        "ポッドは、関連する複数のコンテナをひとまとまりとして扱う考え方です。"
+      ]
+    },
+    {
+      "heading": "使うメリット",
+      "paragraphs": [
+        "常駐する管理デーモンなしで動作する設計で、何も実行していないときの常駐プロセスを減らせます。",
+        "rootlessモードでは通常のユーザーとしてコンテナを動かせるため、必要以上の権限を渡さずに試しやすくなります。"
+      ]
+    },
+    {
+      "heading": "使い始めの注意",
+      "paragraphs": [
+        "macOSとWindowsでは、Podmanが管理する仮想マシンを通してコンテナを実行します。Linuxと同じ操作感でも、動作の土台は異なります。",
+        "rootlessモードは便利ですが、OS側の事前設定が必要な場合や利用できない機能があります。公式の導入案内と制約を確認してください。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/podman-container-tools/podman"}
+  ]
+}

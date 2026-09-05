@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "svelte",
+  "title": "Svelte：コンポーネントからWebアプリを作る",
+  "summary": "Svelteは、Webユーザーインターフェースを作るためのコンポーネントフレームワークです。コンポーネントに表示、スタイル、動きをまとめて書けます。アプリを作るコードをコンパイルする仕組みを持ち、ブラウザーで動くJavaScriptを生成します。",
+  "repository": "sveltejs/svelte",
+  "category": "frontend",
+  "tags": ["JavaScript", "UI", "コンポーネント"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Svelteは、WebアプリのUIをコンポーネントとして作るフレームワークです。一つのコンポーネントに表示、スタイル、動きをまとめて記述できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["書いたコンポーネントは、アプリを作るときにJavaScriptへコンパイルされます。画面を部品に分けることで、表示の役割を整理しながらアプリを組み立てられます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Svelteでは、コンポーネントを効率的なJavaScriptへコンパイルします。公式のプロジェクト作成手順で開発環境を用意しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/sveltejs/svelte"}]
+}

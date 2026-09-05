@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "nodejs",
+  "title": "Node.js：JavaScriptをサーバーでも動かす実行環境",
+  "summary": "Node.jsは、JavaScriptをブラウザーの外でも実行できるオープンソースのクロスプラットフォーム実行環境です。Web APIやコマンドラインツールなどをJavaScriptで作れます。",
+  "repository": "nodejs/node",
+  "category": "backend",
+  "tags": ["Node.js", "JavaScript", "サーバー"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Node.jsは、JavaScriptを実行するための環境です。ブラウザー内の画面づくりだけでなく、HTTPサーバーやファイルを扱うプログラムもJavaScriptで書けます。"]},
+    {"heading": "役立つ点", "paragraphs": ["Webの画面側とサーバー側で同じJavaScriptを使えるため、言語を切り替える負担を減らせます。Windows、macOS、Linuxなど複数の環境で使えるのも便利です。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Node.jsには長期サポート版と開発中の版があります。安定して使いたい場合は、用途に合うサポート方針を公式情報で確認して選びましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/nodejs/node"}]
+}

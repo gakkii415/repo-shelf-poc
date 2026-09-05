@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "zed",
+  "title": "Zed：共同編集に対応するコードエディター",
+  "summary": "Zedは、高い性能と複数人での編集を目標にしたコードエディターです。複数人での編集は、同じ作業内容を共有して編集する機能です。AtomとTree-sitterの開発者が作っています。macOS、Linux、Windows向けの導入方法がREADMEにあるため、対応するパソコンでコードを書く環境として試せます。",
+  "repository": "zed-industries/zed",
+  "category": "developer-tools",
+  "tags": ["コードエディター", "共同編集", "Rust"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何のためのエディターか", "paragraphs": ["Zedは、高い性能を目指す複数人編集対応のコードエディターです。", "一人でコードを書く作業だけでなく、同じ内容を共有して編集する作業にも使うことを想定しています。"]},
+    {"heading": "導入の入口", "paragraphs": ["macOS、Linux、Windowsでは、直接ダウンロードするか、そのOSのパッケージ管理ツールから導入できます。", "パッケージ管理ツールは、ソフトウェアの導入や更新をまとめて行う仕組みです。"]},
+    {"heading": "対応環境を確認", "paragraphs": ["公式READMEには、Web版はまだ利用できないと記載されています。", "使う前に、自分のOS向けの導入手順を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/zed-industries/zed"}]
+}

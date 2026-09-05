@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "phaser",
+  "title": "Phaser：Webで2Dゲームを作る",
+  "summary": "Phaserは、デスクトップやモバイルのWebブラウザーで動く2Dゲームを作るためのHTML5ゲームフレームワークです。JavaScriptやTypeScriptでゲームの画面や操作を組み立てたいときに役立ちます。",
+  "repository": "phaserjs/phaser",
+  "category": "frontend",
+  "tags": ["ゲーム開発", "2D", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "ブラウザーで動くゲームを作る", "paragraphs": ["Phaserは、Webブラウザー向けの2Dゲームを作るフレームワークです。", "キャラクターや背景を表示し、キーボードやタッチ操作に反応するゲームをJavaScriptまたはTypeScriptで組み立てられます。"]},
+    {"heading": "ゲームの基本機能をまとめて使える", "paragraphs": ["場面の切り替え、画像の読み込み、入力、アニメーション、物理的な動きなどの仕組みが用意されています。", "基礎の仕組みを一から作る量を減らし、遊びの内容を試すことに集中しやすい点が利点です。"]},
+    {"heading": "小さな遊びから作る", "paragraphs": ["ゲームには画像、音、操作、ルールなど多くの要素があります。", "最初は一つの画面と一つの操作だけで動く作品を作り、使う素材の権利とブラウザーでの動作を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/phaserjs/phaser"}]
+}

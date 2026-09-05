@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "webkit",
+  "title": "WebKit：複数環境で使われるWebブラウザーエンジン",
+  "summary": "WebKitは、複数の環境に対応するWebブラウザーエンジンです。Safariなどのアプリケーションを支えるエンジンのコード、ビルド手順、テストに触れ、Web基盤の開発を学べます。",
+  "repository": "WebKit/WebKit",
+  "category": "developer-tools",
+  "tags": ["Webエンジン", "Web標準", "ブラウザー開発"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Webページを動かすエンジン",
+      "paragraphs": [
+        "WebKitは、複数の環境で動くWebブラウザーエンジンです。macOSやiOSではSafari、Mail、Apple Booksなどのアプリケーションを支えています。",
+        "ブラウザーがWebページを表示するための土台に興味がある開発者に、実装と関連ツールを調べる入口を提供します。"
+      ]
+    },
+    {
+      "heading": "ビルドとテストの流れを確認する",
+      "paragraphs": [
+        "READMEにはApple向け、GTK、WPE、Windows向けのビルド案内と、ローカルで動かすためのスクリプトが掲載されています。対象ごとの開発手順を見比べられます。",
+        "Web表示部品を扱う開発や、Web互換性のテストに関心がある場合の学習資料になります。"
+      ]
+    },
+    {
+      "heading": "開発用ビルドの利用に注意",
+      "paragraphs": [
+        "このリポジトリは大規模なエンジンの開発用ソースです。ビルドには対象OSごとの開発環境と十分な作業領域が必要になるため、公式手順を確認して作業用環境で試してください。",
+        "ローカルビルドでアプリケーションを起動する操作は、普段の閲覧環境に影響し得ます。重要な作業には安定した通常の環境を使いましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/WebKit/WebKit"}
+  ]
+}

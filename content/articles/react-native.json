@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "react-native",
+  "title": "React Native：Reactでネイティブアプリを作る",
+  "summary": "React Nativeは、Reactを使ってiOSやAndroidなどのネイティブアプリを作るためのフレームワークです。JavaScriptで書いたUIを、各プラットフォームのネイティブな画面部品として表示します。",
+  "repository": "react/react-native",
+  "category": "frontend",
+  "tags": ["JavaScript", "React", "モバイル"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["React Nativeは、Reactを使ってネイティブアプリを作るためのフレームワークです。JavaScriptで画面を記述し、iOSやAndroidなどのネイティブなUI部品として表示します。"]},
+    {"heading": "役立つ点", "paragraphs": ["Reactのコンポーネントや状態管理の考え方を、モバイルアプリ開発にも生かせます。画面部品が各OSのUIとして動くため、利用者にとって自然な操作感を目指しやすく、コード変更を短時間で確認できます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["Reactの基本に加えて、iOSやAndroidのビルド環境も必要です。画面遷移や端末機能の利用には周辺の仕組みを選ぶ場面があるため、公式ガイドで推奨される開発の進め方を確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/react/react-native"}]
+}

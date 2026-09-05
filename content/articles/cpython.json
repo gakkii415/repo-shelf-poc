@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "cpython",
+  "title": "CPython：Pythonの実装を読む",
+  "summary": "CPythonは、Pythonプログラミング言語のソースコードを管理するリポジトリです。Python自体をビルドし、テストするための手順や関連ドキュメントへの入口があります。",
+  "repository": "python/cpython",
+  "category": "developer-tools",
+  "tags": ["Python", "言語処理系", "ソースコード"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["CPythonは、Pythonプログラミング言語のソースコードです。READMEには、ソースからPythonを設定、ビルド、テスト、インストールする手順が案内されています。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["Python本体がどのように構成され、どのようにテストされるかを調べる入口になります。公式ドキュメントと開発者向けガイドへのリンクもあり、学習や不具合調査の起点にできます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["これはPython本体を作るためのソースコードです。完全なビルドには環境や設定に応じた追加ライブラリが必要で、すべての標準ライブラリモジュールがすべての環境で使えるとは限りません。通常の利用だけなら、公式配布のPythonを使う方法も確認しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/python/cpython"}
+  ]
+}

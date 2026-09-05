@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "victoriametrics",
+  "title": "VictoriaMetrics：時系列データを保存して監視に使う",
+  "summary": "VictoriaMetricsは、監視用の時系列データを保存・管理するためのソリューションです。Prometheusの長期保存先や置き換えとして使え、PromQLにも対応します。増え続けるメトリクスを一か所で検索したいときに役立ちます。",
+  "repository": "VictoriaMetrics/VictoriaMetrics",
+  "category": "data",
+  "tags": ["時系列データ", "監視", "PromQL"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "監視データを保存して調べる",
+      "paragraphs": [
+        "VictoriaMetricsは、監視に使う時系列データを管理するためのソリューションです。単一ノード版とクラスター版があり、規模に応じた配置を選べます。",
+        "Prometheusの保存先として使ったり、Grafanaから問い合わせたりできるため、メトリクスを見る仕組みを組み立てる土台になります。"
+      ]
+    },
+    {
+      "heading": "既存の監視とつなげやすい",
+      "paragraphs": [
+        "PromQLとMetricsQLを使った問い合わせに対応し、Prometheusのエクスポーターやリモート書き込みなど、複数の形式でデータを取り込めます。",
+        "複数のPrometheusなどからデータを取り込み、一つの問い合わせ先として使えることが利点です。"
+      ]
+    },
+    {
+      "heading": "保存期間と構成を先に考える",
+      "paragraphs": [
+        "単にインストールする前に、どのデータをどれだけの期間残すか、単一ノードとクラスターのどちらが必要かを決めましょう。",
+        "対応する入力形式が多いぶん、最初はPrometheus互換の取り込みと基本的な問い合わせから始めると、運用を理解しやすくなります。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/VictoriaMetrics/VictoriaMetrics"}
+  ]
+}

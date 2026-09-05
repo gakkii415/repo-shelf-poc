@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "freecodecamp",
+  "title": "freeCodeCamp：手を動かしてプログラミングを学ぶ",
+  "summary": "freeCodeCampは、Web開発、プログラミング、コンピューターサイエンスなどを自分のペースで学べる学習プラットフォームとカリキュラムです。対話形式の課題を解きながら基礎を身に付けたいときに役立ちます。",
+  "repository": "freeCodeCamp/freeCodeCamp",
+  "category": "developer-tools",
+  "tags": ["学習", "Web開発", "プログラミング"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "課題を解きながら学ぶ", "paragraphs": ["freeCodeCampは、プログラミングやWeb開発を学ぶためのカリキュラムと学習プラットフォームです。", "画面上の対話形式の課題を進め、コードを書いて基礎を練習できます。"]},
+    {"heading": "自分の順番で進められる", "paragraphs": ["Webデザイン、JavaScript、Python、データベースなどの学習内容が用意されています。", "読むだけで終わらず、課題や制作を通して理解を確かめながら、自分のペースで進められる点が利点です。"]},
+    {"heading": "答えを写すだけにしない", "paragraphs": ["課題の答えを見つけても、理由を理解しないまま使うと自分で応用しにくくなります。", "小さなコードから自分で入力し、間違えた理由を調べながら、作品は利用する画像やコードの条件を確認して作りましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/freeCodeCamp/freeCodeCamp"}]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "jq",
+  "title": "jq：JSONから必要なデータを取り出す",
+  "summary": "jqは、JSONをターミナルで読み取り、選び、形を変えるためのツールです。JSONは、設定やAPIの応答でよく使われる、項目と値を組にしたデータ形式です。必要な項目だけを抜き出したり、条件に合うデータを絞り込んだりできます。",
+  "repository": "jqlang/jq",
+  "category": "data",
+  "tags": ["CLI", "JSON", "データ処理", "C"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "jqとは",
+      "paragraphs": [
+        "jqは、JSONを処理する軽量なコマンドラインツールです。公式READMEでは、JSONの一部を切り出す、条件で絞る、各項目を変換するといった操作ができると説明されています。",
+        "たとえばpackage.jsonからversionの値を取り出す例が、公式READMEにあります。package.jsonは、JavaScriptのプロジェクト情報を記録するJSONファイルです。"
+      ]
+    },
+    {
+      "heading": "役立つ場面",
+      "paragraphs": [
+        "APIの応答や設定ファイルから、必要な項目だけを確認したいときに役立ちます。APIは、プログラムどうしがデータを受け渡すための仕組みです。",
+        "同じ形のJSONをまとめて整える作業にも使えます。画面で一つずつ見るより、繰り返しの確認を減らせます。"
+      ]
+    },
+    {
+      "heading": "使う前に知ること",
+      "paragraphs": [
+        "jqが主に扱う形式はJSONです。通常の使い方では、入力がJSONとして正しくないと処理できません。JSON以外の文字列を読むための指定もあるため、まず入力データの形式と使う指定を確かめましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "公式リポジトリ・README",
+      "url": "https://github.com/jqlang/jq"
+    }
+  ]
+}

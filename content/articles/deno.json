@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "deno",
+  "title": "Deno：安全な初期設定を持つJavaScript実行環境",
+  "summary": "Denoは、JavaScript、TypeScript、WebAssemblyを実行できる環境です。安全な初期設定と開発しやすさを重視し、Webサーバーも作れます。",
+  "repository": "denoland/deno",
+  "category": "backend",
+  "tags": ["Deno", "JavaScript", "TypeScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["DenoはJavaScriptとTypeScriptを動かす実行環境です。WebAssemblyも扱え、最初のプログラムとしてHTTPサーバーを作る例が公式READMEにあります。"]},
+    {"heading": "役立つ点", "paragraphs": ["安全な初期設定を持つため、ネットワークなどの機能は必要に応じて許可を与えて実行できます。TypeScriptを書き始めるときにも、まず小さなプログラムを動かして試せます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["ネットワークへ接続するプログラムには、実行時に権限の指定が必要です。必要な権限だけを与え、コマンドの意味を確認してから実行しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/denoland/deno"}]
+}

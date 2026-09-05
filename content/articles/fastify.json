@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "fastify",
+  "title": "Fastify：プラグインで組み立てるNode.jsサーバー",
+  "summary": "Fastifyは、Node.js向けのWebフレームワークです。少ないオーバーヘッドと開発しやすさ、プラグインの仕組みに重点を置き、APIやWebサーバーを作れます。",
+  "repository": "fastify/fastify",
+  "category": "backend",
+  "tags": ["Node.js", "JavaScript", "プラグイン"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["FastifyはNode.jsでHTTPサーバーを作るWebフレームワークです。ルートを登録してリクエストを処理し、Web APIなどを実装できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["機能をプラグインとして追加する設計が中心です。アプリに必要な機能を分けて登録し、構成を整理しながら育てられます。READMEにはプロジェクトを生成して動かす手順と、ルートの例があります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["プラグインの登録範囲は処理の見通しに関わります。最初は小さなルートだけで始め、どの機能をどの単位で追加するかを決めていくと扱いやすくなります。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/fastify/fastify"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "toga",
+  "title": "Toga：PythonでOSに合うGUIを作る",
+  "summary": "Togaは、PythonでGUIアプリを作るためのツールキットです。各OSのネイティブな画面部品を使うことを目指し、Pythonのコードでアプリの画面を組み立てます。",
+  "repository": "beeware/toga",
+  "category": "frontend",
+  "tags": ["Python", "GUI", "ネイティブUI"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["Togaは、PythonでGUIアプリを作るためのツールキットです。各OSにあるネイティブな画面部品を使うことを目指し、Pythonでアプリの画面と操作を作れます。"]},
+    {"heading": "役立つ点", "paragraphs": ["PythonでGUIを試したいときに、OSごとの見た目に合う画面を作る選択肢になります。デモ用のパッケージが用意されているため、画面部品の動きを確認しながら学び始められます。"]},
+    {"heading": "始める前の注意", "paragraphs": ["バックエンドごとに必要な前提条件が異なります。使いたいOSを先に決め、公式のプラットフォーム別ドキュメントで必要な環境と設定を確認してから始めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/beeware/toga"}]
+}

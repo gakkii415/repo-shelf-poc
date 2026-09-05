@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "easyocr",
+  "title": "EasyOCR：Pythonで画像の文字を読む",
+  "summary": "EasyOCRは、Pythonから画像内の文字を読み取るためのOCRライブラリです。",
+  "repository": "JaidedAI/EasyOCR",
+  "category": "ai",
+  "tags": ["Python", "OCR", "画像処理"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["EasyOCRは、Pythonプログラムから画像内の文字を検出して読み取るためのライブラリです。画像を渡すと、見つけた文字とその位置を取得できます。"]},
+    {"heading": "役立つ点", "paragraphs": ["写真、画面の画像、書類のスキャンから文字を取り出す処理を、Pythonのコードに組み込めます。画像を一枚だけ用意して実行し、読み取った文字と位置を確認するところから始めると分かりやすいです。"]},
+    {"heading": "始める前の注意", "paragraphs": ["対応する言語や文字でも、細い文字、反射、低解像度の画像では誤読することがあります。個人情報を含む画像を扱うときは、保存先と利用目的を事前に確認しましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/JaidedAI/EasyOCR"}]
+}

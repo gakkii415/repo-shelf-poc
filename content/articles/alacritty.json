@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "alacritty",
+  "title": "Alacritty：設定して使う端末アプリ",
+  "summary": "Alacrittyは、コマンドを入力する端末アプリです。GPUを使うOpenGLを利用し、BSD、Linux、macOS、Windowsで使えます。設定ファイルで表示や操作を調整でき、他のアプリと組み合わせて端末環境を作れます。ただし、タブや分割画面、設定用の画面は備えていないため、必要なら別のツールを用意します。",
+  "repository": "alacritty/alacritty",
+  "category": "developer-tools",
+  "tags": ["端末", "GPU", "設定"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "Alacrittyとは",
+      "paragraphs": [
+        "Alacrittyは、コマンドを入力して実行する端末アプリです。OpenGLという画面表示の仕組みを使い、複数のOSに対応しています。",
+        "使いやすい初期設定を持ちながら、設定ファイルで細かく調整できます。"
+      ]
+    },
+    {
+      "heading": "何が楽になるか",
+      "paragraphs": [
+        "端末の表示や操作を、設定ファイルで管理できます。ほかのアプリが持つ機能を重複して作らず、組み合わせて使う方針です。",
+        "Linux、BSD、macOS、Windowsで同じ端末アプリを選びたい場合の候補になります。"
+      ]
+    },
+    {
+      "heading": "使う前の注意",
+      "paragraphs": [
+        "公式READMEでは、タブ、分割画面、設定を編集する画面は提供しないと説明されています。これらが必要なら、ウィンドウ管理ツールや端末を複数に分けるツールを組み合わせます。",
+        "設定ファイルは自動作成されません。自分でファイルを用意し、公式資料で配置場所と書き方を確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/alacritty/alacritty"}]
+}

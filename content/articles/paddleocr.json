@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "paddleocr",
+  "title": "PaddleOCR：画像やPDFから文字を読む",
+  "summary": "PaddleOCRは、画像やPDFにある文字や文書の構造を読み取り、扱いやすいデータに変えるためのツールです。",
+  "repository": "PaddlePaddle/PaddleOCR",
+  "category": "ai",
+  "tags": ["Python", "OCR", "文書解析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "何をするものか", "paragraphs": ["PaddleOCRは、画像やPDFから文字を認識し、表などを含む文書を構造化したデータへ変換するためのツールです。OCRは、画像内の文字をコンピューターで読める文字列にする技術です。"]},
+    {"heading": "役立つ点", "paragraphs": ["スキャンした書類や画像の内容を検索、整理、後続の処理に使える形へ準備できます。まずは一枚の見やすい画像で文字が期待どおり読めるか確かめると、用途との相性を判断しやすくなります。"]},
+    {"heading": "始める前の注意", "paragraphs": ["文字の傾き、ぼけ、手書き、複雑な表は結果に影響します。認識結果をそのまま正しい情報として扱わず、重要な項目は元の文書と照合してください。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/PaddlePaddle/PaddleOCR"}]
+}

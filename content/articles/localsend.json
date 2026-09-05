@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "localsend",
+  "title": "LocalSend：近くの機器へファイルを送る",
+  "summary": "LocalSendは、同じローカルネットワークにある近くの機器へ、インターネット接続や外部サーバーなしでファイルやメッセージを送れるアプリです。",
+  "repository": "localsend/localsend",
+  "category": "developer-tools",
+  "tags": ["ファイル共有", "ローカルネットワーク", "クロスプラットフォーム"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "LocalSendは、近くの機器へファイルやメッセージを送るアプリです。",
+        "同じローカルネットワークを使い、インターネット接続や外部サーバーを使わずに機器どうしで通信します。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "PCとスマートフォンなど、異なる種類の機器の間でもファイルを渡せます。",
+        "外部のクラウドに一度アップロードしないため、近くの機器へすぐに渡したいときに便利です。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "送る側と受け取る側は、同じローカルネットワークに接続する必要があります。",
+        "アプリは自動更新しないため、公式の案内にあるアプリストアやパッケージ管理の方法で入手し、更新も確認しましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/localsend/localsend"}
+  ]
+}

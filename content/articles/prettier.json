@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "prettier",
+  "title": "Prettier：コードの書式を自動でそろえる",
+  "summary": "Prettierは、決まった方針でコードの書式を整えるフォーマッターです。コードを解析して一貫した形式で出力し、書式に関する議論や手作業を減らします。",
+  "repository": "prettier/prettier",
+  "category": "frontend",
+  "tags": ["JavaScript", "フォーマッター", "コード品質"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["Prettierは、コードの書式を自動で整えるフォーマッターです。コードを解析し、決まった方針に従う一貫した形式で出力します。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["インデントや改行などの書式を自動でそろえられます。チームで同じ設定を共有すれば、書式の違いによる不要な差分や確認の手間を減らせます。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["Prettierは書式に強い方針を持つため、細かな見た目を個別に指定したい場合には合わないことがあります。導入時は既存の整形ルールや他の検査ツールとの設定を確認しましょう。"]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/prettier/prettier"}
+  ]
+}

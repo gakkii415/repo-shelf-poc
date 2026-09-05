@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "babylon-js",
+  "title": "Babylon.js：Webの3Dゲームと表現を作る",
+  "summary": "Babylon.jsは、JavaScriptで3Dのゲームや描画を作るためのエンジンです。Webページで立体的な場面を表示し、操作できる作品を作りたいときに役立ちます。",
+  "repository": "BabylonJS/Babylon.js",
+  "category": "frontend",
+  "tags": ["3D", "ゲーム開発", "JavaScript"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "Web上で3Dの場面を作る", "paragraphs": ["Babylon.jsは、JavaScriptで3Dの場面を作り、ブラウザーで表示するためのエンジンです。", "立体の物体、カメラ、光を置き、ゲームや操作できる3D表現を組み立てられます。"]},
+    {"heading": "描画とゲームの仕組みを使える", "paragraphs": ["3Dを表示するだけでなく、操作、物理的な動き、音などの要素を組み合わせられます。", "作品に必要な機能を一つずつ加え、見た目と遊びをまとめて試せる点が利点です。"]},
+    {"heading": "段階的に機能を増やす", "paragraphs": ["3D作品は、モデル、テクスチャー、光、操作を同時に増やすと原因を見つけにくくなります。", "まずは一つの物体とカメラから始め、対象ブラウザーでの表示と操作を確認しながら広げましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/BabylonJS/Babylon.js"}]
+}

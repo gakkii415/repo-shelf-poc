@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "slug": "meson",
+  "title": "Meson：ソースとビルドを分けて進めるビルドシステム",
+  "summary": "Mesonは、次世代のビルドシステムを目指すプロジェクトです。meson.buildに設定を書き、ソース用ディレクトリーとは別のビルド用ディレクトリーを作ってビルドします。",
+  "repository": "mesonbuild/meson",
+  "category": "developer-tools",
+  "tags": ["ビルド", "Python", "Ninja"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": [
+        "Mesonは、プロジェクトをビルドするための設定と手順を管理するツールです。ソースのルートにmeson.buildを置き、meson setupでビルド用ディレクトリーを生成します。",
+        "生成後は、ビルド用ディレクトリーでNinjaを使ってコンパイルやテストを実行できます。"
+      ]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": [
+        "ソースコードと生成物を別の場所に分けられるため、プロジェクトの中を整理しやすくなります。設定を作る段階と、実際にビルドする段階を分けて理解できるのも初心者に役立ちます。",
+        "公式READMEには、セットアップ、ビルド、単体テストの基本的な流れが示されています。"
+      ]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": [
+        "Mesonの実行にはPythonが必要で、一般的なビルドではNinjaも使います。利用するプロジェクトが求める依存ツールを先に用意し、ソース用とビルド用のディレクトリーを同じ場所にしないようにしましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/mesonbuild/meson"}
+  ]
+}

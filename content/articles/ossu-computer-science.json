@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "ossu-computer-science",
+  "title": "OSSU Computer Science：計算機科学を自学する道筋",
+  "summary": "OSSU Computer Scienceは、大学水準の計算機科学を自学するための学習コースを集めたカリキュラムです。プログラミングだけでなく、数学や理論を含めて体系的に学びたいときに役立ちます。",
+  "repository": "ossu/computer-science",
+  "category": "developer-tools",
+  "tags": ["学習", "コンピューターサイエンス", "自学"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {"heading": "計算機科学を体系的に学ぶ", "paragraphs": ["OSSU Computer Scienceは、計算機科学を自分で学ぶための学習コースの道筋をまとめたカリキュラムです。", "プログラミングだけでなく、数学、アルゴリズム、システムなどの基礎を順番に学ぶ助けになります。"]},
+    {"heading": "学ぶ内容の見通しを持てる", "paragraphs": ["何から学ぶか迷うときに、分野ごとのコースをたどる順序を参考にできます。", "一つの技術だけに偏らず、コンピューターサイエンスの全体像を意識して学習計画を立てやすい点が利点です。"]},
+    {"heading": "長い学習を小さく分ける", "paragraphs": ["扱う範囲が広いため、一度に全部を終わらせようとすると続きにくくなります。", "今学ぶ一分野と週ごとの目標を決め、課題を自分で解いて理解を確かめながら進めましょう。"]}
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/ossu/computer-science"}]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "async-profiler",
+  "title": "async-profiler：Javaの実行をサンプリングする",
+  "summary": "async-profilerは、JavaアプリケーションのCPU時間やメモリー割り当てなどを調べる低オーバーヘッドのサンプリングプロファイラーです。実行中のJavaプロセスを指定して結果を確認できます。",
+  "repository": "async-profiler/async-profiler",
+  "category": "developer-tools",
+  "tags": ["Java", "プロファイリング", "性能解析"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "何をするものか",
+      "paragraphs": ["async-profilerはJava向けの低オーバーヘッドなサンプリングプロファイラーです。実行中のJavaプロセスのPIDを指定して、CPU時間、Javaヒープの割り当て、ネイティブメモリー、ロック競合などを調べられます。"]
+    },
+    {
+      "heading": "役立つ点",
+      "paragraphs": ["Java以外のスレッドも監視し、スタックトレースにはネイティブやカーネルのフレームも表示できます。結果はブラウザーで開けるインタラクティブなフレームグラフとして保存でき、処理の偏りを見つける手がかりになります。"]
+    },
+    {
+      "heading": "始める前の注意",
+      "paragraphs": ["READMEでは、OpenJDKとHotSpot JVMを基にしたJavaランタイムを対象としています。利用するOSとCPUの対応状況、対象のJavaランタイムを確認してから試しましょう。"]
+    }
+  ],
+  "sources": [{"label": "公式リポジトリ・README", "url": "https://github.com/async-profiler/async-profiler"}]
+}

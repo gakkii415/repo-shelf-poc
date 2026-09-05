@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "pre-commit",
+  "title": "pre-commit：コミット前の確認をそろえる",
+  "summary": "pre-commitは、Gitでコミットする前に実行するフックを管理するためのフレームワークです。整形や静的解析などの確認を設定ファイルにまとめ、チームで同じ確認を実行しやすくします。",
+  "repository": "pre-commit/pre-commit",
+  "category": "automation",
+  "tags": ["Git", "フック", "コード品質"],
+  "publishedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "status": "published",
+  "sections": [
+    {
+      "heading": "コミット前の作業を管理する",
+      "paragraphs": [
+        "pre-commitは、複数の言語で書かれたコミット前フックを管理し、保守するためのフレームワークです。",
+        "フックは、Gitでコミットする直前に自動で動かせる処理です。"
+      ]
+    },
+    {
+      "heading": "確認の手順をそろえる",
+      "paragraphs": [
+        "コードの整形、構文の確認、不要なファイルの検出など、コミット前にしたい確認を設定として共有できます。",
+        "個人の手作業に頼るより、同じ確認を繰り返し実行しやすくなります。"
+      ]
+    },
+    {
+      "heading": "フックだけで十分とは限らない",
+      "paragraphs": [
+        "コミット前フックは、ローカルでの早い確認に便利です。ただし、各自の環境に導入されていなければ自動実行されません。",
+        "重要なテストや検査は、共有のCIでも実行して、フックを通らない変更も確認できるようにしましょう。"
+      ]
+    }
+  ],
+  "sources": [
+    {"label": "公式リポジトリ・README", "url": "https://github.com/pre-commit/pre-commit"}
+  ]
+}
